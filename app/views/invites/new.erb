@@ -1,0 +1,12 @@
+<h1>📰 Reader</h1>
+<p>A simple feed reader</p>
+
+<br>
+
+<div class="invite-box">
+    <p>Get invite to login or signup</p>
+    <%= form_for @invite, remote: true, action: 'create' do |form| %>
+        <%= form.text_field :email, autofocus: true %>
+        <%= form.submit 'get invite', class: 'nice-button' %>
+    <% end %>
+</div>
