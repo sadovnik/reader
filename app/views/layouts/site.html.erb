@@ -9,10 +9,6 @@
   </head>
 
   <body>
-    <div class="user-bar">
-        <span class="user-bar__email"><%= current_user.email %></span>
-        <%= link_to 'Logout', logout_path, method: 'post', class: 'nice-button' %>
-    </div>
     <%= yield %>
   </body>
 </html>

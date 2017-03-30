@@ -1,6 +1,10 @@
 class InvitesController < ApplicationController
+  layout 'site'
+
   # GET /
   def new
+    redirect_to(feed_path) if logged_in?
+
     @invite = Invite.new
   end
 
@@ -28,7 +32,7 @@ class InvitesController < ApplicationController
 
   # GET /invites/:key/use
   def use
-    invite = find_invite_by_key
+    invite = Invite.find_by_key!(key_param)
     invite.use!
 
     @user = User.find_by_email(invite.email)
@@ -39,7 +43,7 @@ class InvitesController < ApplicationController
 
     login(@user)
 
-    # redirect_to somewhere
+    redirect_to(feed_path)
   rescue ActiveRecord::RecordNotFound
     render :not_found, status: 404
   rescue StateMachines::InvalidTransition
@@ -47,10 +51,6 @@ class InvitesController < ApplicationController
   end
 
   private
-
-  def find_invite_by_key
-    Invite.find_by_key!(key_param)
-  end
 
   def key_param
     params.require(:key)

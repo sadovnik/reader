@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+
+.user-bar {
+    margin-top: 27px;
+    margin-bottom: 30px;
+}
+
+.user-bar__email {
+    font-style: italic;
+}

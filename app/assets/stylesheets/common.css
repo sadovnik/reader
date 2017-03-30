@@ -1,9 +1,35 @@
+body {
+    margin: 0;
+    margin-left: 24px;
+}
+
 * {
     font-family: Helvetica;
 }
 
 .field_with_errors {
     border-color: red;
+}
+
+.nice-link, .nice-link:visited {
+    color: #0064a8;
+    fill: #0064a8;
+    border-bottom-color: rgba(0,100,168,.2);
+    transition-property:
+        border-bottom, border-color,
+        background, color, fill;
+    transition-duration: .33s;
+    transition-timing-function: ease-out;
+
+    text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.nice-link:hover {
+    color: #1a92ff;
+    border-color: rgba(26, 146, 255, 0.22);
+    transition: none
 }
 
 input[type="text"] {

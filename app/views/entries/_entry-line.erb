@@ -1,0 +1,8 @@
+<div class="entry-item_small">
+    <% entry.post.tap do |post| %>
+        <%= link_to(post.title, post.url, class: 'nice-link') %>
+    <% end %>
+    <sub>
+        <%= entry.status %>
+    </sub>
+</div>

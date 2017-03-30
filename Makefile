@@ -7,6 +7,9 @@ console:
 migrate:
 	bundle exec rails db:migrate
 
+rollback:
+	bundle exec rails db:rollback
+
 install:
 	bundle install
 

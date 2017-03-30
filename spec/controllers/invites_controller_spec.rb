@@ -50,6 +50,12 @@ describe InvitesController do
 
         expect(invite.state).to eq(Invite::States::USED)
       end
+
+      it 'redirects to `feed_path`' do
+        get :use, params: { key: invite.key }
+
+        expect(response).to redirect_to feed_path
+      end
     end
 
     context 'new user' do
@@ -73,7 +79,6 @@ describe InvitesController do
         get :use, params: { key: invite.key }
 
         expect(session[:user_id]).to eq(user.id)
-        expect(response).to have_http_status(200)
       end
     end
 
