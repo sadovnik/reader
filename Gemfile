@@ -20,6 +20,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails'
   gem 'rails-controller-testing'
+  gem 'foreman'
 end
 
 group :development do

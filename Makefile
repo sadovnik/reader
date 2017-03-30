@@ -1,5 +1,5 @@
 start:
-	bundle exec rails server
+	bundle exec foreman start
 
 console:
 	bundle exec rails console
