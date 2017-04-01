@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   get 'invites/done', to: 'invites#done'
   get 'invites/bummer', to: 'invites#bummer'
   get 'invites/:key/use', to: 'invites#use'
-  get 'feed', to: 'entries#index'
+  get 'feed', to: 'post_entries#index'
   post 'logout', to: 'sessions#destroy'
+  get 'subscriptions', to: 'subscriptions#index'
+  get 'subscriptions/new', to: 'subscriptions#new'
+  post 'subscriptions', to: 'subscriptions#create'
 end

@@ -1,0 +1,14 @@
+<h2>Feed</h2>
+
+<%= link_to 'Subscriptions', subscriptions_path, class: 'nice-link' %>
+
+<%= link_to 'add new', subscriptions_new_path, class: 'nice-button' %>
+
+<br>
+<br>
+
+<div class="entries">
+    <% @entries.each do |entry| %>
+        <%= render entry %>
+    <% end %>
+</div>

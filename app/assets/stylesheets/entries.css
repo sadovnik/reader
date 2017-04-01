@@ -1,2 +1,20 @@
-.entry-item_small {
+.entries {
+}
+
+.entries__entry {
+    margin-bottom: 15px;
+}
+
+.entry__time-ago {
+    font-size: 12px;
+    color: gray;
+}
+
+.entry__title {
+    display: inline-block;
+    margin-bottom: 11px;
+}
+
+.entry__status {
+    font-style: italic;
 }

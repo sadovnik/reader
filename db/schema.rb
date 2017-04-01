@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20170329150028) do
   end
 
   create_table "posts", force: :cascade do |t|
-    t.string   "guid"
+    t.string   "internal_id"
     t.string   "title"
     t.string   "summary"
     t.string   "url"

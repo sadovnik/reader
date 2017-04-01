@@ -15,8 +15,10 @@ gem 'sass-rails', '~> 5.0'
 # libs
 gem 'state_machines'
 gem 'state_machines-activerecord'
+gem 'feedjira'
 
 group :development, :test do
+  gem 'fakeweb'
   gem 'byebug', platform: :mri
   gem 'rspec-rails'
   gem 'rails-controller-testing'

@@ -1,0 +1,10 @@
+<div class="subscriptions__subscription">
+    <% subscription.source.tap do |s| %>
+        <h4 class="subscription__title">
+            <%= link_to s.title, s.site_url, class: 'nice-link' %>
+        </h4>
+        <p class="subscription__description">
+            <%= subscription.source.description %>
+        </p>
+    <% end %>
+</div>

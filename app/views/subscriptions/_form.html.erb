@@ -1,0 +1,14 @@
+<%= form_for subscription_form, url: { action: 'create' }, remote: true, format: :json do |form| %>
+    <%= form.text_field :url, autofocus: true, style: 'width: 280px' %>
+    <%= form.submit 'Subscribe', class: 'nice-button' %>
+
+    <% if subscription_form.errors.any? %>
+        <div class="errors">
+            <% subscription_form.errors.each do |_, error| %>
+                <div class="errors__error">
+                    <%= error %>
+                </div>
+            <% end %>
+        </div>
+    <% end %>
+<% end %>

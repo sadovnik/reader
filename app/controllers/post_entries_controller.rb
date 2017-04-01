@@ -1,4 +1,4 @@
-class EntriesController < ApplicationController
+class PostEntriesController < ApplicationController
   before_action :authorize!
 
   # GET /feed

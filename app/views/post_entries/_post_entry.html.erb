@@ -1,0 +1,20 @@
+<div class="entries__entry">
+    <% post_entry.post.tap do |post| %>
+        <span class="entry__time-ago">
+            <%= time_ago_in_words (post.published_at || post.created_at) %>
+        </span>
+        <br>
+        <span class="entry__title">
+            <%= link_to(post.title, post.url, class: 'nice-link') %>
+            –
+            <%= post.source.title %>
+
+            <span class="entry__status entry__status_<%= post_entry.status %>">
+                <%= post_entry.status %>
+            </span>
+        </span>
+        <div class="entry__summary">
+            <%= post.summary.html_safe %>
+        </div>
+    <% end %>
+</div>
