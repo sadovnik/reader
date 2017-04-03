@@ -7,7 +7,8 @@
         </span>
         <br>
         <span class="entry__title">
-            <%= link_to(post.title, post.url, class: 'nice-link') %>
+            <%= link_to(post.title, post.url, class: 'nice-link entry__link') %>
+            <%= link_to('', read_entry_path(post_entry), class: 'entry__read-link', hidden: true, target: '_blank') %>
             <span class="entry__status entry__status_<%= post_entry.status %>">
                 <%= post_entry.status %>
             </span>
