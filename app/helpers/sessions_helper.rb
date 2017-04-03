@@ -19,7 +19,7 @@ module SessionsHelper
 
   def authorize!
     unless logged_in?
-      redirect_to root_path, notice: 'Opps. Seems like we forgot who you are. Could you please remind us?'
+      redirect_to root_path, notice: 'Seems like we forgot who you are. Could you please remind us?'
     end
   end
 end

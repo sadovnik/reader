@@ -1,8 +1,6 @@
 class SubscriptionsController < ApplicationController
   before_action :authorize!
 
-  layout 'application'
-
   # GET /subscriptions
   def index
     @subscriptions = current_user.subscriptions
@@ -21,7 +19,7 @@ class SubscriptionsController < ApplicationController
 
     unless @subscription_form.valid?
       return respond_to do |format|
-        format.js { }
+        format.js
         format.html { render action: :new }
       end
     end
@@ -36,15 +34,6 @@ class SubscriptionsController < ApplicationController
   end
 
   private
-
-  def fetch_source(url)
-
-    if source
-      return source
-    end
-
-    source = Feedjira
-  end
 
   def form_params
     params.require(:subscription_form).permit(:url)

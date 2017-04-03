@@ -2,7 +2,7 @@ require 'fetcher'
 
 # Converts Feedjira::Feed into Source
 class SourceBuilder
-  # Source => Feedjira::Feed
+  # Feedjira::Feed => Source
   SOURCE_MAP = {
     'title' => 'title',
     'description' => 'description',
@@ -10,12 +10,13 @@ class SourceBuilder
     'url' => 'site_url'
   }
 
-  # Post => Feedjira::Parser::RSSEntry
+  # Feedjira::Parser::RSSEntry => Post
   POST_MAP = {
     'entry_id' => 'internal_id',
     'title' => 'title',
     'url' => 'url',
-    'summary' => 'summary'
+    'summary' => 'summary',
+    'published' => 'published_at'
   }
 
   def self.build(feedjira_feed)

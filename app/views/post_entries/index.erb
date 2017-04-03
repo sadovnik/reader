@@ -7,6 +7,10 @@
 <br>
 <br>
 
+<div class="entries__count">
+    <%= pluralize(@entries.count, 'post', 'posts') %>
+</div>
+
 <div class="entries">
     <% @entries.each do |entry| %>
         <%= render entry %>

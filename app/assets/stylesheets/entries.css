@@ -1,8 +1,12 @@
 .entries {
 }
 
+.entries__count {
+    margin-bottom: 10px;
+}
+
 .entries__entry {
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 .entry__time-ago {
@@ -17,4 +21,10 @@
 
 .entry__status {
     font-style: italic;
+}
+
+.entry__summary {
+    width: 600px;
+    /* max-height: 100px; */
+    /* overflow-y: scroll; */
 }
