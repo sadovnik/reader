@@ -8,4 +8,18 @@ class PostEntriesController < ApplicationController
       .where(status: :unread)
       .order('Posts.published_at DESC')
   end
+
+  def read
+    entry = PostEntry.find(id_param)
+
+    entry.read!
+
+    redirect_to entry.post.url
+  end
+
+  private
+
+  def id_param
+    params.require(:id)
+  end
 end
