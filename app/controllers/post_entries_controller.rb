@@ -5,6 +5,7 @@ class PostEntriesController < ApplicationController
   def index
     @entries = current_user.entries
       .includes(:post, :post => :source)
+      .where(status: :unread)
       .order('Posts.published_at DESC')
   end
 end
