@@ -1,0 +1,2 @@
+module EntryBuilder
+end

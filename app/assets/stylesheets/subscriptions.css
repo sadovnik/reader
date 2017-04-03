@@ -1,0 +1,18 @@
+.subscriptions {
+    width: 800px;
+}
+
+.subscriptions__subscription {
+    background-color: #fffbf4;
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+}
+
+.subscription__title {
+    margin: 0;
+}
+
+.subscription__description {
+    font-size: 12px;
+}

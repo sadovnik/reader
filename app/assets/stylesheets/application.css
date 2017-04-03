@@ -16,10 +16,23 @@
 
 
 .user-bar {
-    margin-top: 27px;
-    margin-bottom: 30px;
+    float: right;
 }
 
 .user-bar__email {
     font-style: italic;
+}
+
+.flash {
+    color: #8BC34A;
+    margin-bottom: 10px;
+    border: 1px dashed #e6e6e6;
+    padding: 18px;
+    border-radius: 3px;
+    width: 302px;
+    font-style: italic;
+}
+
+.flash_notice {
+    color: #66bb6a;
 }

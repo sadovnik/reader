@@ -1,14 +1,35 @@
 body {
-    margin: 0;
-    margin-left: 24px;
+    margin: 24px;
 }
 
 * {
     font-family: Helvetica;
 }
 
+/* Errors */
+
 .field_with_errors {
-    border-color: red;
+    display: inline-block;
+}
+
+.field_with_errors > input {
+    border-color: rgb(255, 200, 168)
+}
+
+.errors {
+    margin-top: 13px;
+    animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.errors__error {
+    color: orange;
+    font-style: italic;
+    font-size: 14px;
 }
 
 .nice-link, .nice-link:visited {
@@ -58,6 +79,7 @@ input[type="text"] {
     text-decoration: none;
     border-style: none;
     outline: none;
+    font-weight: normal;
 }
 
 .nice-button:hover {
@@ -68,4 +90,15 @@ input[type="text"] {
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
+}
+
+.nice-button.chill {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: rgba(0, 0, 0, 0.57);
+}
+
+.nice-button.chill:hover {
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    color: rgba(0, 0, 0, 0.87);
 }
