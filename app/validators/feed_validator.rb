@@ -5,11 +5,9 @@ class FeedValidator < ActiveModel::EachValidator
   def validate_each(record, attribute, value)
     return unless record.errors[attribute].blank?
 
-    begin
-      record.errors[attribute] << (options[:message] || DEFAULT_MESSAGE) unless feed?(value)
-    rescue Faraday::ConnectionFailed, Feedjira::FetchFailure
-      record.errors[attribute] << (options[:not_available_message] || DEFAULT_NOT_AVAILABLE_MESSAGE)
-    end
+    record.errors[attribute] << (options[:message] || DEFAULT_MESSAGE) unless feed?(value)
+  rescue Faraday::ConnectionFailed, Feedjira::FetchFailure
+    record.errors[attribute] << (options[:not_available_message] || DEFAULT_NOT_AVAILABLE_MESSAGE)
   end
 
   private

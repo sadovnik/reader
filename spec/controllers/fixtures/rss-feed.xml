@@ -1,0 +1,1824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Daring Fireball</title>
+<subtitle>By John Gruber</subtitle>
+<link rel="alternate" type="text/html" href="http://daringfireball.net/" />
+<link rel="self" type="application/atom+xml" href="http://daringfireball.net/feeds/main" />
+<id>http://daringfireball.net/feeds/main</id>
+
+<updated>2017-04-02T14:10:05Z</updated><rights>Copyright © 2017, John Gruber</rights><entry>
+	<title>BuildZoom</title>
+	<link rel="alternate" type="text/html" href="https://www.buildzoom.com/?utm_source=df" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pwb" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/04/01/buildzoom" />
+	<id>tag:daringfireball.net,2017:/linked//6.33563</id>
+	<published>2017-04-01T21:16:44Z</published>
+	<updated>2017-04-02T11:04:00Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>My thanks to BuildZoom for sponsoring this week&#8217;s DF RSS feed. Tell BuildZoom about your remodeling or building project, and they&#8217;ll connect you with four great contractors who will visit your property, then provide you with bids through BuildZoom.</p>
+
+<p>Anyone who has ever hired contractors knows that finding good ones is hard. BuildZoom finds good ones by analyzing their unique data set of 120 million building permit filings, customer reviews, and licensure records. They&#8217;ve used that data to identify the best (and worst) contractors in the U.S.</p>
+
+<p>The BuildZoom app will walk you through the negotiation and hiring process in a simple and straightforward manner. A concierge will guide you through the project, every step of the way. Sign up and try BuildZoom yourself &#8212; free of charge.</p>
+
+<div>
+<a  title="Permanent link to ‘BuildZoom’"  href="http://daringfireball.net/linked/2017/04/01/buildzoom">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Upcoming Is Back</title>
+	<link rel="alternate" type="text/html" href="https://upcoming.org/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pwa" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/04/01/upcoming" />
+	<id>tag:daringfireball.net,2017:/linked//6.33562</id>
+	<published>2017-04-01T20:02:24Z</published>
+	<updated>2017-04-01T20:02:25Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Andy Baio, on the About page for the newly relaunched Upcoming:</p>
+
+<blockquote>
+  <p>Launched in 2003, before Flickr or Facebook, Upcoming was the
+first site to use a social network for event discovery. After two
+years, Upcoming was acquired by Yahoo, running for a decade before
+Yahoo shuttered it in 2013.</p>
+
+<p>Shortly after they shut it down, Yahoo offered to sell the domain
+back to me, an unprecedented move for a former acquisition.</p>
+
+<p>I decided to launch a <a href="https://www.kickstarter.com/projects/waxpancake/the-return-of-upcomingorg/description">Kickstarter project</a> to gauge interest
+in bringing Upcoming back from the dead. With the incredible
+support and infinite patience of <a href="https://upcoming.org/about/backers">1,787 backers</a>, I rebuilt
+Upcoming from scratch, restored the <a href="http://archive.upcoming.org/">event archive</a>, and
+relaunched the community in March 2017.</p>
+
+<p>Thank you for believing in it.</p>
+</blockquote>
+
+<p>Looks great. Somehow feels karmically right that the return of Upcoming has coincided with the end of The Deck.</p>
+
+<div>
+<a  title="Permanent link to ‘Upcoming Is Back’"  href="http://daringfireball.net/linked/2017/04/01/upcoming">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The Talk Show: ‘Warmest Regards’</title>
+	<link rel="alternate" type="text/html" href="http://daringfireball.net/thetalkshow/2017/03/31/ep-185" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pw9" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/04/01/the-talk-show-185" />
+	<id>tag:daringfireball.net,2017:/linked//6.33561</id>
+	<published>2017-04-01T18:46:45Z</published>
+	<updated>2017-04-01T19:54:35Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Special guest Dan Frommer returns to the show. Topics include the end of The Deck ad network, my weird story about getting kicked out of Amazon’s affiliate program, Apple’s new products announced last week (Red iPhone 7 models, larger-capacity iPhone SEs, the new 9.7-inch just-plain iPad, and Apple’s excellent new Clips app), Samsung’s new Galaxy S8, Twitter’s new reply system, CarPlay getting its ass kicked in a head-to-head comparison with Android Auto, ISPs and Privacy, and more.</p>
+
+<p>Also, a brief debate over where to position the MacOS Dock.</p>
+
+<p>Brought to you by these fine sponsors:</p>
+
+<ul>
+<li><a href="http://jamf.com/thetalkshow">JAMF Software</a>: Jamf Now helps you manage your Apple devices from anywhere. Use this link and set up your first 3 devices free of charge.</li>
+<li><a href="https://squarespace.com/talkshow">Squarespace</a>: Build it beautiful. Use code <strong>gruber</strong> for 10% off your first order.</li>
+<li><a href="http://audible.com/talkshow">Audible.com</a>: With Audible, you’ll find what you’re looking for. Get a free 30-day trial.</li>
+<li><a href="http://casper.com/thetalkshow">Casper</a>: An obsessively engineered mattress at a shockingly fair price. Use code <strong>thetalkshow</strong> for $50 toward your mattress.</li>
+</ul>
+
+<div>
+<a  title="Permanent link to ‘The Talk Show: &#8216;Warmest Regards&#8217;’"  href="http://daringfireball.net/linked/2017/04/01/the-talk-show-185">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Dan Frommer: ‘Samsung’s Galaxy S8 Shows Apple Is Behind the Smartphone Design Trend’</title>
+	<link rel="alternate" type="text/html" href="https://www.recode.net/2017/3/29/15108352/samsung-galaxy-s8-apple-iphone-8-design" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pw8" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/04/01/frommer-galaxy-s8" />
+	<id>tag:daringfireball.net,2017:/linked//6.33560</id>
+	<published>2017-04-01T18:45:02Z</published>
+	<updated>2017-04-01T20:42:41Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Dan Frommer, writing for Recode:</p>
+
+<blockquote>
+  <p>While Apple pioneered the all-screen phone concept with the first
+iPhone, Samsung and other companies have recently pushed it
+further, trimming the frame around the display so much that the
+forehead and chin on the new Galaxy S8 are barely there.</p>
+
+<p>For another example, Andy Rubin &#8212; the founder of Android, and
+before that one of the people behind the Sidekick phone &#8212;
+recently tweeted a teaser photo of another slick-looking,
+edge-to-edge device, presumably from the <a href="https://www.recode.net/2017/1/13/14267664/android-andy-rubin-smartphone-essential">handset company he’s
+working on, called Essential</a>.</p>
+</blockquote>
+
+<p>Rubin&#8217;s teaser shot for the Essential truly is impressive &#8212; it shows a true edge-to-edge design, with almost no bezels on either the sides <em>or</em> the top and bottom. Looks very cool. But: it&#8217;s vaporware. Shipping is what counts, and the Galaxy S8 is shipping.</p>
+
+<p>I&#8217;ve been hearing that Apple is working on an &#8220;edge-to-edge&#8221; iPhone design <a href="https://www.macrumors.com/2016/05/11/2017-iphone-edge-to-edge-display/">since early last year</a>. If Apple truly eliminates the chin and forehead, they&#8217;ll leap ahead of Samsung. But I don&#8217;t see how anyone can deny that Samsung is ahead in the race to eliminate bezels.</p>
+
+<p>There&#8217;s a lot more to &#8220;design&#8221; than how a phone looks from the front, though. And to me, the Galaxy S8 looks like it was only designed with the front face in mind. I don&#8217;t think the back looks good, and the placement of the fingerprint scanner is undeniably awkward. And the ports and speaker holes on the bottom are, <a href="http://www.imore.com/galaxy-s7-samsung-still-cant-achieve-apple-level-industrial-design">as usual</a> for Samsung, <a href="https://twitter.com/Lionyoung1987/status/847702481538658304">misaligned</a>.</p>
+
+<div>
+<a  title="Permanent link to ‘Dan Frommer: &#8216;Samsung’s Galaxy S8 Shows Apple Is Behind the Smartphone Design Trend&#8217;’"  href="http://daringfireball.net/linked/2017/04/01/frommer-galaxy-s8">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Twitter Rearranges Deck Chairs on Titanic</title>
+	<link rel="alternate" type="text/html" href="https://blog.twitter.com/2017/rethinking-our-default-profile-photo" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pw7" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/04/01/twitter-eggs" />
+	<id>tag:daringfireball.net,2017:/linked//6.33559</id>
+	<published>2017-04-01T18:25:01Z</published>
+	<updated>2017-04-01T21:13:33Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Twitter&#8217;s design team, explaining why they changed the default new user avatar from an egg to a bland silhouette:</p>
+
+<blockquote>
+  <p>We’ve noticed patterns of behavior with accounts that are created
+only to harass others &#8212; often they don’t take the time to
+personalize their accounts. This has created an association
+between the default egg profile photo and negative behavior, which
+isn’t fair to people who are still new to Twitter and haven’t yet
+personalized their profile photo.</p>
+</blockquote>
+
+<p>This is so ridiculous that a lot of people suspected it was an April Fool&#8217;s gag. The problem is the actual harassment, not the egg icons. Changing the icon doesn&#8217;t affect the actual problem <em>at all</em>.</p>
+
+<p>And it&#8217;s <a href="https://twitter.com/panzer/status/847846736592748545">a bad idea</a>. The egg was something Twitter owned. It fit marvelously with their brand. Their icon is a bird. Their &#8220;new tweet&#8221; button shows a feather. The egg felt totally Twitter. This new silhouette looks like it came out of a stock icon set.</p>
+
+<p>(There is some interesting stuff in this post about the work they did to make the silhouette feel gender-neutral rather than male.)</p>
+
+<div>
+<a  title="Permanent link to ‘Twitter Rearranges Deck Chairs on Titanic’"  href="http://daringfireball.net/linked/2017/04/01/twitter-eggs">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>What’s New in iOS 10.3</title>
+	<link rel="alternate" type="text/html" href="https://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pw6" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/31/cunningham-10-3" />
+	<id>tag:daringfireball.net,2017:/linked//6.33558</id>
+	<published>2017-03-31T22:48:55Z</published>
+	<updated>2017-03-31T22:48:56Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Great rundown of the changes and additions in 10.3 from Andrew Cunningham.</p>
+
+<div>
+<a  title="Permanent link to ‘What&#8217;s New in iOS 10.3’"  href="http://daringfireball.net/linked/2017/03/31/cunningham-10-3">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Apple Fixes 911 Vulnerability in iOS 10.3</title>
+	<link rel="alternate" type="text/html" href="https://www.wsj.com/articles/apple-fixes-911-flaw-in-latest-ios-update-1490907451" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pw5" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/31/ios-10-911" />
+	<id>tag:daringfireball.net,2017:/linked//6.33557</id>
+	<published>2017-03-31T22:47:05Z</published>
+	<updated>2017-03-31T23:52:01Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Ryan Knutson, reporting for The Wall Street Journal:</p>
+
+<blockquote>
+  <p>Among the changes in an iPhone software update Apple Inc.
+released this week: a fix aimed at preventing cyberattacks
+on 911 centers in the U.S.</p>
+
+<p>The vulnerability was exposed in October after an 18-year-old in
+Arizona allegedly designed code that would cause iPhones to
+repeatedly dial 911. A link to the code went viral on Twitter, as
+teenagers began sharing it as a prank.</p>
+
+<p>The incident, which was detailed <a href="https://www.wsj.com/articles/how-a-cyberattack-overwhelmed-the-911-system-1488554972">in a Wall Street Journal
+article</a>, resulted in thousands of accidental 911 calls,
+overwhelming operators in at least a dozen states across the U.S.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Apple Fixes 911 Vulnerability in iOS 10.3’"  href="http://daringfireball.net/linked/2017/03/31/ios-10-911">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Uber Executive Invokes Fifth Amendment, Seeking to Avoid Potential Charges</title>
+	<link rel="alternate" type="text/html" href="https://www.nytimes.com/2017/03/30/technology/uber-waymo-levandowski.html?_r=0" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pw4" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/31/levandowski-pleads-the-fifth" />
+	<id>tag:daringfireball.net,2017:/linked//6.33556</id>
+	<published>2017-03-31T20:57:18Z</published>
+	<updated>2017-03-31T20:57:21Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Daisuke Wakabayashi and Mike Isaac, reporting for The New York Times:</p>
+
+<blockquote>
+  <p>An Uber executive accused of stealing driverless car technology
+from his former employers at Google is exercising his Fifth
+Amendment right to avoid self-incrimination, according to his
+lawyers.</p>
+
+<p>The lawyers for Anthony Levandowski, the former head of Google’s
+self-driving car project who is now leading a similar effort at
+Uber, said he was broadly asserting his Fifth Amendment rights
+because there was “potential for criminal action” in the case,
+according to court transcripts obtained on Thursday.</p>
+</blockquote>
+
+<p>Pleading the Fifth is <em>not</em> an admission of guilt, but it certainly doesn&#8217;t look good. And “potential for criminal action” is a new wrinkle.</p>
+
+<div>
+<a  title="Permanent link to ‘Uber Executive Invokes Fifth Amendment, Seeking to Avoid Potential Charges’"  href="http://daringfireball.net/linked/2017/03/31/levandowski-pleads-the-fifth">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+    
+    <link rel="alternate" type="text/html" href="http://daringfireball.net/2017/03/the_deck_adieu" />
+	<link rel="shorturl" href="http://df4.us/pw3" />
+	<id>tag:daringfireball.net,2017://1.33555</id>
+	<published>2017-03-30T03:59:29Z</published>
+	<updated>2017-04-02T14:10:05Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+<summary type="html"><![CDATA[<p>On the end of The Deck.</p>
+]]></summary>
+	<content type="html" xml:base="http://daringfireball.net/" xml:lang="en"><![CDATA[
+<p>When I started writing Daring Fireball in 2002, there really weren&#8217;t any established ways for a small independent website to generate money. I mean like literally nothing. I knew, though, that it was what I wanted to do with my life. I wanted to write. But I didn&#8217;t want to write books. I didn&#8217;t want to write for a newspaper or a magazine or someone else&#8217;s website. I wanted to write Daring Fireball.</p>
+
+<p>I plugged away, writing as much as I could, doing it as a hobby. And I just started trying ways to generate revenue, with one guiding rule: don&#8217;t do anything I&#8217;m not proud of. In 2003 <a href="https://daringfireball.net/2003/07/independent_days">I first announced publicly</a> my intention to one day write Daring Fireball full-time, and began a brief experiment with Google AdSense. (Daring Fireball was literally one of the first sites on the web showing ads from Google). It didn&#8217;t work well financially, or look good. In June 2004 I <a href="http://daringfireball.net/2004/06/something_daring">started selling t-shirts</a> and a $19/year membership system. That worked better.</p>
+
+<p>A few months later, <a href="http://daringfireball.net/2004/09/sponsor_this">I started selling my own sponsorships</a>:</p>
+
+<blockquote>
+  <p>Effective Tuesday evening, I abandoned Google’s AdSense program,
+in favor of selling my own sponsorships. If you’ll take a look at
+the bottom of my sidebar, you’ll see an ad from Daring Fireball’s
+first sponsor: <a href="https://web-beta.archive.org/web/20040923142958/http://jewelboxing.com/indexdf.php">Coudal Partners’ Jewelboxing</a>.</p>
+</blockquote>
+
+<p>Thus began the best business partnership of my life.</p>
+
+<p>In early 2006, Jim Coudal started The Deck, with Jeffrey Zeldman and 37signals (now Basecamp). <a href="http://daringfireball.net/2006/02/bedecked">I joined in early February</a>, making Daring Fireball the fourth site in the network. Andy Baio, Jason Kottke, and The Morning News joined soon thereafter. In March, we had <a href="http://www.zeldman.com/2006/03/16/things-said/">a group dinner</a> in Austin during SXSW. I remember a palpable sense of accomplishment. I remember thinking, <em>This is going to work.</em></p>
+
+<p>A month later <a href="http://daringfireball.net/2006/04/initiative">I announced I was going full-time writing Daring Fireball</a>. It worked.</p>
+
+<p>Today, 11 years later, <a href="http://decknetwork.net/">Jim announced that The Deck is shutting down</a>: &#8220;Things change.&#8221;</p>
+
+<hr />
+
+<p>It&#8217;s no coincidence that Jewelboxing was DF&#8217;s first sponsor. I devised my original sponsorship system &#8212; <a href="http://daringfireball.net/2004/09/sponsor_this">a set of principles more than a set of rules</a> &#8212; through commiseration and collaboration with my friend Jim Coudal. We shared the same deep frustration: a sense that there <em>had</em> to be a way to do advertising on the web that didn&#8217;t suck &#8212; something that readers would not mind (and might actually enjoy), provided good results for the advertisers, and generated good money for the publisher.</p>
+
+<p>Here are just a few of the things that make me proud to have been part of The Deck:</p>
+
+<ul>
+<li>We never allowed animated ads. (Remember when <em>that</em> was the main problem with online ads?)</li>
+<li>We never allowed user tracking or JavaScript payloads. The Deck respected your <a href="http://decknetwork.net/privacy/">privacy</a> (and your <a href="https://nelsonslog.wordpress.com/2017/03/25/la-times-and-ads/">bandwidth</a>).</li>
+<li>We had great sponsors who made great products and services (and designed great looking ads).</li>
+</ul>
+
+<p>Perhaps most importantly, we never showed more than one ad per page. From the beginning of web advertising, publishers have seemingly been in a race to cram as many ads per page as they can. In print magazines and newspapers, there are ads like that too, but they&#8217;re the low-rent pages in the back of the book. The real money in print comes from the prestigious ads that are exclusive. The back cover. The inside front cover spread. The full page opposite the table of contents. Exclusivity has tremendous value, and most web publishers still haven&#8217;t gotten that. And on the web, an ad doesn&#8217;t have to be big to be exclusive and to occupy valuable real estate.</p>
+
+<p>I lost count long ago of the readers who wrote to me just to say that they whitelisted The Deck from their ad blockers. Not as a favor to me, but simply because they recognized that The Deck deserved not to be blocked. I love that.</p>
+
+<p>I love The Deck.</p>
+
+<hr />
+
+<p>“<em>I write for my pleasure, but publish for money.</em>” <br />
+<strong>—VLADIMIR NABOKOV</strong></p>
+
+<p>I&#8217;ve used that quote <a href="http://daringfireball.net/2004/06/something_daring">before</a> when writing about the business side of Daring Fireball, but it&#8217;s a good enough quote to use at least once every decade.</p>
+
+<p><a href="http://decknetwork.net/">As Jim wrote today</a>, what ultimately did The Deck in is the shift in advertising dollars to social networks and the rise of mobile:</p>
+
+<blockquote>
+  <p>In 2014, display advertisers started concentrating on large,
+walled, social networks. The indie “blogosphere” was disappearing.
+Mobile impressions, which produce significantly fewer clicks and
+engagements, began to really dominate the market. Invasive user
+tracking (which we <a href="http://decknetwork.net/privacy/">refused</a> to do) and all that came with that
+became pervasive, and once again The Deck was back to being a
+pretty good business. By 2015, it was an OK business and, by the
+second half of 2016, the network was beginning to struggle again.</p>
+</blockquote>
+
+<p><a href="https://www.statista.com/statistics/277229/facebooks-annual-revenue-and-net-income/">This graph</a> showing Facebook&#8217;s revenue from 2007 through 2016 tells the story.</p>
+
+<p>That said, Daring Fireball is doing fine. <a href="http://daringfireball.net/feeds/sponsors/">DF RSS feed sponsorships</a> remain strong, and listenership and <a href="http://neat.fm/">sponsorships for The Talk Show</a> are growing. The Deck was only one leg among several on the DF revenue stool, and in recent years, it had become one of the shorter ones. I have not decided yet how or what to replace The Deck with. I feel certain of only one thing: things <em>have</em> changed, and it&#8217;s been too long since I experimented with new ideas. In terms of aggregate revenue, selling weekly RSS feed sponsorships is the best idea I&#8217;ve ever had &#8212; but it started as a lark, a last-ditch attempt to figure out a way to provide full-content RSS feeds to Google Reader users.<sup id="fnr1-2017-03-29"><a href="#fn1-2017-03-29">1</a></sup> It might be time to try a few larks again.</p>
+
+<p>What hurts far more than the loss in revenue is the principle of the damn thing. The Deck did it right, and it worked for over a decade. I&#8217;m sure I would&#8217;ve gone full-time writing Daring Fireball sooner or later, but I couldn&#8217;t have done it when I did, in 2006, without The Deck.</p>
+
+<p>I was chatting with Jim earlier this evening. Someone wrote to him to ask, &#8220;Why didn&#8217;t you sell the network instead of shutting it down?&#8221; Jim&#8217;s answer: &#8220;The Deck was built exclusively on close, personal relationships. I don’t think those are mine to sell.”</p>
+
+<p>In 11 years, Jim and I never had anything more than a virtual handshake through Messages (née iChat) as a &#8220;contract&#8221;. They say don’t do business with friends. My experience says otherwise &#8212; if you have the right friends.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1-2017-03-29">
+<p>I told the whole story on how this came to be <a href="https://www.youtube.com/watch?v=ufKFStaFsZs">in my XOXO talk in 2014</a>.&nbsp;<a href="#fnr1-2017-03-29"  class="footnoteBackLink"  title="Jump back to footnote 1 in the text.">&#x21A9;&#xFE0E;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+    ]]></content>
+  <title>★ The Deck, Adieu</title></entry><entry>
+	<title>Android Auto vs. Apple CarPlay Head-to-Head</title>
+	<link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=jeESbGPl_Dw" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pw2" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/29/android-auto-carplay" />
+	<id>tag:daringfireball.net,2017:/linked//6.33554</id>
+	<published>2017-03-29T22:43:41Z</published>
+	<updated>2017-03-29T22:43:58Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Everyone who works on CarPlay and Siri at Apple should be forced to watch this. Pretty much a shutout victory for Android Auto.</p>
+
+<div>
+<a  title="Permanent link to ‘Android Auto vs. Apple CarPlay Head-to-Head’"  href="http://daringfireball.net/linked/2017/03/29/android-auto-carplay">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The 265 Members of Congress Who Sold You Out to ISPs, and How Much It Cost to Buy Them</title>
+	<link rel="alternate" type="text/html" href="http://www.theverge.com/2017/3/29/15100620/congress-fcc-isp-web-browsing-privacy-fire-sale" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pw0" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/29/265-members-of-congress" />
+	<id>tag:daringfireball.net,2017:/linked//6.33552</id>
+	<published>2017-03-29T21:12:51Z</published>
+	<updated>2017-03-29T21:16:56Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>T.C. Sottek, reporting for The Verge:</p>
+
+<blockquote>
+  <p>Republicans in Congress <a href="http://www.theverge.com/2017/3/28/15080436/us-house-votes-to-let-isps-share-web-browsing-history">just voted to reverse a landmark FCC
+privacy rule</a> that opens the door for ISPs to sell customer
+data. Lawmakers provided no credible reason for this being in the
+interest of Americans, except for vague platitudes about
+“consumer choice” and “free markets,” as if consumers at the
+mercy of their local internet monopoly are craving to have their
+web history quietly sold to marketers and any other third party
+willing to pay.</p>
+
+<p>The only people who seem to want this are the people who are going
+to make lots of money from it. (Hint: they work for companies like
+Comcast, Verizon, and AT&amp;T.) Incidentally, these people and their
+companies routinely give lots of money to members of Congress.</p>
+
+<p>So here is a list of the lawmakers who voted to betray you, and
+how much money they received from the telecom industry in their
+most recent election cycle.</p>
+</blockquote>
+
+<p>Completely and utterly along party lines. Not one Democrat voted for this. &#8220;Congress&#8221; didn&#8217;t do this. Republicans in Congress did this.</p>
+
+<p>There&#8217;s no argument that can be made in defense of this bill other than that the Republican party believes that increasing the profits of telecom companies is more important than protecting the privacy of people.</p>
+
+<div>
+<a  title="Permanent link to ‘The 265 Members of Congress Who Sold You Out to ISPs, and How Much It Cost to Buy Them’"  href="http://daringfireball.net/linked/2017/03/29/265-members-of-congress">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>‘Things Change’</title>
+	<link rel="alternate" type="text/html" href="http://decknetwork.net/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvz" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/29/the-deck" />
+	<id>tag:daringfireball.net,2017:/linked//6.33551</id>
+	<published>2017-03-29T19:41:29Z</published>
+	<updated>2017-03-29T19:41:30Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Jim Coudal breaks the news: The Deck network is shutting down.</p>
+
+<p>I&#8217;ll have more to say later, but now, just one word: <em>Thanks</em>.</p>
+
+<div>
+<a  title="Permanent link to ‘&#8216;Things Change&#8217;’"  href="http://daringfireball.net/linked/2017/03/29/the-deck">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Nathan Peretic Called It, Too</title>
+	<link rel="alternate" type="text/html" href="http://www.fullstopinteractive.com/blog/2010/02/the-withering-away-of-flash/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvy" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/29/peretic-flash-2010" />
+	<id>tag:daringfireball.net,2017:/linked//6.33550</id>
+	<published>2017-03-29T19:33:30Z</published>
+	<updated>2017-03-29T19:33:33Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Nathan Peretic, one day after Zeldman&#8217;s post in February 2010:</p>
+
+<blockquote>
+  <p>The <em>coup de grâce</em>, history will note, was Apple’s release of the
+iPhone sans Flash. The mobile Internet became a force to reckon
+with overnight, single-handedly trashing Flash’s former claim of
+ubiquity. The iPhone has gashed a gigantic hole in the number of
+people browsing the Internet who don’t have Flash. The iPad is
+poised to increase that number.</p>
+</blockquote>
+
+<p>This is an excellent summation of the logic that doomed Flash.</p>
+
+<p>Before the iPhone and iPad, Flash was the easiest way to publish multimedia viewable by the largest audience. The percentage of web-viewing devices with Flash Player installed, right from the factory, was surely in the high 90s. In an ideal world, web publishers would have aggressively moved to HTML5 simply because it was a better &#8212; and open &#8212; technology. But that wasn&#8217;t enough of a motivation.</p>
+
+<p>Almost every device could play Flash content. Many devices could <em>not</em> render HTML5 content, because they were junky PCs running Internet Explorer. Publishers went for the larger group, technology be damned.</p>
+
+<p>Starting with the iPhone, there was no longer any way to publish multimedia in one format for &#8220;almost all&#8221; devices. You could stick with Flash and ignore mobile, or you could switch to HTML5 and leave legacy PCs running old browsers behind. The choice was easy.</p>
+
+<div>
+<a  title="Permanent link to ‘Nathan Peretic Called It, Too’"  href="http://daringfireball.net/linked/2017/03/29/peretic-flash-2010">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Zeldman Called It</title>
+	<link rel="alternate" type="text/html" href="http://www.zeldman.com/2010/02/01/flash-ipad-standards/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvx" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/29/zeldman-2010" />
+	<id>tag:daringfireball.net,2017:/linked//6.33549</id>
+	<published>2017-03-29T19:18:51Z</published>
+	<updated>2017-03-29T19:18:53Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Jeffrey Zeldman, back in February 2010 (two months before Steve Jobs&#8217;s &#8220;Thoughts on Flash&#8221;):</p>
+
+<blockquote>
+  <p>Flash won’t die tomorrow, but plug-in technology is on its
+way out.</p>
+
+<p>Plug-in technology made sense when web browsing was the province
+of geeks. It was a brilliant solution to the question of how to
+extend the user experience beyond what HTML allowed. People who
+were used to extending their PC via third-party hardware, and
+jacking the capabilities of their operating system via third-party
+spell checkers, font managers, and more, intuitively grasped how
+to boost their browser’s prowess by downloading and updating
+plug-ins.</p>
+
+<p>But <a href="http://stevenf.tumblr.com/post/359224392/i-need-to-talk-to-you-about-computers-ive-been">tomorrow’s computing systems</a>, heralded by the iPhone, are <a href="http://mrgan.tumblr.com/post/357323170/free">not
+for DIYers</a>. You don’t add Default Folder or FontExplorer X Pro to
+your iPhone, you don’t choose your iPhone’s browser, and you don’t
+install plug-ins in your iPhone’s browser. This lack of
+extensibility may not please the Slashdot crowd but it’s the
+future of computing and browsing. The bulk of humanity doesn’t
+want a <a href="http://al3x.net/2010/01/28/ipad.html">computing experience it can tinker with</a>; it wants a
+computing experience that works.</p>
+</blockquote>
+
+<p>If you had your eyes open, you could see that Flash was doomed as soon as it became clear that the iPhone had changed the world.</p>
+
+<div>
+<a  title="Permanent link to ‘Zeldman Called It’"  href="http://daringfireball.net/linked/2017/03/29/zeldman-2010">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+
+<link rel="alternate" type="text/html" href="https://www.buildzoom.com/?utm_source=df" />
+<link rel="shorturl" href="http://df4.us/pw1" />
+<id>tag:daringfireball.net,2017:/feeds/sponsors//11.33553</id>
+<author>
+	<name>Daring Fireball Department of Commerce</name>
+</author>
+   
+<published>2017-03-29T18:20:35-04:00</published>
+<updated>2017-03-29T18:31:20-04:00</updated>
+   
+<content type="html" xml:base="http://daringfireball.net/feeds/sponsors/" xml:lang="en"><![CDATA[
+<p>Tell us about your remodel or home build, and we’ll connect you with four great contractors who will visit your property, then provide you with bids through BuildZoom.</p>
+
+<p>How do we find great contractors? By analyzing our unique data set of 120 million building permit filings, customer reviews, and licensure records, we’ve been able to identify the best (and worst) contractors in the US.</p>
+
+<p>Our application will walk you through the negotiation and hiring process in a simple and straightforward manner. A concierge will guide you through the project, every step of the way.</p>
+
+<p>Sign up and try BuildZoom yourself &#8212; free of charge.</p>
+
+]]></content>
+<title>[Sponsor] BuildZoom Is a Better Way to Remodel</title></entry><entry>
+    
+    <link rel="alternate" type="text/html" href="http://daringfireball.net/2017/03/uber_cover_up" />
+	<link rel="shorturl" href="http://df4.us/pvw" />
+	<id>tag:daringfireball.net,2017://1.33548</id>
+	<published>2017-03-28T23:05:49Z</published>
+	<updated>2017-03-28T23:05:51Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+<summary type="html"><![CDATA[<p>&#8220;<em>It&#8217;s not the crime, it&#8217;s the cover-up</em>&#8221; is a cliché, but in the case of Uber&#8217;s South Korean &#8220;karaoke/escort&#8221; bar scandal, it&#8217;s true.</p>
+]]></summary>
+	<content type="html" xml:base="http://daringfireball.net/" xml:lang="en"><![CDATA[
+<p><a href="https://www.forbes.com/sites/briansolomon/2017/03/27/ubers-korean-escort-visit-shows-sexism-cover-up-goes-to-the-top/">Brian Solomon, writing for Forbes</a> about Uber&#8217;s South Korean &#8220;karaoke/escort bar&#8221; scandal:</p>
+
+<blockquote>
+  <p>If true, that incident would be bad enough, but it appears to have
+emerged solely due to Uber&#8217;s attempts to cover it up. According to
+Holzwarth, Emil Michael called her three weeks ago as the news
+about Uber&#8217;s workplace culture became a full-fledged scandal.
+Michael allegedly asked her not to speak to the press and to
+pretend the visit was simply to a regular karaoke bar. <a href="https://www.theinformation.com/uber-groups-visit-to-seoul-escort-bar-sparked-hr-complaint">From The
+Information</a>:</p>
+
+<blockquote>
+  <p>When Mr. Michael called, he told her that “things have been
+really rough out here,” referring to Uber’s issues. He then said,
+“Remember that night in Korea?” There are reporters, he said, who
+will try to “break the story and I just want to go over things
+with you. We just went to a karaoke bar and that’s all that
+happened, right?”</p>
+</blockquote>
+</blockquote>
+
+<p>&#8220;<em>It&#8217;s not the crime, it&#8217;s the cover-up</em>&#8221; is a cliché, but in this case it&#8217;s true. I didn&#8217;t emphasize that in my <a href="http://daringfireball.net/linked/2017/03/26/uber-seoul">first post about this incident</a>. Here&#8217;s what I think:</p>
+
+<p>Personally, I think these establishments are morally repulsive.</p>
+
+<p>I understand that Asian culture is different from U.S. culture, and I understand that part of Asian culture &#8212; certainly in South Korea &#8212; is “doing business” in such establishments. But <a href="https://www.theinformation.com/uber-groups-visit-to-seoul-escort-bar-sparked-hr-complaint">The Information&#8217;s story</a> doesn’t say the Uber execs were “doing business” with Koreans. They were a bunch of Americans out amongst themselves, so the cultural norms of South Korea aren’t relevant.</p>
+
+<p>And, most importantly, the real issue here is Emil Michael asking Gabi Holzwarth to lie about the incident. That’s outrageous. It should be considered a firing offense even if you personally think these “karaoke/escort” joints are A-OK. In addition to being the wrong thing to do, morally, it was also incredibly stupid, because Holzwarth told The Information that the reason she came forward with the story is because she was so outraged (rightfully so) by Michael&#8217;s request that she lie about the incident:</p>
+
+<blockquote>
+  <p>“I’m not going to lie for them,” she said in an interview with The
+Information this week. In the interview, she described Mr.
+Kalanick as “part of a class of privileged men who have been
+taught they can do whatever they want, and now they can.”</p>
+
+<p>She said she wouldn’t have considered speaking publicly had Mr.
+Michael not attempted to “silence” her.</p>
+</blockquote>
+
+<p>I can see the argument for keeping a personally reprehensible executive who is doing amazing work. I’m not saying I agree with it. I don&#8217;t, actually. I’m just saying I can see the logic. I can’t see the logic in keeping a personally reprehensible executive who would do something as <em>stupid</em> — not just wrong but stupid — as calling a former colleague and telling her to lie to the media if asked.</p>
+
+
+
+    ]]></content>
+  <title>★ Sometimes It Really Is the Cover-Up</title></entry><entry>
+	<title>What Killed Adobe Flash</title>
+	<link rel="alternate" type="text/html" href="https://medium.com/@virg1l/parallel-universes-25366dc2a10b" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvv" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/28/what-killed-adobe-flash" />
+	<id>tag:daringfireball.net,2017:/linked//6.33547</id>
+	<published>2017-03-28T21:49:19Z</published>
+	<updated>2017-03-29T22:38:38Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>&#8220;Virgil&#8221;, responding to <a href="http://daringfireball.net/linked/2017/03/24/fedex-flash">my piece</a> the other day looking back at Steve Jobs&#8217;s &#8220;<a href="http://www.apple.com/hotnews/thoughts-on-flash/">Thoughts on Flash</a>&#8221; open letter:</p>
+
+<blockquote>
+  <p>Impossible to refute. There’s no doubt that this was the beginning
+of the end for Flash, right? Except that this is utterly wrong. I
+worked on Flash, and I worked on the thing that actually killed
+Flash. It is my strong belief, based on what I observed, that
+Steve Jobs’ letter had little impact in the final decision &#8212; it
+was really Adobe who decided to “kill” Flash. Yes, Flash was a bad
+rap for Adobe, and Steve&#8217;s letter didn’t help. But ultimately,
+what was probably decisive was the fact that developing Flash
+costed Adobe a ton of money &#8212; and the world changed in ways that
+made Adobe leadership believe this investment is no longer
+justified. As it is often the case &#8212; “follow the money”, they
+explain things better than any open letter &#8212; even one from a very
+influential person.</p>
+</blockquote>
+
+<p>To be clear, I don&#8217;t think Jobs&#8217;s letter killed Flash. But I don&#8217;t think Adobe did either. Eventually Adobe accepted Flash&#8217;s demise. What killed Flash was Apple&#8217;s decision not to support it on iOS, combined with iOS&#8217;s immense popularity and the lucrative demographics of iOS users. If Jobs had never published &#8220;Thoughts on Flash&#8221;, Flash would still be dead. The letter explained the decision, but the decision that mattered was never to support it on iOS in the first place.</p>
+
+<p>It&#8217;s possible that Flash would have died even if Apple had decided to allow it on iOS. Android tried that, and the results were abysmal. Web page scrolling stuttered, and video playback through Flash Player <a href="http://daringfireball.net/linked/2010/05/24/flash-android-browser">halved battery life</a> compared to non-Flash playback. Android&#8217;s experiment with Flash Player ended quickly, and if Apple had gone down the same path, it likely would have ended quickly there too.</p>
+
+<p>Flash was just a bad fit technically for mobile, and the rise of mobile was inevitable. But Apple was the first player to recognize that.</p>
+
+<div>
+<a  title="Permanent link to ‘What Killed Adobe Flash’"  href="http://daringfireball.net/linked/2017/03/28/what-killed-adobe-flash">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Attributing to Spite What Might Be Attributable to Corporate Lawyers</title>
+	<link rel="alternate" type="text/html" href="https://twitter.com/marcoarment/status/844918589803184129" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvu" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/28/workflow-lawyers" />
+	<id>tag:daringfireball.net,2017:/linked//6.33546</id>
+	<published>2017-03-28T20:07:26Z</published>
+	<updated>2017-03-28T20:17:10Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Apple&#8217;s first post-acquisition update of the iOS automation app Workflow removed (<a href="http://tidbits.com/article/17127">among other things</a>) support for the Google Chrome browser. Immediate reaction from the peanut gallery is that this was competitive spite on Apple&#8217;s part. Maybe! But maybe not &#8212; Marco Arment reports that he was asked a few weeks ago to sign a one-page contract to allow Workflow to interact with Overcast, and speculates quite reasonably that perhaps Google ignored or rejected the same request.</p>
+
+<p>I wouldn&#8217;t bet against Chrome support returning to Workflow now that Google knows what&#8217;s going on.</p>
+
+<div>
+<a  title="Permanent link to ‘Attributing to Spite What Might Be Attributable to Corporate Lawyers’"  href="http://daringfireball.net/linked/2017/03/28/workflow-lawyers">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Before and After Chuck Berry</title>
+	<link rel="alternate" type="text/html" href="https://www.nytimes.com/interactive/2017/03/26/arts/music/before-and-after-chuck-berry-rock-n-roll.html?utm_source=nextdraft&amp;utm_medium=email" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvt" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/28/chuck-berry-before-and-after" />
+	<id>tag:daringfireball.net,2017:/linked//6.33545</id>
+	<published>2017-03-28T19:58:20Z</published>
+	<updated>2017-03-28T19:58:21Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Great collection of audio clips from Guilbert Gates for The New York Times:</p>
+
+<blockquote>
+  <p>Chuck Berry himself would be the first to admit he didn’t invent
+rock ’n’ roll, but he came to define it in a series of iconic
+singles made between 1955 and 1959.</p>
+
+<p>Mr. Berry wrote almost all his hits himself, and he drew from the
+music he loved &#8212; from the blues and boogie to country and
+Calypso. The result was a hybrid sound that, in 1955, was just
+beginning to be called “rock ’n’ roll.”</p>
+
+<p>Here, an audio guide to just a few of his revolutionary songs:
+what came before, and what came after. Listen to the sound of rock
+’n’ roll being made.</p>
+</blockquote>
+
+<p>Perfect example too, of the Times embracing multimedia.</p>
+
+<div>
+<a  title="Permanent link to ‘Before and After Chuck Berry’"  href="http://daringfireball.net/linked/2017/03/28/chuck-berry-before-and-after">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Netflix: The Monster That’s Eating Hollywood</title>
+	<link rel="alternate" type="text/html" href="https://www.wsj.com/articles/netflix-the-monster-thats-eating-hollywood-1490370059" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvs" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/27/netflix" />
+	<id>tag:daringfireball.net,2017:/linked//6.33544</id>
+	<published>2017-03-28T03:56:58Z</published>
+	<updated>2017-03-28T03:56:59Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Joe Flint and Shalini Ramachandran, reporting for The Wall Street Journal:</p>
+
+<blockquote>
+  <p>It is expanding into new genres such as children’s fare, reality
+TV and stand-up comedy specials &#8212; including a $40 million deal
+for two shows by Chris Rock. The shift has unnerved some TV
+networks that had become used to Netflix’s original content being
+focused on scripted dramas and sitcoms.</p>
+
+<p>Netflix’s spending on original and acquired programming this year
+is expected to be more than $6 billion, up from $5 billion last
+year, more than double what Time Warner Inc.’s HBO spends and five
+times as much as 21st Century Fox’s FX or CBS Corp.’s Showtime. It
+spent close to $10 million an episode on “The Crown,” a lavish
+period drama about a young Queen Elizabeth II.</p>
+
+<p>Its shock-and-awe spending &#8212; combined with that of Amazon and
+other new players &#8212; is driving up costs industrywide and creating
+a scarcity of people and equipment.</p>
+</blockquote>
+
+<p>TV network executives five years ago: <em>This is great, we found someone willing to pay us for our back catalog of old crappy TV shows.</em></p>
+
+<p>TV network executives today: <em>Nobody could&#8217;ve seen this coming, this is terrible.</em></p>
+
+<p>(We just watched Dave Chappelle&#8217;s two new stand-up specials for Netflix over the weekend. Fucking hilarious &#8212; highly recommended.)</p>
+
+<div>
+<a  title="Permanent link to ‘Netflix: The Monster That’s Eating Hollywood’"  href="http://daringfireball.net/linked/2017/03/27/netflix">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>iOS 10.3 Switches to the New APFS File System</title>
+	<link rel="alternate" type="text/html" href="https://www.macsparky.com/blog/2017/3/the-new-apfs-file-system" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvr" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/27/apfs-ios-10-3" />
+	<id>tag:daringfireball.net,2017:/linked//6.33543</id>
+	<published>2017-03-28T03:18:07Z</published>
+	<updated>2017-03-28T03:18:09Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>David Sparks:</p>
+
+<blockquote>
+  <p>When Apple first announced this new system, I expected it would be
+years before we saw it on iPhones. The iPhone is the lifeblood of
+Apple and changing filesystems can sometimes cause problems. Now
+here we are less than 12 months after announcement and Apple’s
+installing APFS across all iPhones and iPads.</p>
+
+<p>Following my usual “fire, ready, aim” philosophy about these
+things, I already updated all of my iOS devices and while the
+update took a while (converting a file system is never a fast
+process), everything went just fine and devices are all working
+just like before. Indeed, I&#8217;m writing this post on my updated
+iPad Pro.</p>
+</blockquote>
+
+<p>I upgraded my phone today, and it did seem to me that it took an unusual amount of time. Understandable, considering it was changing the file system. This is one of those things where if it all goes according to plan, normal people will have no idea it happened. But for us nerds, what Apple pulled off today seems almost impossible &#8212; tens of millions of devices are being upgraded to an altogether brand new file system, in place, silently. My sincere congratulations to Apple&#8217;s file system team on a job well done.</p>
+
+<div>
+<a  title="Permanent link to ‘iOS 10.3 Switches to the New APFS File System’"  href="http://daringfireball.net/linked/2017/03/27/apfs-ios-10-3">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>WWDC Registration Is Open</title>
+	<link rel="alternate" type="text/html" href="https://developer.apple.com/wwdc/register/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvq" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/27/wwdc-2017-registration" />
+	<id>tag:daringfireball.net,2017:/linked//6.33542</id>
+	<published>2017-03-28T02:44:42Z</published>
+	<updated>2017-03-28T02:44:45Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Apple:</p>
+
+<blockquote>
+  <p>The opportunity to buy tickets to WWDC 2017 is offered by random
+selection. Register by Friday, March 31 at 10:00 a.m. PDT for
+your chance to join thousands of others coming together to change
+the world.</p>
+</blockquote>
+
+<p>Also, save the date: the live episode of The Talk Show will be held Tuesday evening, June 6, in <a href="http://sanjosetheaters.org/theaters/california-theatre/california-theatre-gallery/">the gorgeous California Theatre</a> right across the street from the McEnery Convention Center. I&#8217;ll post ticketing information soon.</p>
+
+<div>
+<a  title="Permanent link to ‘WWDC Registration Is Open’"  href="http://daringfireball.net/linked/2017/03/27/wwdc-2017-registration">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Uber Executives’ Visit to Seoul ‘Escort Bar’ Resulted in HR Complaint</title>
+	<link rel="alternate" type="text/html" href="https://www.theinformation.com/uber-groups-visit-to-seoul-escort-bar-sparked-hr-complaint" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvp" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/26/uber-seoul" />
+	<id>tag:daringfireball.net,2017:/linked//6.33541</id>
+	<published>2017-03-27T00:41:59Z</published>
+	<updated>2017-03-27T00:42:01Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Amir Efrati, reporting for The Information:</p>
+
+<blockquote>
+  <p>Ms. Holzwarth, who described the bar in vivid detail in an
+interview with The Information, said she and Mr. Kalanick left
+less than an hour after the men in Uber’s group picked some women
+to sit with. She doesn’t know what happened after she left.</p>
+
+<p>Mr. Michael’s call prompted her to discuss her concerns with
+Uber’s top public relations executive Rachel Whetstone and Mr.
+Kalanick, among other people. She described and provided
+correspondence of those conversations for this story.</p>
+
+<p>“I’m not going to lie for them,” she said in an interview with The
+Information this week. In the interview, she described Mr.
+Kalanick as “part of a class of privileged men who have been
+taught they can do whatever they want, and now they can.”</p>
+
+<p>She said she wouldn’t have considered speaking publicly had Mr.
+Michael not attempted to “silence” her.</p>
+</blockquote>
+
+<p>Sounds like this was less like a strip club and more like a brothel:</p>
+
+<blockquote>
+  <p>High-end escort-karaoke bars are fairly common in Seoul, often
+frequented by businessmen, who pick out women to drink with.
+Karaoke is typically a feature of the evening. The men can choose
+to have sex with the women as well. Prostitution is illegal in
+South Korea.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Uber Executives&#8217; Visit to Seoul &#8216;Escort Bar&#8217; Resulted in HR Complaint’"  href="http://daringfireball.net/linked/2017/03/26/uber-seoul">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>HealthFace for Apple Watch</title>
+	<link rel="alternate" type="text/html" href="https://itunes.apple.com/us/app/healthface/id1176374647?ls=1&amp;mt=8&amp;at=11lda8" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvo" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/25/healthface" />
+	<id>tag:daringfireball.net,2017:/linked//6.33540</id>
+	<published>2017-03-25T19:36:47Z</published>
+	<updated>2017-03-25T22:34:22Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>My thanks to Quentin Zervaas &#8212; <a href="http://daringfireball.net/linked/2016/06/03/streaks">remember Streaks</a>? &#8212; for sponsoring this week&#8217;s DF RSS feed to promote HealthFace. HealthFace goes <em>deep</em> on exposing health information as a complication on any Apple Watch face. Any data from HealthKit can be shown, and it&#8217;s easy to configure it to show different data on different watch faces &#8212; you can, say, show your sleep data on the Utility face and your blood pressure on Modular. The interface for configuring the complications is better than Apple&#8217;s.</p>
+
+<p>If you have any interest in displaying your HealthKit data on your Apple Watch, HealthFace is the app for you. And it&#8217;s a great deal &#8212; a one-time purchase of just $1.99.</p>
+
+<div>
+<a  title="Permanent link to ‘HealthFace for Apple Watch’"  href="http://daringfireball.net/linked/2017/03/25/healthface">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Black Screen on a Red iPhone 7</title>
+	<link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=nAzfZ0lQJO0&amp;feature=youtu.be" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvn" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/24/black-and-red" />
+	<id>tag:daringfireball.net,2017:/linked//6.33539</id>
+	<published>2017-03-25T00:54:58Z</published>
+	<updated>2017-03-25T00:55:00Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>I&#8217;m 100 percent convinced this looks better than the white bezel.</p>
+
+<div>
+<a  title="Permanent link to ‘Black Screen on a Red iPhone 7’"  href="http://daringfireball.net/linked/2017/03/24/black-and-red">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>‘Hello, Bob’</title>
+	<link rel="alternate" type="text/html" href="https://www.washingtonpost.com/powerpost/president-trump-called-my-cellphone-to-say-that-the-health-care-bill-was-dead/2017/03/24/8282c3f6-10ce-11e7-9b0d-d27c98455440_story.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvm" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/24/trump-costa" />
+	<id>tag:daringfireball.net,2017:/linked//6.33538</id>
+	<published>2017-03-25T00:32:29Z</published>
+	<updated>2017-03-25T02:33:38Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Washington Post reporter Robert Costa:</p>
+
+<blockquote>
+  <p>President Trump called me on my cellphone Friday afternoon at 3:31
+p.m. At first I thought it was a reader with a complaint since it
+was a blocked number.</p>
+
+<p>Instead, it was the president calling from the Oval Office. His
+voice was even, his tone muted. He did not bury the lead.</p>
+
+<p>“Hello, Bob,” Trump began. “So, we just pulled it.”</p>
+</blockquote>
+
+<p>At a meta level, it&#8217;s fascinating to me that Trump made these phone calls personally. <a href="http://www.nytimes.com/2008/07/26/business/26nocera.html">It reminds me of Steve Jobs&#8217;s phone call to New York Times columnist Joe Nocera</a> back in 2008:</p>
+
+<blockquote>
+  <p>On Thursday afternoon, several hours after I’d gotten my final
+“Steve’s health is a private matter” &#8212; and much to my amazement
+&#8212; Mr. Jobs called me. “This is Steve Jobs,” he began. “You think
+I’m an arrogant [expletive] who thinks he’s above the law, and I
+think you’re a slime bucket who gets most of his facts wrong.”
+After that rather arresting opening, he went on to say that he
+would give me some details about his recent health problems, but
+only if I would agree to keep them off the record. I tried to
+argue him out of it, but he said he wouldn’t talk if I insisted on
+an on-the-record conversation. So I agreed.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘‘Hello, Bob&#8217;’"  href="http://daringfireball.net/linked/2017/03/24/trump-costa">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>‘Repeal and Replace’ Claim Chowder</title>
+	<link rel="alternate" type="text/html" href="https://www.washingtonpost.com/news/politics/wp/2017/03/24/its-true-trump-didnt-pledge-obamacare-repeal-in-64-days-he-pledged-it-in-one/?utm_term=.f2c2d8bc256f&amp;tid=sm_tw" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvl" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/24/repeal-and-replace-claim-chowder" />
+	<id>tag:daringfireball.net,2017:/linked//6.33537</id>
+	<published>2017-03-25T00:22:53Z</published>
+	<updated>2017-03-25T00:22:55Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Philip Bump, reporting for The Washington Post:</p>
+
+<blockquote>
+  <p>“I never said I was going to repeal and replace in the first 61
+days,” he said to Costa with a laugh &#8212; undercounting his time in
+office by a bit. When he offered a public statement a bit later,
+he’d figured out the proper number. [&#8230;]</p>
+
+<p>Trump is correct: At no point in time did he pledge to repeal and
+replace Obamacare in 61 or 64 days. Instead, he pledged to demand
+a repeal on Day One &#8212; even if it took a special session of
+Congress to make it happen. He pledged on several occasions to
+repeal it “immediately.” The message he conveyed to his voters was
+very much not that “this is something we will get to eventually”
+but that this was something that would come first on the agenda.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘&#8216;Repeal and Replace&#8217; Claim Chowder’"  href="http://daringfireball.net/linked/2017/03/24/repeal-and-replace-claim-chowder">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>How Paul Ryan Played Donald Trump</title>
+	<link rel="alternate" type="text/html" href="http://www.vox.com/policy-and-politics/2017/3/24/15039664/paul-ryan-donald-trump-ahca?utm_source=nextdraft&amp;utm_medium=email" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvk" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/24/klein-ryan-trump" />
+	<id>tag:daringfireball.net,2017:/linked//6.33536</id>
+	<published>2017-03-24T22:55:18Z</published>
+	<updated>2017-03-24T23:03:17Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Ezra Klein, writing for Vox:</p>
+
+<blockquote>
+  <p>Donald Trump promised to be a different kind of president. He was
+a populist fighting on behalf of the “forgotten man,” taking on
+the GOP establishment, draining the Washington swamp, protecting
+Medicaid from cuts, vowing to cover everyone with health care and
+make the government pay for it. He was a pragmatic businessman who
+was going to make Washington work for you, the little guy, not the
+ideologues and special interests.</p>
+
+<p>Instead, Trump has become a pitchman for Paul Ryan and his agenda.
+He’s spent the past week fighting for a health care bill he didn’t
+campaign on, didn’t draft, <a href="http://www.vox.com/policy-and-politics/2017/3/17/14961066/donald-trump-gop-health-bill">doesn’t understand</a>, <a href="http://www.politico.com/story/2017/03/trump-health-care-plan-aides-236266">doesn’t like
+to talk about</a>, and <a href="http://www.vox.com/policy-and-politics/2017/3/22/15028278/trumps-weak-closing-argument-on-health-care-and-why-it-matters">can’t defend</a>. Rather than forcing the
+Republican establishment to come around to his principles, he’s
+come around to theirs &#8212; with disastrous results.</p>
+</blockquote>
+
+<p><a href="https://www.nytimes.com/2017/03/23/us/politics/trump-health-care-bill-regrets.html">Here&#8217;s how Trump learned</a> the news that the vote on the AHCA bill had been called off:</p>
+
+<blockquote>
+  <p>In the mid-afternoon, a beaming Mr. Trump climbed into the rig of a
+black tractor-trailer, which had been driven to the White House
+for an event with trucking industry executives, honking the horn
+and posing for a series of tough-guy photos &#8212; one with his fists
+held aloft, another staring straight ahead, hands gripping the
+large wheel, his face compressed into an excited scream.</p>
+
+<p>At a meeting inside shortly afterward, Mr. Trump announced that he
+was pressed for time and needed to go make calls for more votes.</p>
+
+<p>A reporter informed him that the vote had already been called off.</p>
+</blockquote>
+
+<p><a href="https://www.buzzfeed.com/davidmack/vroom-vroom">Here&#8217;s the &#8220;tough guy driving a truck&#8221; pose</a>.</p>
+
+<div>
+<a  title="Permanent link to ‘How Paul Ryan Played Donald Trump’"  href="http://daringfireball.net/linked/2017/03/24/klein-ryan-trump">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>‘Pass the Heinz’</title>
+	<link rel="alternate" type="text/html" href="http://www.adweek.com/creativity/50-years-later-heinz-approves-don-drapers-pass-the-heinz-ads-and-is-actually-running-them/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvj" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/24/pass-the-heinz" />
+	<id>tag:daringfireball.net,2017:/linked//6.33535</id>
+	<published>2017-03-24T22:37:24Z</published>
+	<updated>2017-03-24T23:42:31Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Brilliant. Heinz is actually running ads from Don Draper&#8217;s rejected ketchup campaign from <em>Mad Men</em>:</p>
+
+<blockquote>
+  <p>Fifty years ago, in the fictional world of Mad Men, Don Draper
+pitched a daring ad campaign to Heinz execs, for the brand’s
+ketchup, that proposed not showing the product at all. Instead,
+the ads would show close-ups of foods that go great with ketchup
+&#8212; french fries, a cheeseburger, a slice of steak &#8212; but without
+any ketchup in sight.</p>
+
+<p>Don’s proposed tagline: “Pass the Heinz.”</p>
+</blockquote>
+
+<p>They&#8217;re great ads, and this is a great gimmick.</p>
+
+<p>(<a href="http://kottke.org/17/03/heinz-ketchup-is-actually-running-ads-created-by-mad-mens-don-draper">Via Kottke</a>.)</p>
+
+<div>
+<a  title="Permanent link to ‘‘Pass the Heinz&#8217;’"  href="http://daringfireball.net/linked/2017/03/24/pass-the-heinz">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>FedEx Offers Customers $5 for the Inconvenience of Requiring Adobe Flash</title>
+	<link rel="alternate" type="text/html" href="https://www.axios.com/fedex-offers-customers-5-for-the-inconvenience-of-requiring-adobe-flas-2328325227.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvi" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/24/fedex-flash" />
+	<id>tag:daringfireball.net,2017:/linked//6.33534</id>
+	<published>2017-03-24T22:01:23Z</published>
+	<updated>2017-03-24T22:44:32Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Ina Fried, writing for Axios:</p>
+
+<blockquote>
+  <p>Adobe Flash has been on the ropes since Steve Jobs <a href="http://www.apple.com/hotnews/thoughts-on-flash/">went on his
+famous tirade 7 years ago</a>, but that doesn&#8217;t mean some sites don&#8217;t
+still require it.</p>
+
+<p>For its part, FedEx is <a href="http://www.fedex.com/us/office/no-flash.html">apologizing to customers and offering $5
+discount</a> for the fact that printing labels online still requires
+the browser plug-in.</p>
+</blockquote>
+
+<p>FedEx needs to get its shit together. This is pathetic.</p>
+
+<p>Also, &#8220;tirade&#8221; is a terrible description of Steve Jobs&#8217;s &#8220;<a href="http://www.apple.com/hotnews/thoughts-on-flash/">Thoughts on Flash</a>&#8221;. The dictionary defines <em>tirade</em> as &#8220;a long, angry speech of criticism or accusation&#8221;. Go ahead and re-read Jobs&#8217;s essay. There&#8217;s not a single angry word in it. What made it so devastating is that it <em>wasn&#8217;t</em> angry. It was calm, cool, collected, and true.</p>
+
+<p>If it had been an angry rant, it would have been easily dismissed without needing to be factually refuted &#8212; &#8220;<em>That&#8217;s just Jobs being a prick again.</em>&#8221; The fact that it wasn&#8217;t angry, and because it was all true, made it impossible to refute.</p>
+
+<p>(<a href="http://nextdraft.com/archives/n20170324/">Via Dave Pell&#8217;s NextDraft</a>.)</p>
+
+<div>
+<a  title="Permanent link to ‘FedEx Offers Customers $5 for the Inconvenience of Requiring Adobe Flash’"  href="http://daringfireball.net/linked/2017/03/24/fedex-flash">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Treasury Secretary Steve Mnuchin Has a Shitty Radar</title>
+	<link rel="alternate" type="text/html" href="https://www.axios.com/tech-reacts-to-mnuchins-dismissal-of-ai-impact-on-jobs-2328061287.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvh" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/24/mnuchin-radar" />
+	<id>tag:daringfireball.net,2017:/linked//6.33533</id>
+	<published>2017-03-24T21:52:43Z</published>
+	<updated>2017-03-24T21:53:21Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Kim Hart, Axios:</p>
+
+<blockquote>
+  <p>Treasury Secretary Steve Mnuchin riled the tech community this
+morning when <a href="https://www.axios.com/treasury-secretary-mnuchin-interviews-with-axios-live-updates-2327865447.html">he told Axios&#8217;s Mike Allen</a> that displacement of jobs
+by artificial intelligence and automation is &#8220;not even on my radar
+screen&#8221; because the technology is &#8220;50-100 more years&#8221; away.
+Mnuchin also said he is &#8220;not worried at all&#8221; about robots
+displacing humans in the near future. &#8220;In fact, I&#8217;m optimistic.&#8221;</p>
+</blockquote>
+
+<p><a href="http://money.cnn.com/2017/03/24/technology/robots-jobs-us-workers-uk/index.html">Report issued today from PricewaterhouseCoopers</a>:</p>
+
+<blockquote>
+  <p>Millions of workers around the world are at risk of losing their
+jobs to robots &#8212; but Americans should be particularly worried. 38
+percent of jobs in the U.S. are at high risk of being replaced by
+robots and artificial intelligence over the next 15 years,
+according to a new report by PwC.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Treasury Secretary Steve Mnuchin Has a Shitty Radar’"  href="http://daringfireball.net/linked/2017/03/24/mnuchin-radar">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>4-Year-Old Boy in U.K. Saved His Mother’s Life Using Siri</title>
+	<link rel="alternate" type="text/html" href="https://www.buzzfeed.com/victoriasanusi/a-four-year-old-boy-saved-his-mothers-life-using?utm_term=.lcg6ex8mKZ#.ipbgAVQlZW" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvg" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/23/siri-4-year-old" />
+	<id>tag:daringfireball.net,2017:/linked//6.33532</id>
+	<published>2017-03-24T01:12:14Z</published>
+	<updated>2017-03-24T01:19:25Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>From the 999 transcript:</p>
+
+<blockquote>
+  <p>Operator: Hello, this is the police. What is your emergency?</p>
+
+<p>Roman: Hello, I&#8217;m Roman.</p>
+
+<p>O: Where&#8217;s your mummy?</p>
+
+<p>R: She&#8217;s at home.</p>
+
+<p>O: Where are you? </p>
+
+<p>R: At home as well.</p>
+
+<p>O: Can you do me a favour? Can you go and get mummy?</p>
+
+<p>R: We can&#8217;t, she&#8217;s dead. </p>
+
+<p>O: You said mummy was there – what do you mean she&#8217;s dead? </p>
+
+<p>R: It means that she&#8217;s closing her eyes and she&#8217;s not breathing.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘4-Year-Old Boy in U.K. Saved His Mother&#8217;s Life Using Siri’"  href="http://daringfireball.net/linked/2017/03/23/siri-4-year-old">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Apple Acquires Workflow</title>
+	<link rel="alternate" type="text/html" href="https://techcrunch.com/2017/03/22/apple-has-acquired-workflow-a-powerful-automation-tool-for-ipad-and-iphone/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvd" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/22/apple-workflow" />
+	<id>tag:daringfireball.net,2017:/linked//6.33529</id>
+	<published>2017-03-23T03:00:00Z</published>
+	<updated>2017-03-23T03:10:09Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Whoa, huge news for iOS nerds. Matthew Panzarino has the scoop:</p>
+
+<blockquote>
+  <p>Workflow has been around for a couple of years and we’ve covered
+it and its updates. It shares some similarity with the service
+IFTTT, in that it allows people to group together a bunch of
+actions that can allow them to perform complicated tasks with one
+tap. It had built up a sizeable number of users and downloads over
+the past few years.</p>
+
+<p>Workflow the app is being acquired, along with the team of
+Weinstein, Conrad Kramer and Nick Frey. In a somewhat uncommon
+move for Apple, the app will continue to be made available on the
+App Store and will be made free later today.</p>
+</blockquote>
+
+<p>This certainly provides ammunition against the argument that Apple no longer cares about power users. For me this is Apple&#8217;s most intriguing and exciting acquisition in years.</p>
+
+<p>Personally, Workflow never really clicked for me, but I&#8217;ve been meaning to give it another try. The problem for me isn&#8217;t Workflow itself, but iOS. MacOS, at a conceptual level, matches the way my brain works for nerdy custom automation stuff &#8212; I just <em>get</em> Unix shell scripting languages, AppleScript-able Mac apps, and NeXTstep&#8217;s brilliant system-wide Services menu. Doing things the iOS way via Workflow looks cool, but whenever it comes down to it, it always feels easier to me to just wait until I&#8217;m at a Mac and create it there.</p>
+
+<p>But one of the things that has always impressed me, and which has paid off for them in the end, is that Workflow stayed true to the platform. Workflow was designed from the ground up as a true and native iOS service. It is one of the most <em>iOS-y</em> pieces of software ever created. They took the severe limits of inter-application communication on iOS and <em>embraced</em> them.</p>
+
+<div>
+<a  title="Permanent link to ‘Apple Acquires Workflow’"  href="http://daringfireball.net/linked/2017/03/22/apple-workflow">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Gizmodo: ‘Samsung’s New iPad Pro Is Just Fantastic’</title>
+	<link rel="alternate" type="text/html" href="http://gizmodo.com/samsungs-new-ipad-pro-is-just-fantastic-1793506966" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvf" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/22/cranz-samsung-tablet-gizmodo" />
+	<id>tag:daringfireball.net,2017:/linked//6.33531</id>
+	<published>2017-03-23T01:07:00Z</published>
+	<updated>2017-03-23T01:07:02Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Alex Cranz, Gizmodo:</p>
+
+<blockquote>
+  <p>Coming a year after the launch of Apple’s first 9.7-inch iPad Pro,
+the new iteration from Samsung feels daring. While it has the same
+sleek lines, is just as light, and possesses the magnetic
+connection on one side for easy keyboard cover attachment,
+Samsung’s iPad Pro for 2017 is, inexplicably called the Galaxy Tab
+S3, and unlike previous iPads this one runs on Android.</p>
+</blockquote>
+
+<p>Samsung is so stupid with their insistence on printing their ugly logo on the front face of any device where it&#8217;ll fit. You&#8217;re obviously supposed to use this tablet in landscape orientation any time it&#8217;s connected to the keyboard case, or any time you watch a video. For many users, that might be the majority of their time using the device. And when the device is in landscape, the logo is oriented wrong. That&#8217;s just plain stupid.</p>
+
+<p>And look at their asymmetrical copy of the iPad&#8217;s Smart Connector. Says everything you need to know about Samsung&#8217;s care for the little details.</p>
+
+<div>
+<a  title="Permanent link to ‘Gizmodo: &#8216;Samsung&#8217;s New iPad Pro Is Just Fantastic&#8217;’"  href="http://daringfireball.net/linked/2017/03/22/cranz-samsung-tablet-gizmodo">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The Talk Show: ‘Hubbo Is in Decline’</title>
+	<link rel="alternate" type="text/html" href="http://daringfireball.net/thetalkshow/2017/03/22/ep-184" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pve" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/22/the-talk-show-184" />
+	<id>tag:daringfireball.net,2017:/linked//6.33530</id>
+	<published>2017-03-23T00:57:23Z</published>
+	<updated>2017-03-23T07:12:20Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>New episode. Special guest Merlin Mann. Enjoy.</p>
+
+<p>Brought to you by:</p>
+
+<ul>
+<li><a href="http://eero.com/">Eero</a>: Finally, Wi-Fi, that works.</li>
+<li><a href="http://awaytravel.com/talkshow">Away</a>: High quality luggage with built-in USB chargers. Save $20 with promo code <strong>talkshow</strong>.</li>
+<li><a href="https://www.fractureme.com/podcast">Fracture</a>: Now through the end of March, save 20% on Fracture prints with promo code <strong>CLEAN</strong>. Order now for Mothers Day.</li>
+<li><a href="http://warbyparker.com/thetalkshow">Warby Parker</a>: Boutique-quality, vintage-inspired glasses at a revolutionary price. Try up to five pairs at home for free.</li>
+</ul>
+
+<div>
+<a  title="Permanent link to ‘The Talk Show: &#8216;Hubbo Is in Decline&#8217;’"  href="http://daringfireball.net/linked/2017/03/22/the-talk-show-184">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Quick Thoughts on Today’s New Apple Stuff</title>
+	<link rel="alternate" type="text/html" href="http://www.apple.com/newsroom/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pvb" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/21/new-apple-stuff" />
+	<id>tag:daringfireball.net,2017:/linked//6.33527</id>
+	<published>2017-03-21T19:56:54Z</published>
+	<updated>2017-03-21T23:19:00Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<ul>
+<li><p><a href="http://www.apple.com/newsroom/2017/03/apple-introduces-iphone-7-and-iphone-7-plus-productred-special-edition.html">Product Red Special Edition iPhone 7 and 7 Plus</a>: Looks cool. But I think I&#8217;d rather see it with a black face.</p></li>
+<li><p><a href="http://www.apple.com/newsroom/2017/03/new-9-7-inch-ipad-features-stunning-retina-display-and-incredible-performance.html">New 9.7-inch just-plain &#8220;iPad&#8221;</a>: Looks like the supply chain rumor mill was almost entirely wrong about new iPads. No new iPad Pro hardware at all. Just a no-adjective 9.7-inch &#8220;iPad&#8221; to replace the iPad Air 2. It&#8217;s a nice update for the budget-conscious: the new iPad has a brighter screen and an A9 instead of an A8 chip, and costs $70 less. <a href="http://daringfireball.net/linked/2016/04/14/march-air">As predicted</a>, Apple is clearly putting the &#8220;Air&#8221; brand out to pasture.</p></li>
+<li><p><a href="http://www.apple.com/newsroom/2017/03/apple-introduces-clips-the-fun-new-way-to-create-expressive-videos-on-ios.html">Clips</a>: Looks cool, especially the part about dictating the titles verbally. But it doesn&#8217;t ship until April.</p></li>
+<li><p><a href="http://www.apple.com/newsroom/2017/03/apple-watch-band-offerings-expand-for-spring-2017.html">New Apple Watch Bands</a>: None of these colors speak to me, personally, but I will say that comfort-wise, Apple&#8217;s nylon bands are my favorite.</p></li>
+<li><p><strong>Update:</strong> Also, the iPhone SE storage tiers have been <a href="http://www.apple.com/iphone/compare/">bumped from 16/64 to 32/128 GB</a>. That means Apple is no longer selling any 16 GB iPhones (<a href="http://www.apple.com/ipad/compare/">or iPads for that matter</a>).</p></li>
+</ul>
+
+<p>(A thought about the missing updates to the iPad Pro lineup: it seems like the supply chain leaks are mostly related to displays. A 10.5-inch display would necessarily require a new hardware design, because that&#8217;s a new display size for iPads. But what if the next update to the 12.9-inch iPad Pro <em>also</em> sports a new smaller-bezel design? Same display size as the current big iPad Pro, but a smaller footprint? When Apple makes multiple sizes of the same device family, they generally look as similar as possible other than the difference in size. It would be weird if, later this year, Apple released two new iPad Pros, but only one of them sported a new edge-to-edge display.)</p>
+
+<div>
+<a  title="Permanent link to ‘Quick Thoughts on Today&#8217;s New Apple Stuff’"  href="http://daringfireball.net/linked/2017/03/21/new-apple-stuff">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Disability in the Age of Trump</title>
+	<link rel="alternate" type="text/html" href="https://thenib.com/disability-in-the-age-of-trump" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pva" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/21/amanda-scurti-comic" />
+	<id>tag:daringfireball.net,2017:/linked//6.33526</id>
+	<published>2017-03-21T19:18:41Z</published>
+	<updated>2017-03-21T19:18:43Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Beautiful, moving comic by Amanda Scurti.</p>
+
+<div>
+<a  title="Permanent link to ‘Disability in the Age of Trump’"  href="http://daringfireball.net/linked/2017/03/21/amanda-scurti-comic">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Guetzli: A New Open Source JPEG Encoder From Google</title>
+	<link rel="alternate" type="text/html" href="https://research.googleblog.com/2017/03/announcing-guetzli-new-open-source-jpeg.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pv9" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/20/guetzli" />
+	<id>tag:daringfireball.net,2017:/linked//6.33525</id>
+	<published>2017-03-21T03:44:26Z</published>
+	<updated>2017-03-21T03:44:27Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Robert Obryk and Jyrki Alakuijala, of Google Research Europe:</p>
+
+<blockquote>
+  <p>At Google, we care about giving users the best possible online
+experience, both through our own services and products and by
+contributing new tools and industry standards for use by the
+online community. That’s why we’re excited to announce
+<a href="https://github.com/google/guetzli/">Guetzli</a>, a <a href="http://arxiv.org/abs/1703.04421">new open source algorithm</a> that creates high
+quality JPEG images with file sizes 35% smaller than currently
+available methods, enabling webmasters to create webpages that can
+load faster and use even less data.</p>
+
+<p>Guetzli [guɛtsli] &#8212; <em>cookie</em> in Swiss German &#8212; is a JPEG encoder
+for digital images and web graphics that can enable faster online
+experiences by producing smaller JPEG files while still
+maintaining compatibility with existing browsers, image processing
+applications and the JPEG standard. [&#8230;]</p>
+
+<p>And while Guetzli produces smaller image file sizes without
+sacrificing quality, we additionally found that in experiments
+where compressed image file sizes are kept constant that human
+raters consistently preferred the images Guetzli produced over
+libjpeg images, even when the libjpeg files were the same size or
+even slightly larger. We think this makes the slower compression a
+worthy tradeoff.</p>
+</blockquote>
+
+<p>They&#8217;re not exaggerating. I installed Guetzli (via <a href="http://brew.sh/">Homebrew</a>) and it produces JPEGs that are about one-third smaller and yet look the same to my eyes. It&#8217;s a significant breakthrough for such a venerable image format.</p>
+
+<p>There is, of course, a catch. Image processing is <em>really</em> slow. It takes about 8 minutes for Guetzli to process a single iPhone camera image on my 5K iMac. That doesn&#8217;t mean Guetzli isn&#8217;t useful &#8212; it just isn&#8217;t useful in a user-facing context. If I ran a site that published photos, I&#8217;d hook it up in the background on the server hosting my images.</p>
+
+<div>
+<a  title="Permanent link to ‘Guetzli: A New Open Source JPEG Encoder From Google’"  href="http://daringfireball.net/linked/2017/03/20/guetzli">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Charlie Warzel Profiles Techmeme’s Gabe Rivera</title>
+	<link rel="alternate" type="text/html" href="https://www.buzzfeed.com/charliewarzel/meet-the-man-who-shapes-techs-narrative?utm_term=.iadgmjE9Z#.qfAMmx3Yk" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pv8" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/20/warzel-rivera-techmeme" />
+	<id>tag:daringfireball.net,2017:/linked//6.33524</id>
+	<published>2017-03-21T01:38:53Z</published>
+	<updated>2017-03-21T03:45:17Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Charlie Warzel, writing for BuzzFeed:</p>
+
+<blockquote>
+  <p>Techmeme, then, wields tremendous power over a tremendously
+powerful group of people. And as its founder, Rivera has been
+quietly defining Silicon Valley’s narrative for the industry’s
+power brokers for more than a decade. But Rivera is uncomfortable
+&#8212; or unwilling &#8212; to reckon with how his influence has affected
+one of the most important and powerful industries in the world.
+The result is that Rivera can cast himself both as a gimlet-eyed
+insider with a powerful readership and as a mostly anonymous
+entrepreneur running a niche link blog from the comfort of his
+home. It’s a convenient cognitive dissonance.</p>
+</blockquote>
+
+<p>I visit Techmeme once or twice on typical workdays. But I find it essential  when I&#8217;m on vacation or otherwise offline for large stretches of time &#8212; it&#8217;s a great way to quickly check whether anything happened I need to know about. Nothing else like it.</p>
+
+<div>
+<a  title="Permanent link to ‘Charlie Warzel Profiles Techmeme&#8217;s Gabe Rivera’"  href="http://daringfireball.net/linked/2017/03/20/warzel-rivera-techmeme">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Pixure 2.2 and PanelKit</title>
+	<link rel="alternate" type="text/html" href="https://itunes.apple.com/us/app/pixure-professional-pixel-art-studio/id893400841?mt=8" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pv7" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/20/pixure-panelkit" />
+	<id>tag:daringfireball.net,2017:/linked//6.33523</id>
+	<published>2017-03-21T00:54:16Z</published>
+	<updated>2017-03-21T03:43:36Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Pixure is Louis D’hauwe&#8217;s excellent pixel art app for iPad and iPhone. It&#8217;s a terrific app. You might want to check out the latest version even if you aren&#8217;t interested in creating pixel art, though &#8212; it&#8217;s the first version using D’hauwe&#8217;s own open source PanelKit framework. PanelKit allows apps to turn popovers into draggable panels, and allows for them to be pinned into place as stay-open sidebars. It <a href="https://twitter.com/gruber/status/833854262035767297">caught my eye</a> a few weeks ago on Twitter, and now that I can play with it in an actual app, I&#8217;m even more impressed with the ingenuity.</p>
+
+<p><strong>Update:</strong> Reminds me of <a href="https://orangejuiceliberationfront.com/the-menu-must-die/">the tear-off menus</a> in MacPaint, Hypercard, and NeXTstep.</p>
+
+<div>
+<a  title="Permanent link to ‘Pixure 2.2 and PanelKit’"  href="http://daringfireball.net/linked/2017/03/20/pixure-panelkit">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Anthony Bourdain Does Not Want to Owe Anybody Even a Single Dollar</title>
+	<link rel="alternate" type="text/html" href="https://www.wealthsimple.com/en-us/magazine/money-diary-anthony-bourdain" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pv6" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/20/bourdain-money" />
+	<id>tag:daringfireball.net,2017:/linked//6.33522</id>
+	<published>2017-03-20T22:57:50Z</published>
+	<updated>2017-03-20T22:57:51Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Anthony Bourdain, on his approach to personal finance after having not filed taxes for 10 years and running up credit card debt that he ignored until he was 44:</p>
+
+<blockquote>
+  <p>That was really the first time I started thinking about saving
+money. About not finding myself in that terrifying space, that
+uncertainty that goes back to childhood. Will the car get fixed?
+Will we be able to pay for tuition? In very short order, I
+contacted the IRS and I paid what I owed. I paid American Express.
+Since that time, I am fanatical about not owing anybody any money.
+I hate it. I don’t want to carry a balance, ever. I have a
+mortgage, but I despise the idea. That was my biggest objection to
+buying property, though I wasn’t in the position to pay cash.</p>
+
+<p>The reports of my net worth are about ten times overstated. I
+think the people who calculate these things assume that I live a
+lot more sensibly than I do. I mean, I don’t live recklessly &#8212; I
+have one car. But I don’t deprive myself simple pleasures. I’m not
+a haggler. There’s not enough time in the world. I tend to go for
+the quickest, easiest, what’s comfortable. I want it now. Time’s
+running out.</p>
+</blockquote>
+
+<p>(<a href="https://twitter.com/kottke/status/843869760387399680">Via Kottke</a>.)</p>
+
+<div>
+<a  title="Permanent link to ‘Anthony Bourdain Does Not Want to Owe Anybody Even a Single Dollar’"  href="http://daringfireball.net/linked/2017/03/20/bourdain-money">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>‘There’s a Smell of Treason in the Air’</title>
+	<link rel="alternate" type="text/html" href="https://www.washingtonpost.com/politics/president-trump-faces-his-hardest-truth-he-was-wrong/2017/03/20/af9cabfc-0d83-11e7-9b0d-d27c98455440_story.html?utm_term=.9ec0f794aa47" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pv5" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/20/comey-trump" />
+	<id>tag:daringfireball.net,2017:/linked//6.33521</id>
+	<published>2017-03-20T22:50:58Z</published>
+	<updated>2017-03-20T22:51:00Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Philip Rucker and Ashley Parker, reporting for The Washington Post:</p>
+
+<blockquote>
+  <p>But in Monday’s remarkable, marathon hearing of the House
+Permanent Select Committee on Intelligence, Comey said there was
+no such evidence. Trump’s claim, first made in a series of tweets
+on March 4 at a moment when associates said he was feeling under
+siege and stewing over the struggles of his young presidency,
+remains unfounded.</p>
+
+<p>Comey did not stop there. He confirmed publicly that the FBI was
+investigating possible collusion between Trump campaign officials
+and associates with Russia, part of an extraordinary effort by an
+adversary to influence the outcome of the 2016 U.S. election in
+Trump’s favor.</p>
+
+<p>Questions about Russia have hung over Trump for months, but the
+president always has dismissed them as “fake news.” That became
+much harder Monday after the FBI director proclaimed the Russia
+probe to be anything but fake.</p>
+
+<p>“There’s a smell of treason in the air,” presidential historian
+Douglas Brinkley said. “Imagine if J. Edgar Hoover or any other
+FBI director would have testified against a sitting president? It
+would have been a mind-boggling event.”</p>
+</blockquote>
+
+<p>As is our current predicament.</p>
+
+<div>
+<a  title="Permanent link to ‘&#8216;There’s a Smell of Treason in the Air&#8217;’"  href="http://daringfireball.net/linked/2017/03/20/comey-trump">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Leaked Images of Samsung Galaxy S8 From Evan Blass</title>
+	<link rel="alternate" type="text/html" href="https://twitter.com/evleaks/status/843424632254468096" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pv4" />
+	<link rel="related" type="text/html" href="http://daringfireball.net/linked/2017/03/20/galaxy-s8-images" />
+	<id>tag:daringfireball.net,2017:/linked//6.33520</id>
+	<published>2017-03-20T22:06:44Z</published>
+	<updated>2017-03-20T22:06:47Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="http://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Looks like Samsung is beating Apple to the &#8220;hardly any chin or forehead&#8221; punch. The top and bottom have bezels, but they&#8217;re so small Samsung couldn&#8217;t print their ugly logo on the front, finally moving past one of the worst aspects of every other Samsung phone to date.</p>
+
+<p>Are they really going to call the bigger model the &#8220;Plus&#8221;? They&#8217;re really going to rip off Apple&#8217;s naming?</p>
+
+<div>
+<a  title="Permanent link to ‘Leaked Images of Samsung Galaxy S8 From Evan Blass’"  href="http://daringfireball.net/linked/2017/03/20/galaxy-s8-images">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+    
+    <link rel="alternate" type="text/html" href="http://daringfireball.net/2017/03/about_that_10_point_5_inch_ipad" />
+	<link rel="shorturl" href="http://df4.us/pv3" />
+	<id>tag:daringfireball.net,2017://1.33519</id>
+	<published>2017-03-20T19:52:26Z</published>
+	<updated>2017-03-21T22:28:32Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+<summary type="html"><![CDATA[<p>Applying Occam&#8217;s razor to these rumors, I think the most likely explanation is that Apple <em>is</em> working on a new edge-to-edge design iPad with a 10.5-inch display, but that it&#8217;s a 2018 thing, not a 2017 thing.</p>
+]]></summary>
+	<content type="html" xml:base="http://daringfireball.net/" xml:lang="en"><![CDATA[
+<p><a href="http://www.businessinsider.com/2017-ipad-109-inch-screen-smaller-bezels-launch-in-march-barclays-2016-11">Business Insider, back in November</a>:</p>
+
+<blockquote>
+  <p>Apple is preparing new iPads for a launch in March, Barclays
+analysts Blayne Curtis and Christopher Hemmelgarn wrote in a note
+distributed to clients on Friday. The analysts cite supply chain
+sources spoken to during a trip to Asia.</p>
+
+<p>&#8220;New iPads in March &#8212; Bezel-less [like the upcoming iPhone] &#8212; We
+expect the 9.7-inch to move to a low-cost model, a refresh of the
+12.9-inch pro and a new 10.9-inch, which is likely the same
+physical size as the 9.7-inch but with a borderless screen,&#8221; the
+analysts wrote.</p>
+
+<p>A March iPad launch lines up with predictions <a href="http://www.businessinsider.com/ming-chi-kuo-2018-ipad-predictions-and-105-inch-ipad-2016-8">previously made by
+KGI Securities analyst Ming-Chi Kuo</a>. He predicted a
+10.5-inch iPad next year, along with a low-cost 9.7-inch iPad.</p>
+</blockquote>
+
+<p>Japanese website <a href="http://www.macotakara.jp/blog/rumor/entry-31938.html">Mac Otakara, a month ago</a>:</p>
+
+<blockquote>
+  <p>Last time, the Barclays analyst predicted the <a href="http://www.macotakara.jp/blog/rumor/entry-31339.html">announcement</a> of
+the addition of bezel less iPad Pro (10.5 inch) model in the next
+iPad Pro series at the end of March 2017.</p>
+
+<p>Also, the shipping of the iPad Pro 2 (12.9-inch), iPad Pro 2
+(9.7-inch), iPad Pro (7.9-inch) at the end of March, and the iPad
+Pro (10.5-inch) in May were also expected as a possibility.</p>
+</blockquote>
+
+<p>New iPad Pro &#8220;2&#8221; models at the existing sizes make sense to me &#8212; iPads that look very similar (or even identical) to the existing 9.7- and 12.9-inch iPad Pros but with updated internals (A10X chips, better cameras, etc.). The 9.7-inch iPad Pro is a year old, and the 12.9-inch model is almost a year and a half old.</p>
+
+<p>An updated iPad Mini would make sense too. Right now the high-end iPad Mini is the iPad Mini 4, with an A8 chip. In the past, Apple has generally updated the iPad Mini models with internals from the year-ago flagship 9.7-inch models. That would suggest a new Mini with an A9 chip and perhaps support for Apple Pencil. Maybe they&#8217;d call it &#8220;iPad Mini Pro&#8221;. Or maybe just &#8220;iPad Pro&#8221; &#8212; the 9.7- and 12.9-inch models don&#8217;t have different names. Or maybe nothing at all &#8212; it wouldn&#8217;t surprise me if Apple has no imminent updates for the iPad Mini.</p>
+
+<p>What doesn&#8217;t make sense to me is a new 10.5-inch model. The <em>idea</em> makes sense &#8212; keeping the physical footprint of the current 9.7-inch models but reducing the bezels and putting in a bigger display. The ideal form factor for iPads and iPhones is just a screen, like <a href="https://www.flickr.com/photos/shozen/8330191869">the phones</a> in <a href="https://www.youtube.com/watch?v=6I9MsT7juTM">Rian Johnson&#8217;s <em>Looper</em></a> &#8212; reducing the size of bezels and moving toward edge-to-edge displays is inevitable. Even the pixel density math <a href="https://blog.studioneat.com/why-would-apple-release-a-10-5-ipad-ca4441f7f628">works out</a> for a 10.5-inch display.</p>
+
+<p>What doesn&#8217;t make sense to me is the timing. I don&#8217;t see how an iPad with an exciting new design could debut alongside <em>updated</em> versions of the existing 9.7-inch and 12.9-inch iPads. Who would buy the updated 9.7-inch iPad Pro with the traditional bezels if there&#8217;s a 10.5-inch model without bezels? No one.</p>
+
+<p>The report from the Barclays analysts back in November tries to make sense of it thus: &#8220;We expect the 9.7-inch to move to a low-cost model&#8221;. The idea would be that the new design takes over as the high-end model with the standard footprint, and the 9.7-inch models with the old form factor move down the lineup to the mid-priced tier. But that doesn&#8217;t square with the rampant rumors that Apple is preparing an <em>update</em> to the 9.7-inch iPad Pro. If Apple were going to replace the bezeled 9.7-inch design with an edge-to-edge 10.5-inch design, they would just lower the price of the current iPad Pro, without changing the hardware. That&#8217;s what they&#8217;ve done every single time they&#8217;ve introduced new iPads in recent years &#8212; the new models keep the same prices as the old ones, and the old ones move down the lineup with lower prices.</p>
+
+<p>That still doesn&#8217;t make sense to me though. Why would Apple update the standard-sized iPad Pro to a new edge-to-edge design but keep the existing design for the more expensive 12.9-inch iPad? The new 12.9-inch iPad Pro would look dated on day one. Mac Otakara&#8217;s speculation that the new 10.5-inch iPad might not ship until May (with the updated 9.7- and 12.9-inch models shipping in March) doesn&#8217;t help with the logic, either. If Apple announces all these new iPads at the same time, you have the same problems mentioned above. If they release the updated 9.7- and 12.9-inch models in March, but keep the new 10.5-inch model under wraps until May, anyone who buys one of the updated 9.7-inch models in the interim is going to be justifiably outraged.</p>
+
+<p>Applying Occam&#8217;s razor to these rumors, I think the most likely explanation is that Apple <em>is</em> working on a new edge-to-edge design iPad with a 10.5-inch display, but that it&#8217;s a 2018 thing, not a 2017 thing. Or, at the very earliest, a late 2017 thing &#8212; something they could unveil in October. If that&#8217;s the case, almost everything makes sense:</p>
+
+<ul>
+<li>Updated 9.7- and 12.9-inch iPad Pros debut later this month or early in April, possibly in low-key fashion.</li>
+<li>New iPhones debut in September, including a <a href="https://www.macrumors.com/roundup/iphone-8/">much-speculated-upon new model</a> with an all-new edge-to-edge design made possible in part by a flexible OLED display.</li>
+<li>Next year&#8217;s new iPads inherit the edge-to-edge-display/reduced-bezels design language and OLED technology of the new iPhone. Among all the other aforementioned things that don&#8217;t make sense regarding the rumor that a 10.5-inch iPad is imminent is the idea that the new design language would debut on an iPad, not an iPhone.</li>
+</ul>
+
+<p>[<strong>A brief interpolation regarding the rumors about a new iPhone with an exciting new edge-to-edge design debuting this September:</strong> There are also rumors about updated iPhones with the existing 4.7- and 5.5-inch displays. If all of this is true, then I would expect that the updates to the 4.7- and 5.5-inch iPhones will be rather pedestrian. The &#8220;S&#8221; models over the years have typically introduced major new component improvements. For the same reason that it makes no sense for Apple to introduce a flashy new edge-to-edge 10.5-inch iPad alongside major updates to the existing iPads, it would make no sense to introduce a flashy new edge-to-edge iPhone alongside <em>major</em> updates to the existing iPhones. If there is a flashy new edge-to-edge iPhone design, what would make sense for updated 4.7- and 5.5-inch iPhones would be something very much akin to the iPhone SE &#8212; minor component updates and a clear position in the product lineup at a tier <em>beneath</em> the new edge-to-edge flagship model. (I also find it interesting that there are only rumors of a single new iPhone with the new edge-to-edge display &#8212; if true, that says to me that Apple is going back to a &#8220;one size fits all&#8221; lineup at the flagship tier. They&#8217;ve had record-breaking success with the &#8220;two sizes&#8221; strategy, but it might make sense to go back to one size if they can fit a 5.x-inch display and a larger battery into a form factor roughly the size of the current 4.7-inch models.)</p>
+
+<p>There&#8217;s one other way this rumor of both a new edge-to-edge design iPhone <em>and</em> updates to the existing 4.7- and 5.5-inch iPhone makes sense to me: if (a) the new 4.7- and 5.5-inch models are traditional &#8220;S&#8221; updates, with significant component improvements and the same price points as the current iPhone 7 and 7 Plus; and (b) the iPhone with the new edge-to-edge design has a significantly higher price than the iPhone 7S and 7S Plus. And indeed, <a href="https://www.google.com/search?q=iphone%208%20%241000">rumors suggest</a> it might have a starting price of $1,000 or higher. On paper that sounds like something Apple might do &#8212; Tim Cook would love to see the iPhone&#8217;s average selling price go up. But in practice I see the same product marketing problems as with the idea that a new edge-to-edge iPad might debut alongside major updates to the existing iPad Pros. The new iPhone 7S and 7S Plus would look dated on day one. That&#8217;s not a problem if they&#8217;re slotted into a mid-level pricing tier, but it is if they&#8217;re priced at $800-900. Yes, Apple has done something like this with Apple Watch Edition, but the Edition watches only use different materials. The Edition models don&#8217;t make the regular Apple Watches look stale; the purported edge-to-edge iPhone would do just that to the existing models. <strong>End interpolation.</strong>]</p>
+
+<p>There&#8217;s even some evidence for this schedule of events &#8212; updates to the existing 9.7- and 12.9-inch iPad Pro models soon, radical new iPhone in September, and radical new iPad after that &#8212; in the rumors surrounding these new iPads. Back in August, <a href="https://www.macrumors.com/2016/08/15/kuo-10-5-ipad-pro-2017/">MacRumors published the following excerpts from a report by Ming-Chi Kuo</a>:</p>
+
+<blockquote>
+  <p>We expect three new iPads (12.9-inch iPad Pro 2, new size
+10.5-inch iPad Pro and low-cost 9.7-inch iPad) to be launched in
+2017, though this may not drive shipment growth amid structural
+headwinds; 2017F shipments to fall 10-20% YoY. If the iPad comes
+in a larger size, such as a 10.5-inch model, we believe it will be
+helpful to bid for tenders within the commercial and education
+markets. As a result, we expect Apple to launch a 10.5-inch iPad
+Pro in 2017. In addition, we estimate the 12.9-inch iPad Pro 2 and
+10.5-inch iPad Pro will adopt the A10X processor, with TSMC (2330
+TT, NT$177.5, N) being the sole supplier using 10nm process
+technology. The low-cost 9.7-inch model may adopt the A9X
+processor, which is also exclusively supplied by TSMC. [&#8230;]</p>
+
+<p>Revolutionary iPad model likely to be introduced in 2018F at the
+earliest, with radical changes in form factor design and user
+behavior on adoption of flexible AMOLED panel. We believe iPad
+will follow in the footsteps of the iPhone by adopting AMOLED
+panel in 2018F at the earliest. If Apple can truly tap the
+potential of a flexible AMOLED panel, we believe the new iPad
+model will offer new selling points through radical form factor
+design and user behavior changes, which could benefit shipments.</p>
+</blockquote>
+
+<p>It doesn&#8217;t make much sense to me that Apple would introduce a new 10.5-inch iPad Pro in 2017 <em>and</em> &#8220;radical changes in form factor design&#8221; in 2018. It would make a lot of sense if the 10.5-inch model <em>is</em> the &#8220;revolutionary&#8221; iPad scheduled for 2018.</p>
+
+<p>Also, the 9.7-inch iPad Pro <em>already</em> sports the A9X chip. Again, it would both make sense and fit with the history of the iPad lineup if a new 9.7-inch iPad Pro &#8220;2&#8221; replaced the current iPad Pro &#8220;1&#8221; at the top of the lineup, and if the iPad Pro &#8220;1&#8221; replaced the iPad Air 2 as the lower-priced 9.7-inch model.</p>
+
+
+
+    ]]></content>
+  <title>★ About That Purported 10.5-Inch iPad</title></entry><entry>
+    
+    <link rel="alternate" type="text/html" href="http://daringfireball.net/2017/02/wsj_lightning_usbc_rumor" />
+	<link rel="shorturl" href="http://df4.us/pte" />
+	<id>tag:daringfireball.net,2017://1.33458</id>
+	<published>2017-03-01T00:15:49Z</published>
+	<updated>2017-03-01T00:20:06Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+<summary type="html"><![CDATA[<p>If there&#8217;s any truth to it, I&#8217;d bet that this year&#8217;s iPhones will ship with USB-C <em>chargers</em>, that use a USB-C to Lightning cable to connect to the phones. <em>That</em> makes sense, given that Apple has dropped USB-A ports from the newest MacBook models.</p>
+]]></summary>
+	<content type="html" xml:base="http://daringfireball.net/" xml:lang="en"><![CDATA[
+<p><a href="https://t.co/mcymKLYyIN">Takashi Mochizuki, reporting for The Wall Street Journal</a>:</p>
+
+<blockquote>
+  <p>People familiar with Apple’s plans said the iPhone releases this
+year would include two models with the traditional LCD and a third
+one with an OLED screen.</p>
+</blockquote>
+
+<p>Exactly in line with <a href="https://9to5mac.com/2017/02/09/kgi-predicts-wireless-charging-for-all-three-new-iphones-iphone-8-requires-higher-cost-3d-touch-sensor/">Ming Chi Kuo&#8217;s report</a> from a few weeks ago:</p>
+
+<ul>
+<li>A single new high-end (and higher-priced) iPhone with a physical width similar to that of an iPhone 7, but with an edge-to-edge design that allows for a display closer in size to a 7 Plus. (I&#8217;m guessing &#8220;iPhone Pro&#8221;.)</li>
+<li><p>Two new models similar to the current iPhone 7 and 7 Plus (presumably the &#8220;7S&#8221; and &#8220;7S Plus&#8221;).</p>
+
+<blockquote>
+  <p>They said Apple would introduce other updates including a USB-C
+port for the power cord and other peripheral devices, instead of
+the company’s original Lightning connector. The models would also
+do away with a physical home button, they said. Those updates
+would give the iPhone features already available on other
+smartphones.</p>
+</blockquote></li>
+</ul>
+
+<p>This is a terribly-written paragraph. The iPhone 7 and 7 Plus already have no physical home button. Is he saying the Touch ID sensor is going away? Which new iPhones is Mochizuki claiming will have USB-C ports instead of Lightning? Only the high-end OLED model with the edge-to-edge display, or all three? It doesn&#8217;t make much sense to me that Apple would switch any iPhone to USB-C, but if they&#8217;re going to switch one, they should switch all of them.</p>
+
+<p>If Apple had any plans to switch from Lightning to USB-C, why wouldn&#8217;t they have switched last year with the iPhone 7, when they started making tens of millions of pairs of Lightning ear buds? Why did they put a Lightning port on the AirPods case? My expectation has been that iPhones will <em>never</em> switch to USB-C &#8212; that Apple would stick with Lightning until they can do away with external ports entirely.</p>
+
+<p>I have no inside dope on this, but it rings false to my ears. If there&#8217;s any truth to it, I&#8217;d bet that this year&#8217;s iPhones will ship with USB-C <em>chargers</em>, that use a USB-C to Lightning cable to connect to the phones. <em>That</em> makes sense, given that Apple has dropped USB-A ports from the newest MacBook models.</p>
+
+<blockquote>
+  <p>Using OLED displays would allow Apple to introduce a phone with a
+new look to fuel sales. Apple’s last major design overhaul came
+with the iPhone 6, a slimmer phone with larger displays that
+helped reignite sales growth and propel the company to record
+profit. The iPhone 7, introduced in September 2016, came with a
+similar design to its predecessor, contributing to slower sales in
+China. Analysts say Chinese consumers feel more motivated to buy a
+new phone when it has a different look that gives it appeal as a
+status symbol.</p>
+</blockquote>
+
+<p>I get it. All things considered, a new iPhone that <em>looks</em> new is going to be more exciting than one that re-uses an existing design. I also get that, for cultural reasons, this is particularly true in China. (<a href="https://stratechery.com/2015/stop-doubting-the-iphone-the-macintosh-company-2/">Ben Thompson has been emphasizing this</a> for years.)</p>
+
+<p>But this idea that anything short of a radically new design is bad for Apple <a href="http://daringfireball.net/2016/09/design_as_branding">just isn&#8217;t true</a>. Based on the above passage, a reader would logically conclude that iPhones sales are down because the industrial design is too similar to its predecessor. But <a href="http://www.apple.com/pr/library/2017/01/31Apple-Reports-Record-First-Quarter-Results.html">Apple just reported the highest iPhone sales in a quarter ever</a>. Again, if they can meet demand, an exciting new hardware design should drive sales even higher &#8212; but it&#8217;s completely wrong to suggest that the similar-to-the-6/6S design of the iPhone 7 has led to a slump.</p>
+
+
+
+    ]]></content>
+  <title>★ On Today’s Curious Wall Street Journal Report Claiming the Next iPhone Will Replace Lightning Port With USB-C</title></entry><entry>
+    
+    <link rel="alternate" type="text/html" href="http://daringfireball.net/2017/02/alexa_martini" />
+	<link rel="shorturl" href="http://df4.us/psd" />
+	<id>tag:daringfireball.net,2017://1.33421</id>
+	<published>2017-02-20T20:10:34Z</published>
+	<updated>2017-02-20T21:52:29Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+<summary type="html"><![CDATA[<p>&#8220;I don&#8217;t know, go check Wikipedia&#8221; is a much better response than a wrong answer.</p>
+]]></summary>
+	<content type="html" xml:base="http://daringfireball.net/" xml:lang="en"><![CDATA[
+<p><a href="http://daringfireball.net/linked/2017/02/19/wondrich-barstools">Speaking of martinis</a>, out of curiosity I tried asking my Amazon Echo &#8220;How do you make a martini?&#8221; <a href="https://twitter.com/gruber/status/832810675307155457">The answer was appalling</a>:</p>
+
+<p>&#8220;The martini is a cocktail made with 1 part gin and 6 parts vermouth.&#8221;</p>
+
+<p>Those of you who enjoy a martini know that that recipe is <em>backwards</em>, and would make for a truly wretched drink &#8212; the International Bartenders Association standard recipe for a dry martini calls for 6 parts gin to 1 part vermouth. If anything, many <a href="https://drizly.com/Churchill_Martini/r-c91cc754dc399cea">martini aficionados</a> prefer <em>less</em> vermouth than the IBA recipe.</p>
+
+<p>Given the same query, <a href="https://daringfireball.net/misc/2017/02/siri-martini.png">Siri tells you</a> (rather ungrammatically) &#8220;The main ingredient in martini (cocktail) is gin&#8221;, and points you to Wikipedia, which offers the IBA recipe. <a href="https://daringfireball.net/misc/2017/02/google-asst-martini-1.png">Google Assistant on a Pixel tells you</a> &#8220;The Martini is a cocktail made with gin and vermouth, and garnished with an olive or a lemon twist.&#8221; You can then tap &#8220;Ingredients&#8221; <a href="https://daringfireball.net/misc/2017/02/google-asst-martini-2.png">to be shown a recipe</a> with the IBA standard 6-to-1 gin-to-vermouth ratio.</p>
+
+<p>Neither Siri nor Google Assistant are perfect here, but both put you one tap away from getting an acceptable recipe. Google gets points for doing it entirely within the Assistant interface (rather than punting you over to a web browser), but Siri gets points because Wikipedia&#8217;s page contains instructions on <em>how</em> to prepare the drink, not just what to put in it.</p>
+
+<p>Alexa&#8217;s response is clearly the most ambitious, but it&#8217;s by far the worst because it&#8217;s so criminally wrong. &#8220;I don&#8217;t know, go check Wikipedia&#8221; is a much better response than a wrong answer.</p>
+
+<p><strong>Update:</strong> Two days after I tweeted about this, Alexa now correctly prescribes 6 parts of gin to 1 of vermouth.</p>
+
+
+
+    ]]></content>
+  <title>★ The World’s Worst Cocktail: The Alexa Martini</title></entry><entry>
+    
+    <link rel="alternate" type="text/html" href="http://daringfireball.net/2017/02/apple_moves_wwdc_back_to_san_jose" />
+	<link rel="shorturl" href="http://df4.us/ps7" />
+	<id>tag:daringfireball.net,2017://1.33415</id>
+	<published>2017-02-16T13:44:12Z</published>
+	<updated>2017-02-17T23:16:51Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+<summary type="html"><![CDATA[<p>If a large corporation can be described as a homebody, Apple is it. And San Francisco is not Apple&#8217;s home turf.</p>
+]]></summary>
+	<content type="html" xml:base="http://daringfireball.net/" xml:lang="en"><![CDATA[
+<p>Here&#8217;s an announcement from Apple that I wouldn&#8217;t have guessed in a hundred tries: <a href="http://www.apple.com/newsroom/2017/02/wwdc-apples-worldwide-developers-conference-returns-to-san-jose-june-5-9-2017.html">they&#8217;re moving WWDC back to the McEnery Convention Center in San Jose</a>.</p>
+
+<p>The dates for WWDC 2017 are June 5–9. But the ticketing process isn&#8217;t until March 27. Like in previous years, it&#8217;ll be a lottery-type application system.</p>
+
+<p>I had the chance to speak with Phil Schiller about this yesterday. The call was scheduled a few days in advance, but as usual with Apple, I didn&#8217;t know the topic. I spent the intervening days trying to guess. Moving WWDC back to San Jose truly didn&#8217;t even enter my mind. But now that I&#8217;ve had a day to think about it, I can see the logic.</p>
+
+<p>First, announcing early really helps people who have to travel long distances to attend, particularly those from outside the U.S. In recent years, Apple has announced WWDC dates in April &#8212; as early as April 3 in 2014, and as late as April 28. Announcing the dates now, in mid-February, should help people save on airfare. It&#8217;s another sign that Apple is slowly getting more open. (Let&#8217;s see if they announce the dates this early next year too. It&#8217;s possible they only announced this early this year to brace people for the venue change.)</p>
+
+<p>For people who will travel <em>only</em> if they get a conference pass, the timing doesn&#8217;t change as much. But even a few extra weeks is an improvement. And in recent years &#8212; particularly since the demise of Macworld Expo &#8212; WWDC is more than just the developer conference. <a href="http://www.imore.com/un-conventional-how-wwdc-became-heart-apple-worlds-calendar">It&#8217;s become the communal heart of the Apple world&#8217;s calendar</a>. I know more people who come to WWDC without passes for the conference than who attend.</p>
+
+<p><a href="http://www.sanjose.org/convention-center">The San Jose Convention Center</a> is the original home of WWDC &#8212; that&#8217;s where it was held from 1988 through 2002. (WWDC 2002 was the year Steve Jobs <a href="https://www.youtube.com/watch?v=G1SLCAiGkVQ">held a funeral for Mac OS 9 during the keynote</a>.) San Jose is <em>way</em> closer to Apple headquarters. San Francisco is about an hour drive from 1 Infinite Loop. The San Jose Convention Center is only minutes away from Apple&#8217;s <a href="http://www.mercurynews.com/2015/08/03/apple-sets-stage-for-san-jose-campus-with-15000-workers/">new San Jose campus</a>, and is much closer to their Cupertino headquarters than San Francisco. Schiller emphasized to me that this is a big deal: more Apple employees from more teams will be present, simply because they won&#8217;t have to devote an entire day to being there. (This could be a particular boon to WWDC&#8217;s developer labs, where attendees can get precious face time with Apple&#8217;s engineers.)</p>
+
+<p>I asked whether the move to San Jose changed the number of people who&#8217;d be able to attend. Schiller said it did not &#8212; attendance will be about the same. (To my knowledge, Apple has never revealed exact attendance figures, and Schiller didn&#8217;t offer an exact number, but <a href="https://www.wired.com/2013/04/why-wwdc-is-too-big/">it&#8217;s somewhere around 5,000</a>.)</p>
+
+<p>My first WWDC was 2006, a few years after the move to San Francisco, so I&#8217;ve never been to one in San Jose. The rap from my friends who did attend WWDC back when it was in San Jose is that San Jose was a bit of a sleepy town. It&#8217;s a work-oriented city, where it gets quiet after 5 pm. But WWDC was, compared to now, sparsely attended back then. WWDC didn&#8217;t sell out until 2008 (the first year of the iPhone App Store).</p>
+
+<p>Schiller seems confident that there&#8217;s going to be a lot going on outside the convention center. Apple is working with the city and San Jose mayor Sam Liccardo to stage events around the downtown area throughout the week.</p>
+
+<p>WWDC is the biggest event of the year for the Apple world. But for the city of San Francisco, it&#8217;s just another conference at Moscone. In fact, by Moscone standards, WWDC is actually kind of small. <a href="http://www.oracle.com/us/corporate/how-big-is-openworld-2019871.pdf">Oracle&#8217;s OpenWorld conference</a> has over 60,000 attendees &#8212; 12 times the size of WWDC. <strong>Update:</strong> Salesforce&#8217;s Dreamforce conference <a href="http://stuarte.co/2016/dreamforce-attendance-numbers-year/">had 170,000 attendees last year</a>.</p>
+
+<p>WWDC will be the biggest thing going on in San Jose that week. I don&#8217;t have a feel for San Jose &#8212; the only time I&#8217;ve ever set foot there was for <a href="http://money.cnn.com/2012/10/23/technology/mobile/apple-ipad-mini-event/">Apple&#8217;s 2012 October event</a>. I could see it going one of two ways: either dreadfully dull, or, something akin to SXSW in Austin, where the conference and its attendees more or less take over the entire convention center area downtown. In San Francisco, WWDC attendees are a small school of like-minded fish in a big pond. In San Jose, they&#8217;ll own the pond. WWDC’s presence can expand outside the confines of McEnery in a way that it can’t expand outside Moscone.</p>
+
+<p>One last factor, unstated by Apple, but very obvious to anyone who knows how to comparison shop for hotel rooms: downtown San Jose is way cheaper than downtown San Francisco, and the surrounding area has a ton of good hotel rooms at very affordable rates. In San Francisco nice hotels are very expensive, and the hotels that aren&#8217;t expensive are not nice. In recent years, a lot of people who come to WWDC have been booking hotels down closer to San Jose simply because they&#8217;re so much cheaper.</p>
+
+<p>So here&#8217;s my take:</p>
+
+<ul>
+<li><p>For Apple, this is a win. They&#8217;ll cumulatively spend thousands of fewer hours driving up and down Highway 280. They have the potential to involve their soon-to-open new campus in the event somehow. They have more influence and control over the area around the convention center, rather than just inside it.</p></li>
+<li><p>For attendees, it&#8217;s hard to say. For those on a budget, it&#8217;s surely a win. San Jose is way more affordable than San Francisco. (But the hotels closest to the convention center in downtown San Jose are running around $350 a night &#8212; no savings at all compared to Moscone-area hotels in San Francisco.) For those more concerned with the social scene, it&#8217;s too early to judge. If it resembles the social scene from the previous era of San Jose WWDCs, it&#8217;ll be a bust. If you&#8217;d asked me in recent years whether it&#8217;s worth it to go to WWDC even if you&#8217;re not attending the conference proper, I&#8217;d have said yes without hesitation. I really don&#8217;t know if that&#8217;s going to be true now that it&#8217;s in San Jose.</p></li>
+</ul>
+
+<p>The word that comes to mind is <em>nostalgia</em>. For most of the regular WWDC attendees in my circle, San Francisco and Moscone are all we know. There&#8217;s an established familiarity to the places (<a href="http://eggfreckles.net/favorite/gruber/">hotels</a>, restaurants, bars) and the schedule. Even if WWDC works out great in San Jose, there is a lot that I will miss about WWDC&#8217;s years in San Francisco. But WWDC is only moving, not ending, so it&#8217;s a very different nostalgia than that for Macworld Expo.</p>
+
+<p>WWDC in San Jose hearkens back to what was truly a different era for Apple. When the last WWDC was held in San Jose in 2002, the original iPod was only six months old, and I was three months away from starting Daring Fireball. An investment in Apple stock in 2002 <a href="http://www.wolframalpha.com/input/?i=aapl+2000+to+2017">would have increased around a hundredfold</a> if held through today.</p>
+
+<p>Apple doesn&#8217;t like to explain itself. I don&#8217;t know why Apple moved WWDC to San Francisco in 2003. But my guess is that they sought more media attention. Apple went to where the attention was. Today, the attention comes to Apple. They could hold WWDC in the middle of a desert and it would still sell out in an instant and there&#8217;d be the same convoy of media trucks outside the hall the morning of the keynote. If a large corporation can be described as a homebody, Apple is it. And San Francisco is not Apple&#8217;s home turf.</p>
+
+<p>Schiller has been at Apple (and on stage at WWDC) throughout this entire run, and he seems ready to go back. &#8220;It feels like WWDC is going home,&#8221; he told me.</p>
+
+
+
+    ]]></content>
+  <title>★ Apple Moves WWDC Back to San Jose</title></entry></feed><!-- THE END -->
