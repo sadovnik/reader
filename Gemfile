@@ -5,6 +5,7 @@ gem 'rails', '~> 5.0.2'
 # infrastructure
 gem 'sqlite3'
 gem 'puma', '~> 3.0'
+gem 'pg', group: :production
 
 # frontend
 gem 'jquery-rails'
