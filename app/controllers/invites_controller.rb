@@ -10,9 +10,12 @@ class InvitesController < ApplicationController
 
   # POST /invites
   def create
-    return redirect_to action: :bummer if invite_created_recently?
-
     @invite = Invite.new(invite_params)
+
+    # 💩
+    if @invite.valid? && invite_created_recently?
+      return redirect_to action: :bummer
+    end
 
     if @invite.save
       InviteMailer.invite(@invite).deliver
@@ -62,9 +65,10 @@ class InvitesController < ApplicationController
 
   def invite_created_recently?
     Invite.where(
-      'created_at > ? and state = ?',
+      'created_at > ? and state = ? and email = ?',
       2.minutes.ago,
-      Invite::States::UNUSED
+      Invite::States::UNUSED,
+      invite_params[:email]
     ).exists?
   end
 end
