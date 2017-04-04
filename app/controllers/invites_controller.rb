@@ -37,9 +37,9 @@ class InvitesController < ApplicationController
 
     @user = User.find_by_email(invite.email)
 
-    @user = User.create!(email: invite.email) unless @user
-
     flash.notice = @user ? 'Welcome back!' : 'Welcome!'
+
+    @user = User.create!(email: invite.email) unless @user
 
     login(@user)
 
