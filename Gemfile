@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.2'
 
 # infrastructure
-gem 'sqlite3'
 gem 'puma', '~> 3.0'
+gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
 
 # frontend
