@@ -14,7 +14,7 @@ class SourceBuilder
     source = Source.create!(Fetcher.fetch(feedjira_feed, SOURCE_MAP))
 
     source.posts = feedjira_feed.entries.map do |feedjira_entry|
-      PostBuilder.build(feedjira_entry)
+      PostBuilder.build(feedjira_entry, source)
     end
 
     source
