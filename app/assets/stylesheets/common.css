@@ -87,7 +87,7 @@ input[type="text"] {
 .nice-button:active {
     background-image: linear-gradient(to bottom, #1784ce, #2980b9);
     color: rgba(255, 255, 255, 0.89);
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24) ins<Paste>
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.14) inset;
 }
 
 /* 😎 */
