@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   post 'logout', to: 'sessions#destroy'
 
   get 'feed', to: 'post_entries#index'
-  get 'post_entries/:id/read', to: 'post_entries#read', as: 'read_entry'
+  put 'feed/entries/:id/status', to: 'post_entries#update_status', as: 'update_status'
 
   get 'subscriptions', to: 'subscriptions#index'
   get 'subscriptions/new', to: 'subscriptions#new'

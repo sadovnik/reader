@@ -1,8 +1,19 @@
 $(function() {
-  $entryLinks = $('.entry__link');
+  const $feed = $('#feed');
+  const $entryLinks = $('.entries__entry_unread .entry__link');
+
+  function findEntryById(id) {
+    $entry = $('#entry-' + id);
+
+    if ($entry.length === 0) {
+      throw 'Unable to find entry'
+    }
+
+    return $entry;
+  }
 
   function fetchReadLink($element) {
-    $readLink = $element.parent().find('.entry__read-link');
+    const $readLink = $element.parent().find('.entry__read-link');
 
     if ($readLink.length === 0) {
       throw 'Unable to find read-link'
@@ -11,17 +22,18 @@ $(function() {
     return $readLink[0];
   }
 
-  $entryLinks.click(function(e) {
-    e.preventDefault();
+  function setupClickHandler($elements) {
+    $elements.click(function(event) {
+      const $originalLink = $(event.target);
+      const $readLink = fetchReadLink($originalLink);
+      $readLink.click();
+    });
+  }
 
-    $originalLink = $(e.target);
+  setupClickHandler($entryLinks);
 
-    $entry = $originalLink.parent().parent();
-    $entry.addClass('entries__entry_muted');
-
-    $readLink = fetchReadLink($originalLink);
-    $readLink.click();
-
-    return false;
+  $feed.on('entry-unread', function(event, entryId) {
+    $entry = findEntryById(entryId);
+    setupClickHandler($entry);
   });
-})
+});

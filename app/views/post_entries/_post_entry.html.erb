@@ -1,4 +1,7 @@
-<div class="entries__entry">
+<div
+    class="entries__entry entries__entry_<%= post_entry.status %>"
+    id="entry-<%= post_entry.id %>"
+>
     <% post_entry.post.tap do |post| %>
         <span class="entry__time-ago">
             <%= time_ago_in_words (post.published_at || post.created_at) %>
@@ -7,9 +10,24 @@
         </span>
         <br>
         <span class="entry__title">
-            <%= link_to(post.title, post.url, class: 'nice-link entry__link') %>
-            <%= link_to('', read_entry_path(post_entry), class: 'entry__read-link', hidden: true, target: '_blank') %>
+            <%= link_to(post.title, post.url,
+                        class: 'nice-link entry__link',
+                        target: '_blank') %>
+
+            <%= link_to('', update_status_path(id: post_entry, status: 'read'),
+                        class: 'entry__read-link',
+                        method: 'put',
+                        hidden: true,
+                        remote: true) %>
+
+            <% if post_entry.read? %>
+                <%= link_to('Mark unread', update_status_path(id: post_entry, status: 'unread'),
+                        method: 'put',
+                        class: 'entry__unread-link nice-button nice-button_chill',
+                        remote: true) %>
+            <% end %>
         </span>
+
         <%# <div class="entry__summary"> %>
         <%#     <%= post.summary.html_safe %1> %>
         <%# </div> %>

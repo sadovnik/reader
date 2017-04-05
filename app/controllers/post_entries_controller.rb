@@ -9,17 +9,23 @@ class PostEntriesController < ApplicationController
       .order('Posts.published_at DESC')
   end
 
-  def read
-    entry = PostEntry.find(id_param)
+  # PUT /post_entries/:id/status
+  def update_status
+    @entry = PostEntry.find(entry_params[:id])
 
-    entry.read!
+    @entry.status = entry_params[:status] || 'read'
 
-    redirect_to entry.post.url
+    @entry.save!
+
+    respond_to do |format|
+      format.js {}
+      format.html { redirect_to feed_path, flash: { notice: "Entry marked as #{@entry.status}." } }
+    end
   end
 
   private
 
-  def id_param
-    params.require(:id)
+  def entry_params
+    params.permit(:id, :status)
   end
 end

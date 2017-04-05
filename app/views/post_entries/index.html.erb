@@ -11,7 +11,7 @@
     <%= pluralize(@entries.count, 'post', 'posts') %>
 </div>
 
-<div class="entries">
+<div id="feed" class="entries">
     <% @entries.each do |entry| %>
         <%= render entry %>
     <% end %>

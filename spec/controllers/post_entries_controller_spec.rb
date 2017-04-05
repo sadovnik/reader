@@ -1,10 +1,10 @@
 require 'rails_helper'
 
 describe PostEntriesController do
-  describe 'GET /post_entries/:id/read' do
+  describe 'PUT /feed/entries/:id/status' do
     context 'not authorized user' do
       it 'redirects to the root' do
-        get :read, params: { id: 123 }
+        get :update_status, params: { id: 123 }
 
         expect(response).to redirect_to(root_path)
       end
@@ -21,23 +21,35 @@ describe PostEntriesController do
         let(:entry) { PostEntry.create!(user: user, post: post, status: :unread) }
         # TODO: seems like i need to start using factory_girl or something
 
-        it 'marks entry as read' do
-          get :read, params: { id: entry.id }
+        it 'marks entry as read by default' do
+          get :update_status, params: { id: entry.id }
           entry.reload
 
           expect(entry.read?).to be_truthy
         end
 
-        it 'redirects to the target url' do
-          get :read, params: { id: entry.id }
+        it 'updates status if :status param provided' do
+          get :update_status, params: { id: entry.id, status: 'read' }
+          entry.reload
 
-          expect(response).to redirect_to(entry.post.url)
+          expect(entry.read?).to be_truthy
+
+          get :update_status, params: { id: entry.id, status: 'unread' }
+          entry.reload
+
+          expect(entry.unread?).to be_truthy
+        end
+
+        it 'redirects to /feed' do
+          get :update_status, params: { id: entry.id }
+
+          expect(response).to redirect_to(feed_path)
         end
       end
 
       context 'not existing entry' do
         it 'returns 404' do
-          expect { get :read, params: { id: 123 } }.to raise_error(ActiveRecord::RecordNotFound)
+          expect { get :update_status, params: { id: 123 } }.to raise_error(ActiveRecord::RecordNotFound)
         end
       end
     end
