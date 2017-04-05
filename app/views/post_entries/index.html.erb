@@ -2,10 +2,15 @@
 
 <%= link_to 'Subscriptions', subscriptions_path, class: 'nice-link' %>
 
-<%= link_to 'add new', subscriptions_new_path, class: 'nice-button' %>
+<%= link_to 'add new', subscriptions_new_path, class: 'nice-button' %> <br>
 
 <br>
-<br>
+
+<% if @entries.any? %>
+    <%= link_to 'mark all as read', mark_all_read_path, class: 'nice-button nice-button_chill', method: :put %> <br>
+
+    <br>
+<% end %>
 
 <div class="entries__count">
     <%= pluralize(@entries.count, 'post', 'posts') %>

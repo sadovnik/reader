@@ -11,6 +11,7 @@ Rails.application.routes.draw do
 
   get 'feed', to: 'post_entries#index'
   put 'feed/entries/:id/status', to: 'post_entries#update_status', as: 'update_status'
+  put 'feed/entries/status', to: 'post_entries#mark_all_read', as: 'mark_all_read'
 
   get 'subscriptions', to: 'subscriptions#index'
   get 'subscriptions/new', to: 'subscriptions#new'

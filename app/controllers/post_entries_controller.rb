@@ -9,7 +9,7 @@ class PostEntriesController < ApplicationController
       .order('Posts.published_at DESC')
   end
 
-  # PUT /post_entries/:id/status
+  # PUT /feed/entries/:id/status
   def update_status
     @entry = PostEntry.find(entry_params[:id])
 
@@ -20,9 +20,16 @@ class PostEntriesController < ApplicationController
     @entry.save!
 
     respond_to do |format|
-      format.js {}
+      format.js
       format.html { redirect_to feed_path, flash: { notice: "Entry marked as #{@entry.status}." } }
     end
+  end
+
+  # PUT /feed/entries/status
+  def mark_all_read
+    current_user.post_entries.update_all(status: :read)
+
+    redirect_to feed_path, flash: { notice: 'All entries marked as read.' }
   end
 
   private
