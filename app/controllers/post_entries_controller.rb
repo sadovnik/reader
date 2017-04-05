@@ -13,6 +13,8 @@ class PostEntriesController < ApplicationController
   def update_status
     @entry = PostEntry.find(entry_params[:id])
 
+    return head :forbidden if @entry.user_id != current_user.id
+
     @entry.status = entry_params[:status] || 'read'
 
     @entry.save!

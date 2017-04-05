@@ -17,9 +17,23 @@ describe PostEntriesController do
 
       context 'existing entry' do
         let(:source) { Source.create!(title: 'daring fireball') }
-        let(:post) { Post.create!(url: 'http://daringfireball.net/2017/03/about_that_10_point_5_inch_ipad', source: source) }
+        let(:post) { Post.create!(
+          url: 'http://daringfireball.net/2017/03/about_that_10_point_5_inch_ipad',
+          source: source
+        ) }
         let(:entry) { PostEntry.create!(user: user, post: post, status: :unread) }
         # TODO: seems like i need to start using factory_girl or something
+
+        context 'entry of some other user' do
+          let!(:someone) { User.create!(email: 'lynval.golding@gmail.com') }
+          let(:someones_entry) { PostEntry.create!(user: someone, post: post) }
+
+          it 'returns forbidden' do
+            put :update_status, params: { id: someones_entry.id }
+
+            expect(response).to have_http_status(:forbidden)
+          end
+        end
 
         it 'marks entry as read by default' do
           put :update_status, params: { id: entry.id }
