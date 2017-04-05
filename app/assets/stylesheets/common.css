@@ -68,10 +68,11 @@ input[type="text"] {
     border-radius: 3px;
     border-style: none;
     color: #ffffff;
-    padding: 5px 8px 4px 8px;
     text-decoration: none;
     outline: none;
-    font-size: 14px;
+    padding: 4px 8px 5px 8px;
+    font-size: 16px;
+    /* font-size: 12px; */
     /* font-family: BlinkMacSystemFont; */
     /* font-weight: bold; */
     /* text-transform: uppercase; */
