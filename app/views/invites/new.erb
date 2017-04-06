@@ -6,7 +6,7 @@
 <div class="invite-box">
     <p>Get invite to login or signup:</p>
     <%= form_for @invite, remote: true do |form| %>
-        <%= form.text_field :email, autofocus: true %>
-        <%= form.submit 'Get invite', class: 'nice-button' %>
+        <%= form.text_field :email, autofocus: true, class: 'big-input' %>
+        <%= form.submit 'Get invite', class: 'orange-button' %>
     <% end %>
 </div>

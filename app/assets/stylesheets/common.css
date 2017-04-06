@@ -32,6 +32,8 @@ body {
     font-size: 14px;
 }
 
+/* Links */
+
 .nice-link, .nice-link:visited {
     color: #0064a8;
     fill: #0064a8;
@@ -53,13 +55,52 @@ body {
     transition: none
 }
 
-input[type="text"] {
-    width: 210px;
-    height: 24px;
-    font-size: 16px;
-    border: 0.5px solid #9e9e9e;
+/* Inputs */
+
+/* input[type="text"] { */
+/*     width: 210px; */
+/*     height: 24px; */
+/*     font-size: 16px; */
+/*     border: 0.5px solid #9e9e9e; */
+/*     border-radius: 3px; */
+/*     padding: 0 0 1px 4px; */
+/* } */
+
+.big-input {
+    width: 322px;
+    height: 35px;
+    font-size: 24px;
+    border: 0.5px solid rgba(0, 0, 0, 0.23);
     border-radius: 3px;
     padding: 0 0 1px 4px;
+}
+
+/* Buttons */
+
+.orange-button {
+    background: #dbce34;
+    background-image: linear-gradient(to bottom, #dbce34, #e87633);
+    border-radius: 3px;
+    border-style: none;
+    color: #ffffff;
+    text-decoration: none;
+    outline: none;
+    padding: 6px 12px;
+    font-size: 22px;
+    vertical-align: top;
+    border-bottom: 2px solid #986641;
+    margin-top: -1px;
+}
+
+.orange-button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #e8d91f, #ff671f);
+}
+
+.orange-button:active {
+    /* box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.06) inset; */
+    margin-top: 1px;
+    border-bottom-width: 0px;
 }
 
 .nice-button {
@@ -72,6 +113,7 @@ input[type="text"] {
     outline: none;
     padding: 3px 6px 2px 5px;
     font-size: 16px;
+
     /* font-size: 12px; */
     /* font-family: BlinkMacSystemFont; */
     /* font-weight: bold; */
