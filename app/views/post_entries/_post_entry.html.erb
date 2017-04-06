@@ -3,12 +3,6 @@
     id="entry-<%= post_entry.id %>"
 >
     <% post_entry.post.tap do |post| %>
-        <span class="entry__time-ago">
-            <%= time_ago_in_words (post.published_at || post.created_at) %>
-            ·
-            <%= post.source.title %>
-        </span>
-        <br>
         <span class="entry__title">
             <%= link_to(post.title, post.url,
                         class: 'nice-link entry__link',
@@ -20,6 +14,11 @@
                         hidden: true,
                         remote: true) %>
 
+            <span class="entry__title-delimiter">·</span>
+            <span class="entry__title-author">
+                <%= post.source.title %>
+            </span>
+
             <% if post_entry.read? %>
                 <%= link_to('Mark unread', update_status_path(id: post_entry, status: 'unread'),
                         method: 'put',
@@ -28,8 +27,12 @@
             <% end %>
         </span>
 
-        <%# <div class="entry__summary"> %>
-        <%#     <%= post.summary.html_safe %1> %>
-        <%# </div> %>
+        <div class="entry__summary">
+            <%= truncate strip_tags(post.summary), length: 280 %>
+        </div>
+
+        <span class="entry__time-ago">
+            <%= time_ago_in_words (post.published_at || post.created_at) %>
+        </span>
     <% end %>
 </div>

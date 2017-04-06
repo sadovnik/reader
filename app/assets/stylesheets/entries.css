@@ -6,7 +6,7 @@
 }
 
 .entries__entry {
-    /* margin-bottom: 15px; */
+    margin-bottom: 15px;
 }
 
 .entries__entry_read .entry__link {
@@ -20,7 +20,7 @@
 
 .entry__title {
     display: inline-block;
-    margin-bottom: 11px;
+    margin-bottom: 5px;
 }
 
 .entry__status {
@@ -29,6 +29,6 @@
 
 .entry__summary {
     width: 600px;
-    /* max-height: 100px; */
-    /* overflow-y: scroll; */
+    font-size: 12px;
+    margin-bottom: 2px;
 }
