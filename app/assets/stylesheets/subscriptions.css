@@ -1,12 +1,13 @@
 .subscriptions {
-    width: 800px;
 }
 
 .subscriptions__subscription {
-    background-color: #fffbf4;
+    background-color: rgba(41, 129, 186, 0.04);
     padding: 10px;
     margin-bottom: 16px;
     border-radius: 3px;
+    width: 472px;
+    margin-left: -8px;
 }
 
 .subscription__title {

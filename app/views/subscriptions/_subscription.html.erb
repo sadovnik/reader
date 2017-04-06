@@ -1,10 +1,12 @@
 <div class="subscriptions__subscription">
-    <% subscription.source.tap do |s| %>
+    <% subscription.source.tap do |source| %>
         <h4 class="subscription__title">
-            <%= link_to s.title, s.site_url, class: 'nice-link' %>
+            <%= link_to source.title, source.site_url, class: 'nice-link' %>
         </h4>
-        <p class="subscription__description">
-            <%= subscription.source.description %>
-        </p>
+        <% unless source.description.nil? or source.description.empty? %>
+            <p class="subscription__description">
+                <%= sanitize source.description, tags: ['a', 'i'] %>
+            </p>
+        <% end %>
     <% end %>
 </div>
