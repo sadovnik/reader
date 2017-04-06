@@ -1,7 +1,7 @@
-# Does new posts lookup
+# Finds and saves new posts
 module UpdateSourcesWorker
-  # returns count of new entries
   class << self
+    # returns count of new entries
     def perform
       Source.all.reduce(0) do |count, source|
         raw_feed = Feedjira::Feed.fetch_and_parse(source.url)

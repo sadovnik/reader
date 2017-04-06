@@ -1,12 +1,17 @@
 task :worker => :environment do
+  # https://github.com/ddollar/foreman/issues/159
+  $stdout.sync = true
+
+  logger = Logger.new(STDOUT)
+
   loop do
-    puts 'Working...'
+    logger.info 'Working...'
 
     new_posts_count = UpdateSourcesWorker.perform
 
-    puts "Done! Posts added: #{new_posts_count}"
+    logger.info "Done! Posts added: #{new_posts_count}"
 
-    puts 'Sleeping...'
+    logger.info 'Sleeping...'
 
     sleep 5.minutes
   end
