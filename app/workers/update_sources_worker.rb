@@ -16,7 +16,7 @@ module UpdateSourcesWorker
           PostBuilder.build(entry, source)
         end
 
-        source.subscribers do |user|
+        source.subscribers.each do |user|
           posts.each do |post|
             post.populize_entry(user)
           end
