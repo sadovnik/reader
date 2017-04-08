@@ -9,5 +9,6 @@ This is list of what I'm going to discover:
 - [ ] [factory_girl](https://github.com/thoughtbot/factory_girl)
 - [ ] [Trailblazer](http://trailblazer.to/)
 - [ ] Delayed jobs
+- [ ] i18n
 
 🚬
