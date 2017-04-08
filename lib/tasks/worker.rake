@@ -13,6 +13,6 @@ task :worker => :environment do
 
     logger.info 'Sleeping...'
 
-    sleep 5.minutes
+    sleep 30.minutes
   end
 end
