@@ -1,3 +1,4 @@
+# The subscription form. Appears at /subscriptions/new
 class SubscriptionForm < Reader::Form
   attr_reader :user, :url
 
