@@ -10,5 +10,6 @@ This is list of what I'm going to discover:
 - [ ] [Trailblazer](http://trailblazer.to/)
 - [ ] Delayed jobs
 - [ ] i18n
+- [ ] View caching
 
 🚬
