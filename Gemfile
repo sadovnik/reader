@@ -17,6 +17,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'state_machines'
 gem 'state_machines-activerecord'
 gem 'feedjira'
+gem 'nokogiri', '~> 1'
 
 group :development, :test do
   gem 'fakeweb'

@@ -1,0 +1,3409 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta name="generator" content="Hugo 0.17"/>
+<meta charset="utf-8">
+<title>Julia Evans - Julia Evans</title>
+<meta name="author" content="Julia Evans">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="description" content="Julia Evans">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://jvns.ca/">
+<link href="/favicon.ico" rel="icon">
+<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+<link href="/atom.xml" rel="alternate" title="Julia Evans" type="application/atom+xml">
+</head>
+<body>
+<div id="wrap">
+<header role="banner">
+<hgroup>
+<h1><a href="/">Julia Evans</a></h1>
+</hgroup>
+<ul class="header-links">
+<span><li><a href="/about">About</a></li>
+<li><a href="/talks">Talks</a></li>
+<li><a href="/projects/">Projects</a></li></span>
+<span><li><a href="https://twitter.com/b0rk">Twitter</a></li>
+<li><a href="https://github.com/jvns">Github</a></li></span>
+</ul>
+</header>
+<nav role="navigation" class="header-nav"><ul class="main-navigation">
+<li><a href="/categories/favorite/">Favorites</a></li>
+<li><a href="/zines">Zines</a></li>
+<li class="subscription" data-subscription="rss"><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+</ul>
+</nav>
+<div id="main">
+<div id="content">
+<div>
+<article class="hentry" role="article">
+<div id="blog-archives">
+Hey! I'm Julia. Welcome to my blog. Here's every post I've ever written. If you want somewhere to start, try <a href="/categories/favorite">my favorites</a> (the ones with stars next to them, below). Enjoy!
+<br><br>
+If you like these posts, you might also like <a href="/zines">my fanzines
+about strace/linux debugging tools/networking</a> and
+<a href="https://drawings.jvns.ca">these drawings </a>.
+<br><br>
+<table>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 8 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/04/08/netdev-conference-day-3/">netdev conference, day 3</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 7 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/04/07/netdev-conference-day-2/">netdev conference, day 2</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 7 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/04/07/xdp-bpf-tutorial/">How to filter packets super fast: XDP &amp; eBPF!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 6 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/04/06/netdev-2-1/">netdev conference, day 1</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 1 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/04/01/slow-down-your-internet-with-tc/">Slow down your internet with tc</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 26 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/03/26/bash-quirks/">Bash scripting quirks &amp; safety tips</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 20 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/03/20/blogging-principles/">Blogging principles I use</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 19 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/03/19/getting-started-with-ftrace/">ftrace: trace your kernel functions!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 17 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/03/17/career-narrative/">Writing down my career</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 13 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/so-you-want-to-be-a-wizard/">So you want to be a wizard</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 17 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/02/17/mystery-swap/">Swapping, memory limits, and cgroups</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 16 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/02/16/hiring---opportunity/">Hiring &amp; opportunity</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 12 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/02/12/neural-style/">How do these &#34;neural network style transfer&#34; tools work?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 8 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/02/08/weird-unix-things-cd/">Weird unix thing: &#39;cd //&#39;</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 7 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/02/07/mtu/">How big can a packet get?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 2 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/02/02/a-magical-machine-learning-tool/">A magical machine learning art tool</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 31 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/01/31/whats-tls/">Dissecting an SSL certificate</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 29 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/networking-zine-launch/">New zine: &#34;Networking! ACK!&#34;</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 24 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/01/24/choosing-the-best-thing/">Choosing the &#34;best software&#34;</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 20 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/01/20/a-tiny-zine-about-machine-learning/">A tiny zine about machine learning</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 17 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/01/17/an-idea-for-a-programming-book/">An idea for a programming book</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 13 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/01/13/how-do-you-make-an-awesome-team/">How do you make an awesome team?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 4 2017</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2017/01/04/rules-of-programming-experiments/">Rules of programming experiments</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 31 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/good-questions/">How to ask good questions</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 23 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/12/23/systems-we-love/">Systems We Love 2016</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 22 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/12/22/container-networking/">A container networking overview</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 21 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/12/21/2016--year-in-review/">2016: Year in review</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 21 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/12/21/what-s-interesting-about-udp/">What&#39;s interesting about UDP?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 3 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/12/03/how-much-memory-is-my-process-using-/">How much memory is my process using?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 27 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/11/27/more-linux-drawings/">More drawings about computers</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 21 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/11/21/things-to-learn-about-linux/">Things to learn about Linux</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 19 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/11/19/a-critique-of-the-cap-theorem/">&#34;A Critique of the CAP Theorem&#34;</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 16 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/11/16/ideas-about-how-to-use-aws/">Ideas about how to use AWS</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 14 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/11/14/why-cute-drawings/">Why cute drawings?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 10 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/11/10/a-few-drawings-about-linux/">A few drawings about Linux</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 3 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/11/03/what-happens-when-you-run-a-rkt-container/">What happens when you run a rkt container?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 31 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/10/31/service-discovery-at-stripe/">Service discovery at Stripe</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 26 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/10/26/a-few-questions-about-open-source/">A few questions about open source</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 26 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/10/26/running-container-without-docker/">Running containers without Docker</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 21 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/10/21/a-litmus-test-for-job-descriptions/">A litmus test for job descriptions</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 21 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/10/21/consistency-vs-availability/">Consistency vs availability (wat?)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 16 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/10/16/whats-devops/">What&#39;s devops?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 15 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/10/15/operations-for-software-developers-for-beginners/">Operations for software developers for beginners</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 10 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/10/10/what-even-is-a-container/">What even is a container: namespaces and cgroups</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 9 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/10/09/switching-to-hugo/">Switching to Hugo</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 4 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/10/04/exec-will-eat-your-brain/">What happens when you start a process on Linux?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 2 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/10/02/a-list-of-container-software/">A list of Linux container software</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 2 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/10/02/i-just-want-to-run-a-container/">&#34;I just want to run a container!&#34;</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 19 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/09/19/getting-things-done/">Getting things done</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 17 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/09/17/strange-loop-talk/">A swiss army knife of debugging tools: talk &amp; transcript</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 15 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/09/15/whats-up-with-containers-docker-and-rkt/">Some questions about Docker and rkt</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 12 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/09/12/how-i-got-a-cs-degree-without-learning-what-a-system-call-is/">How I got a CS degree without learning what a system call is</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 11 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/09/11/rustconf-keynote/">Learning systems programming with Rust</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 7 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/09/07/new-zine-linux-debugging-tools-youll-love/">New zine: Linux debugging tools you&#39;ll love</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Aug 31 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/08/31/asking-questions/">Asking good questions is hard (but worth it)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Aug 29 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/08/29/how-i-made-a-zine/">How (and why) I made a zine</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Aug 24 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/08/24/find-out-where-youre-dropping-packets/">Why do UDP packets get dropped?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Aug 16 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/08/16/release-it-then-build-it/">Release it, then build it</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Aug 16 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/08/16/how-do-you-work-on-something-important/">How do you decide what to work on?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Aug 10 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/08/10/how-does-gdb-work/">How does gdb work?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jul 23 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/07/23/a-few-sketches/">A few sketches</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jul 23 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/07/23/rigorous-benchmarking-in-reasonable-time/">Benchmarking correctly is hard (and techniques for doing it better)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jul 14 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/07/14/whats-sni/">How do HTTP requests get sent to the right place?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jul 3 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/07/03/debugging-tools-i-love/">Linux debugging tools I love</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jul 3 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/07/03/polyconf-2016/">PolyConf 2016</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jun 30 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/06/30/why-do-we-use-the-linux-kernels-tcp-stack/">Why do we use the Linux kernel&#39;s TCP stack?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jun 15 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/06/15/using-ltrace-to-debug-a-memory-leak/">Using ltrace to debug a memory leak</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jun 13 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/06/13/should-you-be-scared-of-signals/">Should you be scared of Unix signals?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jun 12 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/06/12/a-weird-system-call-process-vm-readv/">How to spy on a Ruby program</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jun 7 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/06/07/strace-y/">A useful new strace feature</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jun 6 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/06/06/make-better-conference-talks/">Ideas for making better conference talks &amp; conferences</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jun 3 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/06/03/learning-to-like-design-documents/">Learning to like design documents</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 29 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/05/29/three-ways-to-solve-hard-programming-problems/">Three ways to solve hard programming problems</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 22 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/05/22/how-do-you-write-blog-posts/">&#34;advice&#34; for aspiring tech bloggers</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 21 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/05/21/a-few-notes-from-my-pydata-berlin-keynote/">Notes from my PyData Berlin keynote</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 19 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/05/19/a-few-reasons-to-be-skeptical-of-machine-learning-results/">A few reasons to be skeptical of machine learning</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 13 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/05/13/erlang-seems-really-complicated/">Investigating Erlang by reading its system calls</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 13 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/05/13/homu-plus-highfive-making-less-work-for-open-source-maintainers/">homu &#43; highfive: awesome bots that make open source projects easier</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 12 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/05/12/a-second-try-at-using-rust/">A second try at using Rust</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 6 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/05/06/a-workshop-on-strace-and-tcpdump/">A workshop on strace &amp; tcpdump</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 6 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/05/06/what-are-ssl-ciphers-and-session-keys/">What are SSL ciphers &amp; session keys?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 1 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/05/01/the-etsy-site-performance-report/">The Etsy site performance report is amazing</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 30 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/04/30/building-expertise-at-work/">How does knowledge get locked up in people&#39;s heads?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 29 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/04/29/cdns-arent-just-for-caching/">CDNs aren&#39;t just for caching</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 24 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/04/24/how-regular-expressions-go-fast/">you can take the derivative of a regular expression?!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 23 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/04/23/some-links-on-java-garbage-collection/">Some links on Java garbage collection</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 22 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/04/22/java-garbage-collection-can-be-really-slow/">Java garbage collection can be really slow</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 10 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/04/10/why-i-dont-like-black-boxes/">Looking inside machine learning black boxes</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 9 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/04/09/some-of-my-favorite-blogs/">Some of my favorite blogs</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 29 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/03/29/thread-pools-part-ii-i-love-blocking/">I conquered thread pools! For today, at least.</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 27 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/03/27/thread-pools-how-do-i-use-them/">Thread pools! How do I use them?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 23 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/03/23/io-matters/">I/O matters.</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 20 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/03/20/how-do-you-do-capacity-planning/">How do you do capacity planning?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 16 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/03/16/tcpdump-is-amazing/">tcpdump is amazing</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 12 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/03/12/how-does-perf-work-and-some-questions/">How does perf work? (in which we read the Linux kernel source)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 6 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/03/06/women-only-spaces-are-a-hack/">Women-only spaces are a hack</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 4 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/03/04/whats-up-with-ruby-http-libraries/">Surprises in Ruby HTTP libraries</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 27 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/02/27/a-few-notes-on-the-stack/">What is &#34;the stack&#34;?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 24 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/02/24/perf-top-my-new-best-friend/">perf top: an awesome way to spy on CPU usage</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 20 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/02/20/measuring-cpu-time-with-clock-gettime/">How to measure your CPU time: clock_gettime!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 12 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/02/12/why-i-love-log-files/">Why I love log files</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 10 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/02/10/have-high-expectations-for-computers/">Have high expectations for your computers</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 9 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/02/09/til-clock-skew-exists/">TIL: clock skew exists</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 7 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/02/07/cpu-load-averages/">How CPU load averages work (and using them to triage webserver performance!)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 23 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/01/23/fast-integer-sets-with-roaring-bitmaps/">Fast integer sets with Roaring Bitmaps (and, making friends with your modern CPU)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 23 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/01/23/sendfile-a-new-to-me-system-call/">Sendfile (a system call for web developers to know about!)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 18 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/01/18/guessing-linux-kernel-registers/">Guessing Linux kernel registers</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 18 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/01/18/calling-c-from-rust/">Calling C from Rust</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 14 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/01/14/a-few-notes-on-my-cusec-talk/">A few notes on my CUSEC talk</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 10 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/01/10/why-i-rust/">Why I ❤ Rust</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 6 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/01/06/talking-about-stock-options/">Talking about stock options = awesome</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 3 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/01/03/java-isnt-slow/">Java isn&#39;t slow</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 2 2016</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2016/01/02/winning-the-bias-variance-tradeoff/">Winning the bias-variance tradeoff</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 31 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/12/31/surviving-meetings-while-remote/">Surviving meetings while remote</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 30 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/12/30/do-the-math-on-your-stock-options/">Things you should know about stock options before negotiating an offer</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 26 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/12/26/2015-year-in-review/">2015: Year in review</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 24 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/12/24/how-to-trick-a-neural-network-into-thinking-a-panda-is-a-vulture/">How to trick a neural network into thinking a panda is a vulture</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 7 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/12/07/women-in-machine-learning-2015-fun/">Women in Machine Learning 2015 (fun!!!)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 27 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/11/27/why-rubys-timeout-is-dangerous-and-thread-dot-raise-is-terrifying/">Why Ruby’s Timeout is dangerous (and Thread.raise is terrifying)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 22 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/11/22/how-i-got-better-at-debugging/">How I got better at debugging</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 21 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/11/21/why-you-should-understand-a-little-about-tcp/">Why you should understand (a little) about TCP</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 9 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/11/09/docker-is-amazing/">Docker is amazing</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 31 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/10/31/papers-are-amazing-profiling-threaded-programs-with-coz/">PAPERS ARE AMAZING: Profiling threaded programs with Coz</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 10 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/09/10/a-millisecond-isnt-fast-and-how-we-fixed-it/">A millisecond isn&#39;t fast (and how we made it 100x faster)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 6 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/09/06/is-machine-learning-safe-to-use/">Is machine learning safe to use?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jul 25 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/07/25/an-argument-for-hiring-junior-developers/">An argument for hiring junior developers</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jul 4 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/07/04/bootstrap-confidence-intervals/">Some easy statistics: Bootstrap confidence intervals</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 15 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/04/15/adacamp-montreal-2015/">AdaCamp Montreal 2015</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 14 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/04/14/strace-zine/">A zine about strace</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 12 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/04/12/learning-at-open-source-sprints/">Learning at open source sprints (no preparation required)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 6 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/04/06/a-few-spy-tools-for-your-operating-system-other-than-strace/">A few spy tools for your operating system (other than strace!)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 30 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/03/30/seeing-system-calls-with-perf-instead-of-strace/">Seeing system calls with perf instead of strace</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 28 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/03/28/senior-engineering-and-fantasy-heroes/">Senior engineering &amp; fantasy heroes</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 15 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/03/15/nancy-drew-and-the-case-of-the-slow-program/">Nancy Drew and the Case of the Slow Program</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 6 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/03/06/1-1-topic-ideas/">1:1 topic ideas</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 6 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/03/06/you-can-choose-who-submits-talks-to-your-conference/">You can choose who submits talks to your conference</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 5 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/03/05/how-the-locate-command-works-and-lets-rewrite-it-in-one-minute/"> How the locate command works (and let&#39;s write a faster version in one minute!)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 22 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/02/22/how-gzip-uses-huffman-coding/">How gzip uses Huffman coding</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 17 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/02/17/how-i-learned-to-program-in-10-years/">How I learned to program in 10 years</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 6 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/02/06/a-a-testing/">A/A testing</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 24 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/01/24/why-a-c-plus-plus-programmer-might-say-i-could-never-write-python/">Why a C&#43;&#43; programmer might say &#34;I could never write Python&#34;</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 12 2015</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2015/01/12/data-day-texas-2015/">Data Day Texas 2015</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 29 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/12/29/on-reading-the-source-code-not-the-docs/">On reading the source code, not the docs</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 28 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/12/28/programming-doesnt-belong-to-men-it-belongs-to-me/">Programming doesn&#39;t belong to men (it belongs to me)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 21 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/12/21/fear-makes-you-a-worse-programmer/">Fear makes you a worse programmer</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 19 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/12/19/reproducing-awesomeness/">Reproducing awesomeness</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 14 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/12/14/fun-with-threads/">Diving into concurrency: trying out mutexes and atomics</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 10 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/12/10/spying-on-hadoop-with-strace/">Spying on Hadoop with strace</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 27 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/11/27/ld-preload-is-super-fun-and-easy/">LD_PRELOAD is super fun. And easy!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 27 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/11/27/pydata-nyc-i-gave-a-machine-learning-talk-yay/">PyData NYC (I gave a machine learning talk! yay!)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 18 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/11/18/harm-reduction-for-developers/">Harm reduction for developers</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 17 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/11/17/fun-with-machine-learning-logistic-regression/">Fun with machine learning: logistic regression!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 16 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/11/16/fun-with-machine-learning-making-sure-your-model-actually-works/">Fun with machine learning: does your model actually work?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 11 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/11/11/the-best-thing-ive-ever-read-about-women-in-technology/">What women in technology really think (150 of them, at least)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 22 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/10/22/working-remote-8-months-in/">Working remote, 8 months in (seeing humans is important!)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 8 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/10/08/how-to-set-up-a-blog-in-5-minutes/">How to set up a blog in 5 minutes</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 2 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/10/02/how-does-sqlite-work-part-2-btrees/">How does SQLite work? Part 2: btrees! (or: disk seeks are slow don&#39;t do them!)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 27 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/09/27/how-does-sqlite-work-part-1-pages/">How does SQLite work? Part 1: pages!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 20 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/09/20/strange-loop-2014/">Strange Loop 2014</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 18 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/09/18/you-can-be-a-kernel-hacker/">You can be a kernel hacker!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 6 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/09/06/how-to-read-an-executable/">How is a binary executable organized? Let&#39;s explore it!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Aug 12 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/08/12/what-happens-if-you-write-a-tcp-stack-in-python/">What happens if you write a TCP stack in Python?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Aug 5 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/08/05/pair-programming-is-amazing-except-when-its-not/">Pair programming is amazing! Except... when it&#39;s not.</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jul 25 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/07/25/fork-my-talks/">Open sourced talks!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jul 17 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/07/17/ruby-rogues/">Ruby Rogues podcast: systems programming tricks!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jul 11 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/07/11/fun-with-stats-how-big-of-a-sample-size-do-i-need/">Fun with stats: How big of a sample size do I need?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jun 29 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/06/29/how-i-did-hacker-school/">How I did Hacker School: ignoring things I understand and doing the impossible</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jun 22 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/06/22/con-talks-are-up/">!!Con talks are up</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jun 19 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/06/19/machine-learning-isnt-kaggle-competitions/">Machine learning isn&#39;t Kaggle competitions</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jun 13 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/06/13/asking-questions-is-a-superpower/">Asking questions is a superpower</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jun 6 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/06/06/working-remote/">Working remote, 3 months in</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jun 6 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/06/06/should-my-conference-do-anonymous-review/">Should my conference do anonymous review?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 28 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/05/28/anonymous-talk-submission-equals-amazing/">Anonymous talk review is amazing.</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 15 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/05/15/diving-into-hdfs/">Diving into HDFS</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 13 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/05/13/profiling-with-perf/">I can spy on my CPU cycles with perf!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>May 12 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/05/12/computers-are-fast/">Computers are *fast*!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 27 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/04/27/stopping-to-think/">Stopping to think</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 26 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/04/26/i-dont-feel-guilty-about-not-contributing-to-open-source/">Don&#39;t feel guilty about not contributing to open source</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 20 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/04/20/debug-your-programs-like-theyre-closed-source/">Debug your programs like they&#39;re closed source!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 13 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/04/13/pycon/">♥ PyCon</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 8 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/04/08/growing/">Becoming a better developer (it&#39;s not just writing more programs)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 4 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/04/04/ask-if-you-have-questions-isnt-enough/">&#34;Ask if you have questions&#34; isn&#39;t enough</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 29 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/03/29/reports-from-remote-land-remote-pairing-works-great/">Reports from remote-land: remote pairing works great!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 23 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/03/23/recovering-files-using-slash-proc-and-other-useful-facts/">Recovering files using /proc (and spying, too!)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 21 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/03/21/my-rust-os-will-never-be-finished/">My Rust OS will never be finished (and it&#39;s a success!)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 12 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/03/12/the-rust-os-story/">Writing an OS in Rust in tiny steps (Steps 1-5)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 10 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/03/10/debugging-shared-library-problems-with-strace/">Debugging shared library problems with strace</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 10 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/03/10/help/">Hacker School&#39;s Secret Strategy for Being Super Productive (or: Help.)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 1 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/03/01/pair-programming/">Pair programming</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 27 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/02/27/more-practical-uses-for-strace/">More practical uses for strace!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 26 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/02/26/using-strace-to-avoid-reading-ruby-code/">Using strace to avoid reading Ruby code</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 23 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/02/23/a-resume-workshop-idea/">A resume workshop idea</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 20 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/02/20/a-bookmarklet-to-escape-mailman-archives/">A bookmarklet to flee from Mailman archives</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 17 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/02/17/spying-on-ssh-with-strace/">Spying on ssh with strace</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 15 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/02/15/how-was-hacker-school/">&#34;How was Hacker School?&#34;</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 13 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/02/13/a-few-blogs-i-really-like/">A few blogs I really like</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 10 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/02/10/three-steps-to-learning-gdb/">Three steps to learning GDB</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 3 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/02/03/sounding-confident-in-interviews/">Sounding confident in interviews</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 22 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/01/22/cusec-equals-fun/">CUSEC = fun</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 16 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/01/16/what-my-technical-interviews-have-looked-like/">What my technical interviews have looked like</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 12 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/01/12/public-speaking/">You should give talks. They will be awesome. Here&#39;s why!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 4 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/01/04/4-paths-to-being-a-kernel-hacker/">4 paths to being a kernel hacker</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 3 2014</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2014/01/03/what-my-kernel-doesnt-do/">Some things my kernel can&#39;t do</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 31 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/31/sketches-for-a-graph-layout-engine/">Sketches for a graph layout engine</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 30 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/30/questions-im-asking-in-interviews/">Questions I&#39;m asking in interviews</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 28 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/28/coding-strategies/">Coding strategies</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 27 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/27/guys-guys-guys/">When is &#34;guys&#34; gender neutral? I did a survey!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 22 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/22/cooking-with-pandas/">A pandas cookbook</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 22 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/22/fun-with-strace/">Understanding how killall works using strace</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 20 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/20/day-46-never-graduate/">Day 46: Never Graduate</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 19 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/19/day-45-reading-elf-headers/">Day 45: I now have Rust code for executing executables!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 17 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/17/day-44-gdb-is-great/">Day 44: qemu &#43; gdb = so great</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 16 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/16/day-43-hopefully-the-last-day-spent-fixing-linker-problems/">Day 43: SOMETHING IS ERASING MY PROGRAM WHILE IT’S RUNNING (oh wait oops)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 13 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/13/day-42-how-to-run-an-elf-executable-i-dont-know/">Day 42: How to run a simple ELF executable, from scratch (I don&#39;t know)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 12 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/12/day-41-linkers-are-still-upsetting/">Day 41: Linkers are upsetting</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 10 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/10/day-39-i-wrote-a-malloc/">Day 39: Writing malloc wrong, for fun</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 10 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/10/day-40-12-things-i-learned-today-about-linkers/">Day 40: 12 things I learned today about linkers.</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 10 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/10/day-40-learning-about-linkers/">Day 40: Linkers are amazing.</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 6 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/06/day-38-after-7-days/">Day 38: After 6 days, I have problems that I can&#39;t understand at all</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 4 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/04/day-37-how-a-keyboard-works/">Day 37: After 5 days, my OS doesn&#39;t crash when I press a key</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 3 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/03/day-36-programming-without-malloc/">Day 36: On programming without malloc</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 2 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/02/types-in-rust/">Day 35: Types in Rust, for beginners</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 1 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/12/01/how-to-call-rust-from-assembly/">How to call Rust from assembly, and vice versa</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 30 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/30/videos-from-pydata-nyc-are-up/">Videos from PyData NYC are up!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 29 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/29/what-happens-when-you-run-a-unix-program/">What happens when you run &#39;Hello, world&#39;</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 29 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/29/writing-an-os-using-rustboot-and-rust-core/">Writing a kernel using rustboot &amp; rust-core</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 27 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/27/day-34b-wrapping-up-the-tcp-stack/">Day 34b: Writing curl using my TCP stack</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 26 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/26/day-34-the-tiniest-operating-system/">Day 34: The tiniest operating system</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 25 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/25/day-33-how-to-make-music-with-clojurescript/">Day 33: How to make music with ClojureScript</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 21 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/21/day-32-magical-orchestra/">Day 32: Magical Orchestra!!!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 20 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/20/day-31-logic-programming-pretty-music/">Day 31: Binary trees with core.logic!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 19 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/19/day-30-making-music-in-clojure-with-overtone/">Day 30: Making music in Clojure with Overtone. Clojure bugs with laziness! Fun!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 18 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/18/day-29-trying-out-emacs/">Day 29: Trying out Emacs!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 15 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/15/day-28-more-git-workflow-pictures/">Day 28: Made a git workflow visualization webapp!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 13 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/13/day-27-magic-testing-functions/">Day 27: Automatically testing changes in state! Visualizing my Git workflow! Floats!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 12 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/12/day-25-ack-all-the-things/">Day 25: ACK all the things</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 12 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/12/day-26-trying-to-describe-the-tcp-state-machine/">Day 26: Trying to describe the TCP state machine in a readable way. Failing.</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 12 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/12/women-in-technology-workshop-at-pydata-nyc/">Women in Technology workshop at PyData NYC</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 7 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/07/day-24-unit-testing-this-tcp-library/">Day 24: Unit testing this TCP library</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 6 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/06/day-22-got-some-tcp-packets-back/">Day 22: Got some TCP packets back!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 6 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/06/day-23-started-writing-a-socket-library/">Day 23: Started writing a TCP stack in Python</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 6 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/06/nyc-python-talk-slides/">NYC Python talk</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Nov 5 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/11/05/day-21-trying-to-tcp/">Day 21: Trying to TCP</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 31 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/31/day-19-i-might-understand-why-networking-is-hard/">Day 19: A few reasons why networking is hard</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 31 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/31/day-20-scapy-and-traceroute/">Day 20: Traceroute in 15 lines of code using Scapy</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 29 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/29/day-18-in-ur-connection/">Day 18: ARP cache poisoning (or: In ur connection, sniffing ur packets)</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 28 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/28/day-17-buffer-overflows/">Day 17: How to write a buffer overflow exploit</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 24 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+★
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/24/day-16-gzip-plus-poetry-equals-awesome/">Day 16: gzip &#43; poetry = awesome</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 24 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/24/do-rails-programmers-use-node-visualizing-correlations-in-command-usage/">Do Rails programmers use node.js? Visualizing correlations in command usage</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 23 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/23/day-15-how-gzip-works/">Day 15: How a .gz file is structured, redux</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 22 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/22/day-14-apparently-i-should-write-tests/">Day 14: When it&#39;s hard to write tests, that&#39;s when I should be testing</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 21 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/21/day-13-off-by-one-errors/">Day 13: Off by one errors</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 17 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/17/day-12-julia-reflects-on-julia/">Day 12: Why Julia likes Julia</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 16 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/16/day-10-goals/">Day 10: Goals. Goals? Maybe I need to be *reading* more code?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 16 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/16/day-11-how-does-gzip-work/">Day 11: How does gzip work?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 14 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/14/day-9-bytecode-is-made-of-bytes/">Day 9: Bytecode is made of bytes! CPython isn&#39;t scary!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 12 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/12/day-8-julia-writes-julia-and-open-source/">Day 8: Julia writes Julia! And remembers that open source is hard.</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 9 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/09/day-7-an-echo-server-in-clojure/">Day 7: An echo server in Clojure</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 8 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/08/day-6-i-wrote-a-rootkit/">Day 6: I wrote a rootkit!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 7 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/07/day-5-i-wrote-a-kernel-module/">Day 5: I wrote a kernel module!!!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 6 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/06/where-to-find-the-bixi-xml-data-feed/">Where to find bike sharing systems&#39; data feeds</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 4 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/04/day-4-processes-vs-threads/">Day 4: Processes vs threads, and kernel modules!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 2 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/02/day-3-what-does-the-linux-kernel-even-do/">Day 3: What does the Linux kernel even do?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Oct 1 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/10/01/day-2-netcat-fun/">Day 2: netcat fun!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 30 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/09/30/hacker-school-day-2-what-does-a-shell-even-do/">Day 1: What does a shell even do?</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 30 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/09/30/hacker-school-day-1-messing-around-with-the-stack-in-c/">Hacker School Day 1: Messing around with the stack in C</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 26 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/09/26/hacker-school-day-4-c-unit-testing/">Hacker School Day -4: unit testing in C. checkmk!</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 25 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/09/25/julia-seranos-excluded/">Julia Serano&#39;s &#39;Excluded&#39;</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Sep 12 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/09/12/pydata-boston-2013/">PyData Boston 2013</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Apr 7 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/04/07/open-data-exchange-2013/">Open Data Exchange 2013</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Mar 4 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/03/04/transit-maps-1941-vs-2011/">Transit maps: 1941 vs 2011</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 27 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/02/27/graphing-bike-path-data-with-ipython-notebook-and-pandas/">Graphing bike path data with IPython Notebook and pandas</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Feb 24 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/blog/2013/02/24/trying-out-octopress/">Trying out Octopress</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Jan 27 2013</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/2013/01/27/all_girl_hack_night_2/">Montreal All-Girl Hack Night #2: now with cookies</a></span>
+</td>
+</tr>
+<ul id="tags">
+</ul>
+<tr>
+<td style="width: 5.5em">
+<time style="padding-right: 10px; color: #444; font-size: 14px;" datetime="" pubdate>Dec 16 2012</time>
+</td>
+<td style="padding-right: 0.25em; color: orange;">
+</td>
+<td>
+<span><a style="font-family: Montserrat, sans-serif; color: black;font-size: 14px;" href="/2012/12/16/all_girl_hack_night/">Montreal All-Girl Hack Night #1: AMAZING</a></span>
+</td>
+</tr>
+</table>
+</div>
+</article>
+</div>
+</div>
+</div>
+<nav role="navigation" class="footer-nav"> <a href="/">Archives</a>
+</nav>
+<footer role="contentinfo"><span class="credit">&copy; Julia Evans. </span>
+<span>If you like this, you may like <a href="http://www.uliaea.ca">Ulia Ea</a>. <br>
+<p class="rc-scout__text"><i class="rc-scout__logo"></i>
+You might also like the <a class="rc-scout__link" href="https://www.recurse.com/scout/click?t=546ea46360584b522270b8c3e5d830f8">Recurse Center</a>, my very favorite programming community <a href="/categories/hackerschool/">(my posts about it)</a></p>
+</span>
+<style class="rc-scout__style" type="text/css">.rc-scout{display:block;padding:0;border:0;margin:0;}.rc-scout__text{display:block;padding:0;border:0;margin:0;height:100%;font-size:100%;}.rc-scout__logo{display:inline-block;padding:0;border:0;margin:0;width:0.85em;height:0.85em;background:no-repeat center url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2012%2015%22%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2212%22%20height%3D%2210%22%20fill%3D%22%23000%22%3E%3C%2Frect%3E%3Crect%20x%3D%221%22%20y%3D%221%22%20width%3D%2210%22%20height%3D%228%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%222%22%20y%3D%222%22%20width%3D%228%22%20height%3D%226%22%20fill%3D%22%23000%22%3E%3C%2Frect%3E%3Crect%20x%3D%222%22%20y%3D%223%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%2361ae24%22%3E%3C%2Frect%3E%3Crect%20x%3D%224%22%20y%3D%223%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%2361ae24%22%3E%3C%2Frect%3E%3Crect%20x%3D%226%22%20y%3D%223%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%2361ae24%22%3E%3C%2Frect%3E%3Crect%20x%3D%223%22%20y%3D%225%22%20width%3D%222%22%20height%3D%221%22%20fill%3D%22%2361ae24%22%3E%3C%2Frect%3E%3Crect%20x%3D%226%22%20y%3D%225%22%20width%3D%222%22%20height%3D%221%22%20fill%3D%22%2361ae24%22%3E%3C%2Frect%3E%3Crect%20x%3D%224%22%20y%3D%229%22%20width%3D%224%22%20height%3D%223%22%20fill%3D%22%23000%22%3E%3C%2Frect%3E%3Crect%20x%3D%221%22%20y%3D%2211%22%20width%3D%2210%22%20height%3D%224%22%20fill%3D%22%23000%22%3E%3C%2Frect%3E%3Crect%20x%3D%220%22%20y%3D%2212%22%20width%3D%2212%22%20height%3D%223%22%20fill%3D%22%23000%22%3E%3C%2Frect%3E%3Crect%20x%3D%222%22%20y%3D%2213%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%223%22%20y%3D%2212%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%224%22%20y%3D%2213%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%225%22%20y%3D%2212%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%226%22%20y%3D%2213%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%227%22%20y%3D%2212%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%228%22%20y%3D%2213%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3Crect%20x%3D%229%22%20y%3D%2212%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23fff%22%3E%3C%2Frect%3E%3C%2Fsvg%3E');}.rc-scout__link:link,.rc-scout__link:visited{color:#61ae24;text-decoration:underline;}.rc-scout__link:hover,.rc-scout__link:active{color:#4e8b1d;}</style>
+</footer>
+<script type="text/rocketscript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+</div>
+</body>
+</html>
