@@ -1,4 +1,4 @@
-module Fetcher
+module PropFetcher
   # Fetches attributes from target object, names it by given map
   # and returns result as hash.
   #
