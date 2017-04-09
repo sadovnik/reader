@@ -21,12 +21,12 @@ describe FeedUrlExtractor do
       end
     end
 
-    it 'returns `nil` if no feed found' do
+    it 'raises `FeedUrlExtractor::NothingFound` if no feed found' do
       page = extract_fixture('reader-app.herokuapp.com')
 
-      actual = FeedUrlExtractor.extract_first(page)
-
-      assert_nil actual
+      assert_raises FeedUrlExtractor::NothingFound do
+        FeedUrlExtractor.extract_first(page)
+      end
     end
   end
 end

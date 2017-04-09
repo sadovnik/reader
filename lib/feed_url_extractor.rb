@@ -1,6 +1,12 @@
 require 'nokogiri'
 
 module FeedUrlExtractor
+  class NothingFound < StandardError
+    def message
+      'Unable to find any feed urls'
+    end
+  end
+
   CSS_SELECTOR = 'link[rel="alternate"]'
   MIME_TYPES = [
     'application/rss+xml',
@@ -19,7 +25,7 @@ module FeedUrlExtractor
         attributes.has_key?('href')
     end
 
-    return if first_feed_node.nil?
+    raise NothingFound if first_feed_node.nil?
 
     first_feed_node.attributes['href'].value
   end
