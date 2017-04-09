@@ -22,3 +22,6 @@
 
 # ctags
 /tags
+
+# redis
+dump.rdb
