@@ -1,4 +1,4 @@
-require 'fetcher'
+require 'prop_fetcher'
 
 # Converts Feedjira::Feed into Source
 class SourceBuilder
@@ -11,7 +11,7 @@ class SourceBuilder
   }
 
   def self.build(feedjira_feed)
-    source = Source.create!(Fetcher.fetch(feedjira_feed, SOURCE_MAP))
+    source = Source.create!(PropFetcher.fetch(feedjira_feed, SOURCE_MAP))
 
     source.posts = feedjira_feed.entries.map do |feedjira_entry|
       PostBuilder.build(feedjira_entry, source)

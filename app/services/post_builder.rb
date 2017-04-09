@@ -1,4 +1,4 @@
-require 'fetcher'
+require 'prop_fetcher'
 
 # Converts Feedjira::RSSEntry into Post
 class PostBuilder
@@ -12,7 +12,7 @@ class PostBuilder
   }
 
   def self.build(feedjira_entry, source)
-    fetched_attrs = Fetcher.fetch(feedjira_entry, POST_MAP)
+    fetched_attrs = PropFetcher.fetch(feedjira_entry, POST_MAP)
     Post.create!(fetched_attrs.merge(source: source))
   end
 end
