@@ -13,20 +13,30 @@ module FeedUrlExtractor
     'application/atom+xml'
   ]
 
-  def self.extract_first(page)
-    nodes = Nokogiri::HTML(page)
-    link_nodes = nodes.css(CSS_SELECTOR)
+  class << self
+    def extract_first(page)
+      first_url = extract_all(page).first
 
-    first_feed_node = link_nodes.detect do |link|
-      attributes = link.attributes
+      raise NothingFound if first_url.nil?
 
-      attributes.has_key?('type') &&
-        MIME_TYPES.include?(attributes['type'].value) &&
-        attributes.has_key?('href')
+      first_url
     end
 
-    raise NothingFound if first_feed_node.nil?
+    def extract_all(page)
+      nodes = Nokogiri::HTML(page)
+      link_nodes = nodes.css(CSS_SELECTOR)
 
-    first_feed_node.attributes['href'].value
+      feed_nodes = link_nodes.find_all do |link|
+        attributes = link.attributes
+
+        attributes.has_key?('type') &&
+          MIME_TYPES.include?(attributes['type'].value) &&
+          attributes.has_key?('href')
+      end
+
+      feed_nodes.map do |node|
+        node.attributes['href'].value
+      end
+    end
   end
 end

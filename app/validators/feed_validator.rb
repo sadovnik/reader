@@ -1,21 +1,23 @@
+require 'uri'
+require 'feed_fetcher'
+
 class FeedValidator < ActiveModel::EachValidator
-  DEFAULT_MESSAGE = 'This is not an RSS or Atom feed.'
-  DEFAULT_NOT_AVAILABLE_MESSAGE = "Can't fetch this feed. Seems like site is down or link is broken."
+  module Errors
+    NOT_A_FEED = 'This is not RSS or Atom feed.'
+    UNABLE_TO_FIND_FEED = "Couldn't find any feed on the given page. Could you please provide the exact link?"
+    NOT_AVAILABLE_MESSAGE = "Can't fetch this feed. Seems like site is down or link is broken."
+    LINK_IS_WEIRD = 'This link is kinda weird'
+  end
 
   def validate_each(record, attribute, value)
     return unless record.errors[attribute].blank?
 
-    record.errors[attribute] << (options[:message] || DEFAULT_MESSAGE) unless feed?(value)
-  rescue Faraday::ConnectionFailed, Feedjira::FetchFailure
-    record.errors[attribute] << (options[:not_available_message] || DEFAULT_NOT_AVAILABLE_MESSAGE)
-  end
-
-  private
-
-  def feed?(feed_url)
-    Feedjira::Feed.fetch_and_parse(feed_url)
-    true
+    FeedFetcher.new(record.client).fetch(value)
   rescue Feedjira::NoParserAvailable
-    false
+    record.errors[attribute] << Errors::NOT_A_FEED
+  rescue Faraday::ConnectionFailed, Feedjira::FetchFailure
+    record.errors[attribute] << Errors::NOT_AVAILABLE
+  rescue FeedUrlExtractor::NothingFound
+    record.errors[attribute] << Errors::UNABLE_TO_FIND_FEED
   end
 end

@@ -1,12 +1,22 @@
 # Fetches source
 class SourceFetcher
-  def self.fetch(url)
+  def initialize(client)
+    @client = client
+  end
+
+  def fetch(url)
     source = Source.find_by_url(url)
 
     return source unless source.nil?
 
-    feed = Feedjira::Feed.fetch_and_parse(url)
+    fetch_result = FeedFetcher.new(@client).fetch(url)
 
-    SourceBuilder.build(feed)
+    source = SourceBuilder.build(fetch_result[:feed])
+
+    source.url = fetch_result[:url]
+
+    source.save!
+
+    source
   end
 end

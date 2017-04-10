@@ -1,3 +1,5 @@
+require 'caching_client'
+
 class SubscriptionsController < ApplicationController
   before_action :authorize!
 
@@ -15,7 +17,9 @@ class SubscriptionsController < ApplicationController
   def create
     url = form_params[:url]
 
-    @subscription_form = SubscriptionForm.new(current_user, url)
+    client = CachingClient.new
+
+    @subscription_form = SubscriptionForm.new(current_user, url, client)
 
     unless @subscription_form.valid?
       return respond_to do |format|
@@ -24,7 +28,7 @@ class SubscriptionsController < ApplicationController
       end
     end
 
-    source = SourceFetcher.fetch(url)
+    source = SourceFetcher.new(client).fetch(url)
 
     current_user.subscribe(source)
 
