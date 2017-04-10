@@ -24,21 +24,7 @@ describe SubscriptionsController do
         feed_xml_path = File.expand_path('./fixtures/rss-feed.xml', __dir__)
         feed_xml = File.read(feed_xml_path)
 
-        FakeWeb.register_uri(:get, feed_path, content_type: 'text/html', body: feed_xml)
-      end
-
-      context 'valid params' do
-        it 'subscribes user to the source' do
-          post :create, params: params
-
-          expect(user.subscriptions.count).to eq(1)
-        end
-
-        it 'redirects to /subscriptions' do
-          post :create, params: params
-
-          expect(response).to redirect_to('/subscriptions')
-        end
+        FakeWeb.register_uri(:get, feed_path, content_type: 'text/xml;charset=UTF-8', body: feed_xml)
       end
 
       context 'unvalid params' do
@@ -49,17 +35,33 @@ describe SubscriptionsController do
         end
       end
 
-      context 'unknown source' do
-        it 'downloads feed and converts it into source' do
-          expect { post :create, params: params }.to change { Source.count }.by(1)
+      context 'direct link to feed' do
+        context 'valid params' do
+          it 'subscribes user to the source' do
+            post :create, params: params
+
+            expect(user.subscriptions.count).to eq(1)
+          end
+
+          it 'redirects to /subscriptions' do
+            post :create, params: params
+
+            expect(response).to redirect_to('/subscriptions')
+          end
         end
-      end
 
-      context 'known source' do
-        before { Source.create!(title: 'Daring Fireball', url: feed_path) }
+        context 'unknown source' do
+          it 'downloads feed and converts it into source' do
+            expect { post :create, params: params }.to change { Source.count }.by(1)
+          end
+        end
 
-        it 'takes the source from database' do
-          expect { post :create, params: params }.not_to change { Source.count }
+        context 'known source' do
+          before { Source.create!(title: 'Daring Fireball', url: feed_path) }
+
+          it 'takes the source from database' do
+            expect { post :create, params: params }.not_to change { Source.count }
+          end
         end
       end
     end
