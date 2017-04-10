@@ -24,7 +24,7 @@ class SubscriptionsController < ApplicationController
     unless @subscription_form.valid?
       return respond_to do |format|
         format.js
-        format.html { render action: :new }
+        format.html { render action: :new, status: 422 }
       end
     end
 
