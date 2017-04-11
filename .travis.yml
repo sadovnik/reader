@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+  - 2.2
+  - 2.3
+
+services:
+  - postgresql
+
+before_script:
+  - psql -c 'create database reader_test;' -U postgres
+
+before_script:
+  - cp config/database.yml.travis config/database.yml
