@@ -9,13 +9,14 @@ class SourceFetcher
 
     return source unless source.nil?
 
-    fetch_result = FeedFetcher.new(@client).fetch(url)
+    feed, found_url = FeedFetcher.new(@client).fetch(url)
 
-    source = SourceBuilder.build(fetch_result[:feed])
+    source = SourceBuilder.build(feed)
 
-    source.url = fetch_result[:url]
-
-    source.save!
+    source.update_attributes!(
+      url: found_url,
+      site_url: feed.url
+    )
 
     source
   end

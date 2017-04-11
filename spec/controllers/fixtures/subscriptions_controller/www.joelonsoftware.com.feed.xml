@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Joel on Software</title>
+	<atom:link href="https://www.joelonsoftware.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.joelonsoftware.com</link>
+	<description></description>
+	<lastBuildDate>Fri, 24 Feb 2017 19:01:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+
+
+<image>
+	<url>https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/11969842.jpg?fit=32%2C32&#038;ssl=1</url>
+	<title>Joel on Software</title>
+	<link>https://www.joelonsoftware.com</link>
+	<width>32</width>
+	<height>32</height>
+</image>
+<site xmlns="com-wordpress:feed-additions:1">119105578</site>	<item>
+		<title>Developers&#8217; side projects</title>
+		<link>https://www.joelonsoftware.com/2016/12/09/developers-side-projects/</link>
+		<pubDate>Fri, 09 Dec 2016 22:00:27 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Spolsky]]></dc:creator>
+				<category><![CDATA[New developer]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://www.joelonsoftware.com/?p=3137</guid>
+		<description><![CDATA[If you’re a developer working for software company, does that company own what you do in your spare time? <span class="read-more"><a class="more-link" href="https://www.joelonsoftware.com/2016/12/09/developers-side-projects/" rel="bookmark">Read more <span class="screen-reader-text">"Developers&#8217; side projects"</span></a></span>]]></description>
+				<content:encoded><![CDATA[<p>Pretty much 100% of developers working for other people end up signing some kind of &#8220;proprietary invention agreement,&#8221; but almost all of them misunderstand what&#8217;s going on with that agreement. Most developers think that the work they do at work belongs to their employer, but anything they work on at home or on their own time is theirs. This is wrong enough to be dangerous.</p>
+<p>So let&#8217;s consider this question: if you&#8217;re a developer working for software company, does that company own what you do in your spare time?</p>
+<p><a href="https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/IMG_4042-e1481320442847.jpg?ssl=1"><img class="alignright size-medium wp-image-3142" src="https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/IMG_4042-e1481320442847-225x300.jpg?resize=225%2C300&#038;ssl=1" alt="" srcset="https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/IMG_4042-e1481320442847.jpg?resize=225%2C300&amp;ssl=1 225w, https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/IMG_4042-e1481320442847.jpg?resize=768%2C1024&amp;ssl=1 768w, https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/IMG_4042-e1481320442847.jpg?resize=1200%2C1600&amp;ssl=1 1200w, https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/IMG_4042-e1481320442847.jpg?w=1460&amp;ssl=1 1460w, https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/IMG_4042-e1481320442847.jpg?w=2190&amp;ssl=1 2190w" sizes="(max-width: 225px) 100vw, 225px" data-recalc-dims="1" /></a>Before I start: be careful before taking legal advice from the Internet. I see enough wrong information that you could get in trouble. Non-US readers should also be aware that the law and legal practice could be completely different in their country.</p>
+<p>There are three pieces of information you would need to know to answer this question:</p>
+<p>1. What state (or country) are you employed in?</p>
+<p>There are state laws that vary from state to state which may even override specific contracts.</p>
+<p>2. What does <em>your</em> contract with your employer say?</p>
+<p>In the US, in general, courts are very lenient about letting people sign any kind of contract they want, but sometimes, state laws will specifically say &#8220;even if you sign such and such a contract, the law overrides.&#8221;</p>
+<p>3. Are you a contractor or an employee? In the US there are two different ways you might be hired, and the law is different in each case.</p>
+<p>But before I can even begin to explain these issues, we gotta break it down.</p>
+<p>Imagine that you start a software company. You need a developer. So you hire Sarah from across the street and make a deal whereby you will pay her $20 per hour and she will write lines of code for your software product. She writes the code, you pay her the $20/hour, and all is well. Right?</p>
+<p>Well&#8230; maybe. In the United States, if you hired Sarah as a contractor, she still owns the copyright on that work. That is kind of weird, because you might say, &#8220;Well, I paid her for it.&#8221; It sounds weird, but it is the default way copyright works. In fact, if you hire a photographer to take pictures for your wedding, you own the <em>copies</em> of the pictures that you get, but the photographer still owns the copyright and has the legal monopoly on making more copies of those pictures. Surprise! Same applies to code.</p>
+<p><em>Every</em> software company is going to want to own the copyright to the code that its employees write for them, so <em>no</em> software company can accept the &#8220;default&#8221; way the law works. That is why <em>all</em> software companies that are well-managed will require <em>all</em> developers, at the very least, to sign an agreement that says, at the very least, that</p>
+<ul>
+<li>in exchange for receiving a salary,</li>
+<li>the developer agrees to &#8220;assign&#8221; (give) the copyright to the company.</li>
+</ul>
+<p>This agreement can happen in the employment contract or in a separate &#8220;Proprietary Invention Assignment&#8221; contract. The way it is often expressed is by using the legal phrase <em><a href="http://en.wikipedia.org/wiki/Work_for_hire">work for hire</a></em>, which means &#8220;we have decided that the copyright will be owned by the company, not the employee.&#8221;</p>
+<p>Now, we still haven&#8217;t said anything about spare time work yet. Suppose, now, you have a little game company. Instead of making software, you knock out three or four clever games every few months. You can&#8217;t invent all the games yourself. So you go out and hire a game designer to invent games. You are going to pay the game designer $6,000 a month to invent new games. Those games will be clever and novel. They are patentable. It is important to you, as a company, to own the <em>patents</em> on the games.</p>
+<p>Your game designer works for a year and invents 7 games. At the end of the year, she sues you, claiming that she owns 4 of them, because those particular games were invented between 5pm and 9am, when she wasn&#8217;t on duty.</p>
+<p>Ooops. That&#8217;s not what you meant. You wanted to pay her for <em>all</em> the games that she invents, and you recognize that the actual <em>process of invention</em> for which you are paying her may happen at any time&#8230; on weekdays, weekends, in the office, in the cubicle, at home, in the shower, climbing a mountain on vacation.</p>
+<p>So before you hire this developer, you agree, &#8220;hey listen, I know that inventing happens all the time, and it&#8217;s impossible to prove whether you invented something while you were sitting in the chair I supplied in the cubicle I supplied or not. I don&#8217;t just want to buy your 9:00-5:00 inventions. I want them all, and I&#8217;m going to pay you a nice salary to get them all,&#8221; and she agrees to that, so now you want to sign something that says that all her inventions belong to the company for as long as she is employed by the company.</p>
+<p>This is where we are by default. This is the <em>standard</em> employment contract for developers, inventors, and researchers.</p>
+<p>Even if a company decided, &#8220;oh gosh, we don&#8217;t want to own the 5:00-9:00 inventions,&#8221; they would soon get into trouble. Why? Because they might try to take an investment, and the investor would say, &#8220;prove to me that you&#8217;re not going to get sued by some disgruntled ex-employee who claims to have invented the things that you&#8217;re selling.&#8221; The company wants to be able to pull out a list of all current and past employees, and show a contract from <em>every single one of them</em> assigning inventions to the company. This is expected as a part of due diligence in every single high tech financing, merger, and acquisition, so a software company that isn&#8217;t careful about getting these assignments is going to have trouble getting financed, or merging, or being acquired, and that ONE GUY from 1998 who didn&#8217;t sign the agreement is going to be a real jerk about signing it now, because he knows that he&#8217;s personally holding up a $350,000,000 acquisition and he can demand a lot of money to sign.</p>
+<p>So&#8230; every software company <em>tries</em> to own <em>everything</em> that its employees do. (They don&#8217;t <em>necessarily</em> enforce it in cases of unrelated hobby projects, but on paper, they probably can.)</p>
+<p>Software developers, as you can tell from this thread, found this situation to be upsetting. They always imagined that they should be able to sit in their own room at night on their own computer writing their own code for their own purposes and own the copyright and patents. So along came state legislators, in certain states (like California) but not others (not New York, for example). These state legislatures usually passed laws that said something like this:</p>
+<blockquote><p>Anything you do on your own time, with your own equipment, that is not related to your employer&#8217;s line of work is yours, even if the contract you signed says otherwise.</p></blockquote>
+<p>Because this is the law of California, this particular clause is built into the standard Nolo contract and most of the standard contracts that California law firms give their software company clients, so programmers all over the country might well have this in their contract even if their state doesn&#8217;t require it.</p>
+<p>Let&#8217;s look at that closely.</p>
+<p><em>On your own time.</em> Easy to determine, I imagine.</p>
+<p><em>With your own equipment.</em> Trivial to determine.</p>
+<p><em>Not related to your employer&#8217;s line of work.</em> Um, wait. What&#8217;s the definition of <em>related?</em> If my employer is Google, they do <em>everything.</em> They made a goddamn HOT AIR BALLOON with an internet router in it once. Are hot air balloons related? Obviously search engines, mail, web apps, and advertising are related to Google&#8217;s line of work. Hmmm.</p>
+<p><a href="https://en.wikipedia.org/wiki/Project_Loon"><img class="alignright wp-image-3139 size-medium" src="https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/loon-balloon.png?resize=186%2C300&#038;ssl=1" srcset="https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/loon-balloon.png?resize=186%2C300&amp;ssl=1 186w, https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/loon-balloon.png?resize=768%2C1242&amp;ssl=1 768w, https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/loon-balloon.png?resize=633%2C1024&amp;ssl=1 633w, https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/loon-balloon.png?w=804&amp;ssl=1 804w" sizes="(max-width: 186px) 100vw, 186px" data-recalc-dims="1" /></a></p>
+<p>OK, what if my employer is a small company making software for the legal industry. Would software for the accounting industry be &#8220;related&#8221;?</p>
+<p>I don&#8217;t know. It&#8217;s a big enough ambiguity that you could drive a truck through it. It&#8217;s probably going to depend on a judge or jury.</p>
+<p>The judge (or jury) is <em>likely</em> to be friendly to the poor employee against Big Bad Google, but you can&#8217;t depend on it.</p>
+<p>This ambiguity is meant to create enough of a chilling effect on the employee working in their spare time that for all intents and purposes it achieves the effect that the employer wants: the employee doesn&#8217;t bother doing any side projects that might turn into a business some day, and the employer gets a nice, refreshed employee coming to work in the morning after spending the previous evening watching TV.</p>
+<p>So&#8230; to answer the question. There is unlikely to be substantial difference between the contracts that you sign at various companies in the US working as a developer or in the law that applies. All of them need to purchase your copyright and patents without having to prove that they were generated &#8220;on the clock,&#8221; so they will all try to do this, unless the company is being negligent and has not arranged for appropriate contracts to be in place, in which case, the company is probably being badly mismanaged and there&#8217;s another reason not to work there.</p>
+<p>The only difference is in the stance of management as to how hard they want to <em>enforce</em> their rights under these contracts. This can vary from:</p>
+<ul>
+<li>We love side projects. Have fun!</li>
+<li>We don&#8217;t really like side projects. You should be thinking about things for us.</li>
+<li>We love side projects. We love them so much we want to own them and sell them!</li>
+<li>We are kinda indifferent. If you piss us off, we will look for ways to make you miserable. If you leave and start a competitive company or even a half-competitive company, we will use this contract to bring you to tears. BUT, if you don&#8217;t piss us off, and serve us loyally, we&#8217;ll look the other way when your iPhone app starts making $40,000 a month.</li>
+</ul>
+<p>It may vary depending on whom you talk to, who is in power at any particular time, and whether or not you&#8217;re sleeping with the boss. You&#8217;re on your own, basically—the only way to gain independence is to be independent. Being an employee of a high tech company whose <em>product</em> is intellectual means that you have decided that you want to sell your intellectual output, and maybe that&#8217;s OK, and maybe it&#8217;s not, but it&#8217;s a free choice.</p>
+]]></content:encoded>
+		<post-id xmlns="com-wordpress:feed-additions:1">3137</post-id>	</item>
+		<item>
+		<title>Developers are Writing the Script for the Future</title>
+		<link>https://www.joelonsoftware.com/2016/12/09/developers-are-writing-the-script-for-the-future/</link>
+		<pubDate>Fri, 09 Dec 2016 18:28:39 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Spolsky]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://www.joelonsoftware.com/?p=3135</guid>
+		<description><![CDATA[Last week I was invited to Slush in Helsinki, where I gave a keynote called &#8220;Developers are Writing the Script for the Future.&#8221; Here&#8217;s a 20 minute video&#8230; <span class="read-more"><a class="more-link" href="https://www.joelonsoftware.com/2016/12/09/developers-are-writing-the-script-for-the-future/" rel="bookmark">Read more <span class="screen-reader-text">"Developers are Writing the Script for the Future"</span></a></span>]]></description>
+				<content:encoded><![CDATA[<p>Last week I was invited to <a href="http://www.slush.org/">Slush</a> in Helsinki, where I gave a keynote called &#8220;Developers are Writing the Script for the Future.&#8221; Here&#8217;s a 20 minute video of that talk.</p>
+<p><iframe class='youtube-player' type='text/html' width='730' height='441' src='https://www.youtube.com/embed/AGyIbZotKlk?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></p>
+]]></content:encoded>
+		<post-id xmlns="com-wordpress:feed-additions:1">3135</post-id>	</item>
+		<item>
+		<title>RIP CityDesk</title>
+		<link>https://www.joelonsoftware.com/2016/12/09/rip-citydesk/</link>
+		<pubDate>Fri, 09 Dec 2016 02:18:13 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Spolsky]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://www.joelonsoftware.com/?p=3119</guid>
+		<description><![CDATA[Sixteen years after launching Joel on Software, it's now running on WordPress. <span class="read-more"><a class="more-link" href="https://www.joelonsoftware.com/2016/12/09/rip-citydesk/" rel="bookmark">Read more <span class="screen-reader-text">"RIP CityDesk"</span></a></span>]]></description>
+				<content:encoded><![CDATA[<p>Here&#8217;s a quick history of the technology behind Joel on Software.</p>
+<p>Version one was on Manila, created by <a href="http://scripting.com/">Dave Winer</a>. Dave was the one who convinced me to blog, by blogging himself, and by creating what was, I think, the first public blogging platform at editthispage.com. My site was joel.editthispage.com and back in 1999 people thought it was pretty spiffy that you could get your own subdomain like that.</p>
+<p>In order to use my own domain, I registered joelonsoftware.com and took an old IBM desktop computer (probably running Windows NT 4.0), shoved it in a closet, and <a href="https://www.joelonsoftware.com/2001/06/14/20010614/">ran my own copy of Manila</a>. The first time Slashdot linked to me it melted down. We upgraded the memory from 256M to 512M and it recovered.</p>
+<p>In those days all the cool kids wrote their own blogging platforms. I wrote <a href="https://www.joelonsoftware.com/2001/10/12/what-does-citydesk-do/">CityDesk</a>. In what turned out to be a monumentally wrong bet, I thought that people would want to blog on Windows, with all the slick WYSIWYG editing goodness that wasn&#8217;t yet available in early versions of HTML. CityDesk kept your entire website in a SQL database (Microsoft Jet, the backend of Access) and had a frontend like a word processor. Every time you needed to publish, it generated the entire site as a set of html pages, which it then uploaded to an ftp server for you. That worked &#8220;OK&#8221; for 10 pages. By the time this site was over 1000 pages, even on modern super speedy computers with flash drives, it took something like 5 minutes to publish.</p>
+<p>Over the years the CityDesk code base (VB 6.0, another bad bet) stopped running on the latest versions of Windows. Nobody else cared but by that time I was using a custom version of CityDesk which only ran on Windows XP. So until recently, I had a virtual machine set up with Windows XP running in there, and a copy of CityDesk. That virtual machine runs on a modern Windows box which I don&#8217;t use for any other purpose, so it lives under a desk in a cave somewhere and I have to remote desktop into it. Lately, I haven&#8217;t been able to do that. I&#8217;m not sure why.</p>
+<p>Doesn&#8217;t matter. <a href="https://ma.tt/">Matt Mullenweg</a> over at WordPress has been trying to get me to move Joel on Software over to WordPress for so long it&#8217;s not even funny. I finally gave in. An astonishingly talented group of people were collected who created the port you are looking at now. I owe a huge debt of gratitude to <a href="https://chrishardie.com/">Chris Hardie</a>, <a href="http://triggersandsparks.com/">Sarah Semark</a>, <a href="http://tilesandthesea.com/">Valerie Kalantyrski</a>, <a href="http://planewhimsy.com/">Michelle Langston</a>, <a href="http://danielwrobert.com/">Daniel Robert</a>, <a href="https://softmanjournal.wordpress.com/">James Tien</a>, and<br />
+<a href="http://steveseear.org">Steve Seear</a> for weeks of hard work on creating this almost perfect port of 16 years of cruft, preserving over 1000 links with redirects, hand crafting html and css to preserve awful formatting, some of which was created before CSS was in use, and doing some monumental heroics to keep just about everything about the old site in its new WordPress home.</p>
+<p>I also want to thank our host <a href="http://pressable.com/">Pressable</a>.</p>
+<p>OK, I haven&#8217;t blogged too much since getting a puppy and <a href="https://www.joelonsoftware.com/2010/03/14/puppy/">&#8220;officially&#8221; retiring on the tenth anniversary of Joel on Software</a>. I won&#8217;t have too much time to blog now, either, but now that we&#8217;re on WordPress, it&#8217;s a million times easier, so I&#8217;ll probably throw up some things here that I&#8217;ve written anyway, like internal documents from Fog Creek and Stack Overflow.</p>
+<p>See you soon!</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+		<post-id xmlns="com-wordpress:feed-additions:1">3119</post-id>	</item>
+		<item>
+		<title>Anil Dash is the new CEO of Fog Creek Software</title>
+		<link>https://www.joelonsoftware.com/2016/12/06/anil-dash-is-the-new-ceo-of-fog-creek-software/</link>
+		<pubDate>Tue, 06 Dec 2016 14:19:23 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Spolsky]]></dc:creator>
+				<category><![CDATA[Fog Creek Software]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://www.joelonsoftware.com/?p=3096</guid>
+		<description><![CDATA[For the first time since Fog Creek Software was founded more than sixteen years ago, we have a new CEO, Anil Dash. <span class="read-more"><a class="more-link" href="https://www.joelonsoftware.com/2016/12/06/anil-dash-is-the-new-ceo-of-fog-creek-software/" rel="bookmark">Read more <span class="screen-reader-text">"Anil Dash is the new CEO of Fog Creek Software"</span></a></span>]]></description>
+				<content:encoded><![CDATA[<p>I have some huge news to share with you.</p>
+<p>For the first time since <a href="http://fogcreek.com/">Fog Creek Software</a> was founded more than sixteen years ago, we have a new CEO, <a href="http://anildash.com/2016/12/im-at-fog-creek-and-were-introducing-gomix.html">Anil Dash</a>.</p>
+<p><img src="https://i2.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/Wired-square.jpg?resize=300%2C300&#038;ssl=1" alt="" class="alignnone size-medium wp-image-3116" srcset="https://i2.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/Wired-square.jpg?resize=300%2C300&amp;ssl=1 300w, https://i2.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/Wired-square.jpg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/Wired-square.jpg?w=418&amp;ssl=1 418w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></p>
+<h2>Who?</h2>
+<p>I’ve been friends with Anil since the earliest days of Fog Creek Software. He’s a pioneer of blogging (<a href="http://anildash.com/1999/07/birth-of-a-webl.html">beat</a> <a href="http://joelonsoftware.com/news/fog0000000244.html">me</a> to it by about five months), and has been a tech industry entrepreneur, activist, and writer for almost two decades.</p>
+<p>You can read Anil’s full bio <a href="http://anildash.com/about.html">here</a>. For those of you that want the top level bullet points:</p>
+<ul>
+<li>Blogging pioneer</li>
+<li>Helped start Six Apart, the company behind Moveable Type and TypePad</li>
+<li>Founder of <a href="https://en.wikipedia.org/wiki/Expert_Labs">Expert Labs</a>, ThinkUp, and <a href="https://makerbase.co/">MakerBase</a> (which is joining Fog Creek)</li>
+<li>Advisor and board member to a whole slew of companies and non-profits</li>
+<li>Lives in New York City, with his wife <a href="http://alainabrowne.com/">Alaina Browne</a> and their son Malcolm.</li>
+</ul>
+<p>I’ve gotten to know Anil much better since he joined the Stack Overflow Board of Directors in 2011 and discovered that he’s a remarkable creative thinker and really, really understands developers, how the work developers do fits into society, and thus, how we can make technology more humane and ethical from our unique position of making things for software developers. There is no single person I would trust more to help Fog Creek figure out how to make something big, important, and valuable.</p>
+<p>Fog Creek is a weird company here, with unique values that you don’t find in a lot of other companies. That’s why we’re so successful, and that’s why we love working here. Some of the weird stuff we do is non-negotiable. We would never dream of having just any competent person from outside the company come in, let alone give them the CEO role, if we weren’t convinced that they were 100% fanatical and excited about Fog Creek Software’s unique operating system. We’ve been friends with Anil for so long that we’re confident that the combination of his talents and worldview with our quirky operating system will be a stellar combination.</p>
+<p>In short, we need Anil to help support us with ideas and leadership for HyperDev (now renamed <a href="https://gomix.com">Gomix</a>) and any future products we come up with, and we need his soapbox and industry connections to continue to keep Fog Creek Software relevant. Thus I think the perfect position for him is as CEO of Fog Creek Software.</p>
+<p>A typical startup is built around a single product, and some theory that people will pay money for that product. This theory eventually become false, and <a href="http://www.towerrecordsmovie.com/">the company goes away</a>. But Fog Creek was different. We were just a place where great people come together to build great things. People come here because of the other people that are here. And that makes it fundamentally much stronger and longer lasting. We build new products every year, some of which work, and some of which don’t; we can spin off other companies; the individuals who work here can change; but as long as we remain dedicated to being a place where great people come together to build great things we’re going to remain a highly respected and successful company for a long long time.</p>
+<p><img src="https://i1.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/fog-creek-product-history.png?resize=300%2C164&#038;ssl=1" alt="" class="alignnone size-medium wp-image-3117" srcset="https://i1.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/fog-creek-product-history.png?resize=300%2C164&amp;ssl=1 300w, https://i1.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/fog-creek-product-history.png?resize=768%2C419&amp;ssl=1 768w, https://i1.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/fog-creek-product-history.png?resize=1024%2C558&amp;ssl=1 1024w, https://i1.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/12/fog-creek-product-history.png?w=1126&amp;ssl=1 1126w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></p>
+<h2>What are you doing, Joel?</h2>
+<p>I’m the full-time CEO of <a href="http://stackoverflow.com/">Stack Overflow</a>, which just hit 300 employees and really takes all my time now.</p>
+<h2>Where&#8217;s Michael Pryor?</h2>
+<p>He’s the full-time CEO of <a href="https://trello.com/">Trello</a>, which is about to hit 100 employees and takes all of his time.</p>
+<h2>So, what’s going on at Fog Creek?</h2>
+<p>Fog Creek is focused on two things:</p>
+<ul>
+<li>Fog Creek’s developer tool, <a href="http://www.fogcreek.com/fogbugz/">FogBugz,</a> is still going strong. We have a dedicated development team continuing to work on it and are still regularly releasing new features and enhancements, especially in the area of agile development.</li>
+<li>Fog Creek’s newest project, <a href="https://gomix.com/">Gomix</a> (formerly “HyperDev”) is relaunching. This is a developer playground for building full-stack web-apps fast.</li>
+</ul>
+<p>Anil as CEO will be assisted by COO Jordan Harris, and Michael and I are still heavily involved but now at the board level.</p>
+]]></content:encoded>
+		<post-id xmlns="com-wordpress:feed-additions:1">3096</post-id>	</item>
+		<item>
+		<title>Oh look, a new site!</title>
+		<link>https://www.joelonsoftware.com/2016/12/06/oh-look-a-new-site/</link>
+		<pubDate>Tue, 06 Dec 2016 02:23:21 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Spolsky]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://www.joelonsoftware.com/?p=3092</guid>
+		<description><![CDATA[I've moved to WordPress. There may be some bugs! <span class="read-more"><a class="more-link" href="https://www.joelonsoftware.com/2016/12/06/oh-look-a-new-site/" rel="bookmark">Read more <span class="screen-reader-text">"Oh look, a new site!"</span></a></span>]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve moved to WordPress. There may be some bugs!</p>
+]]></content:encoded>
+		<post-id xmlns="com-wordpress:feed-additions:1">3092</post-id>	</item>
+		<item>
+		<title>Introducing HyperDev</title>
+		<link>https://www.joelonsoftware.com/2016/05/31/introducing-hyperdev/</link>
+		<pubDate>Tue, 31 May 2016 00:14:26 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Spolsky]]></dc:creator>
+				<category><![CDATA[Fog Creek Software]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://www.joelonsoftware.com/?p=865</guid>
+		<description><![CDATA[One more thing… It’s been awhile since we launched a whole new product at Fog Creek Software (the last one was Trello, and that’s doing pretty well).&#8230; <span class="read-more"><a class="more-link" href="https://www.joelonsoftware.com/2016/05/31/introducing-hyperdev/" rel="bookmark">Read more <span class="screen-reader-text">"Introducing HyperDev"</span></a></span>]]></description>
+				<content:encoded><![CDATA[<p>One more thing…</p>
+<p>It’s been awhile since we launched a whole new product at Fog Creek Software (the last one was <a href="https://trello.com/">Trello</a>, and that’s <a href="http://www.forbes.com/sites/alexkonrad/2016/05/23/trello-get-serious-about-big-businesses-as-it-passes-1-1-million-daily-users-and-triples-sales/#fed92956ce27">doing pretty well</a>). Today we’re announcing the public beta of <a href="https://hyperdev.com/">HyperDev</a>, a developer playground for building full-stack web-apps fast.</p>
+<p>HyperDev is going to be the fastest way to bang out code and get it running on the internet. We want to eliminate 100% of the complicated administrative details around getting code up and running on a website. The best way to explain that is with a little tour.</p>
+<p>Step one. You go to hyperdev.com. </p>
+<p>Boom. Your new website is already running. You have your own private virtual machine (well, really it’s a container but you don’t have to care about that or know what that means) running on the internet at its own, custom URL which you can already give people and they can already go to it and see the simple code we started you out with. </p>
+<p>All that happened just because you went to hyperdev.com.</p>
+<p>Notice what you DIDN’T do.</p>
+<ul>
+<li>You didn’t make an account.</li>
+<li>You didn’t use Git. Or any version control, really.</li>
+<li>You didn’t deal with name servers.</li>
+<li>You didn’t sign up with a hosting provider.</li>
+<li>You didn’t provision a server.</li>
+<li>You didn’t install an operating system or a LAMP stack or Node or operating systems or anything.</li>
+<li>You didn’t configure the server.</li>
+<li>You didn’t figure out how to integrate and deploy your code.</li>
+</ul>
+<p><span class="side"><a href="https://i1.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/05/hyperdev_ss1.png?ssl=1"><img class="sideimg" alt="" src="https://i2.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/05/hyperdev_ss1-thumbnail.png?w=730&#038;ssl=1" data-recalc-dims="1" /></a></span>You just went to hyperdev.com. Try it now!</p>
+<p>What do you see in your browser?</p>
+<p>Well, you’re seeing a basic IDE. There’s a little button that says SHOW and when you click on that, another browser window opens up showing you your website as it appears to the world. Notice that we invented a unique name for you.</p>
+<p>Over there in the IDE, in the bottom left, you see some client side files. One of them is called index.html. You know what to do, right? Click on index.html and make a couple of changes to the text.</p>
+<p>Now here’s something that is already a little bit magic… As you type changes into the IDE, without saving, those changes are deploying to your new web server and we’re refreshing the web browser for you, so those changes are appearing almost instantly, both in your browser and for anyone else on the internet visiting your URL.</p>
+<p><img alt="" src="https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2016/05/hyperdev_ss2.gif?resize=600%2C273&#038;ssl=1" border="0" data-recalc-dims="1" /></p>
+<p>Again, notice what you DIDN’T do:</p>
+<ul>
+<li>You didn’t hit a “save” button.</li>
+<li>You didn’t commit to Git.</li>
+<li>You didn’t push.</li>
+<li>You didn’t run a deployment script.</li>
+<li>You didn’t restart the web server.</li>
+<li>You didn’t refresh the page on your web browser.</li>
+</ul>
+<p>You just typed some changes and BOOM they appeared.</p>
+<p>OK, so far so good. That’s a little bit like jsFiddle or Stack Overflow snippets, right? NBD.</p>
+<p>But let’s look around the IDE some more. In the top left, you see some server side files. These are actual code that actually runs on the actual (virtual) server that we’re running for you. It’s running node. If you go into the server.js file you see a bunch of JavaScript. Now change something there, and watch your window over on the right.</p>
+<p>Magic again… the changes you are making to the server-side Javascript code are already deployed and they’re already showing up live in the web browser you’re pointing at your URL.</p>
+<p>Literally every change you make is instantly saved, uploaded to the server, the server is restarted with the new code, and your browser is refreshed, all within half a second. So now your server-side code changes are instantly deployed, and once again, notice that you didn’t:</p>
+<ul>
+<li>Save</li>
+<li>Do Git incantations</li>
+<li>Deploy</li>
+<li>Buy and configure a continuous integration solution</li>
+<li>Restart anything</li>
+<li>Send any SIGHUPs</li>
+</ul>
+<p>You just changed the code and it was already reflected on the live server.</p>
+<p>Now you’re starting to get the idea of HyperDev. It’s just a SUPER FAST way to get running code up on the internet without dealing with any administrative headaches that are not related to your code.</p>
+<p>Ok, now I think I know the next question you’re going to ask me.</p>
+<p>“Wait a minute,” you’re going to ask. “If I’m not using Git, is this a single-developer solution?” </p>
+<p>No. There’s an Invite button in the top left. You can use that to get a link that you give your friends. When they go to that link, they’ll be editing, live, with you, in the same documents. It’s a magical kind of team programming where everything shows up instantly, like Trello, or Google Docs. It is a magical thing to collaborate with a team of two or three or four people banging away on different parts of the code at the same time without a source control system. It’s remarkably productive; you can dive in and help each other or you can each work on different parts of the code.</p>
+<p>“This doesn’t make sense. How is the code not permanently broken? You can’t just sync all our changes continuously!”</p>
+<p>You’d be surprised just how well it does work, for most small teams and most simple programming projects. Listen, this is not the future of all software development. Professional software development teams will continue to use professional, robust tools like Git and that’s great. But it’s surprising how just having continuous merging and reliable Undo solves the “version control” problem for all kinds of simple coding problems. And it really does create an insanely addictive form of collaboration that supercharges your team productivity.</p>
+<p>“What if I literally type ‘DELETE * FROM USERS’ on my way to typing ‘WHERE id=9283’, do I lose all my user data?”</p>
+<p>Erm… yes. Don’t do that. This doesn’t come up that often, to be honest, and we’re going to add the world’s simplest “branch” feature so that optionally you can have a “dev” and “live” branch, but for now, yeah, you’d be surprised at how well this works in practice even though in theory it sounds terrifying.</p>
+<p>“Does it have to be JavaScript?”</p>
+<p>Right now the server we gave you is running Node so today it has to be JavaScript. We’ll add other languages soon.</p>
+<p>“What can I do with my server?”</p>
+<p>Anything you can do in Node. You can add any package you want just by editing package.json. So literally any working JavaScript you want to cut and paste from Stack Overflow is going to work fine.</p>
+<p>“Is my server always up?”</p>
+<p>If you don’t use it for a while, we’ll put your server to sleep, but it will never take more than a few seconds to restart. But yes for all intents and purposes, you can treat it like a reasonably reliably, 24/7 web server. This is still a beta so don’t ask me how many 9’s. You can have all the 8’s you want.</p>
+<p>“Why would I trust my website to you? What if you go out of business?”</p>
+<p>There’s nothing special about the container we gave you; it’s a generic VM running Node. There’s nothing special about the way we told you to write code; we do not give you special frameworks or libraries that will lock you in. Download your source code and host it anywhere and you’re back in business.</p>
+<p>“How are you going to make money off of this?”</p>
+<p>Aaaaaah! why do you care!</p>
+<p>But seriously, the current plan is to have a free version for public / open source code you don’t mind sharing with the world. If you want private code, much like private repos, there will eventually be paid plans, and we’ll have corporate and enterprise versions. For now it’s all just a beta so don’t worry too much about that!</p>
+<p>“What is the point of this Joel?”</p>
+<p>As developers we have fantastic sets of amazing tools for building, creating, managing, testing, and deploying our source code. They’re powerful and can do anything you might need. But they’re usually too complex and too complicated for very simple projects. Useful little bits of code never get written because you dread the administration of setting up a new dev environment, source code repo, and server. New programmers and students are overwhelmed by the complexity of distributed version control when they’re still learning to write a while loop. Apps that might solve real problems never get written because of the friction of getting started.</p>
+<p>Our theory here is that HyperDev can remove all the barriers to getting started and building useful things, and more great things will get built. </p>
+<p>“What now?”</p>
+<p>Really? Just go to <a href="https://hyperdev.com/">HyperDev</a> and start playing!</p>
+]]></content:encoded>
+		<post-id xmlns="com-wordpress:feed-additions:1">865</post-id>	</item>
+		<item>
+		<title>Stack Exchange Raises $40m</title>
+		<link>https://www.joelonsoftware.com/2015/01/20/stack-exchange-raises-40m/</link>
+		<pubDate>Tue, 20 Jan 2015 00:14:25 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Spolsky]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://www.joelonsoftware.com/?p=864</guid>
+		<description><![CDATA[Today Stack Exchange is pleased to announce that we have raised $40 million, mostly from Andreessen Horowitz. Everybody wants to know what we’re going to do with&#8230; <span class="read-more"><a class="more-link" href="https://www.joelonsoftware.com/2015/01/20/stack-exchange-raises-40m/" rel="bookmark">Read more <span class="screen-reader-text">"Stack Exchange Raises $40m"</span></a></span>]]></description>
+				<content:encoded><![CDATA[<p><!-- yay money --> </p>
+<p>Today <a href="http://stackexchange.com/">Stack Exchange</a> is pleased to announce that we have raised $40 million, mostly from <a href="http://a16z.com/">Andreessen Horowitz</a>.</p>
+<p>Everybody wants to know what we’re going to do with all that money. First of all, of course we’re going to gold-plate the Aeron chairs in the office. Then we’re going to upgrade the game room, and we’re already sending lox platters to our highest-rep users.</p>
+<p>But I’ll get into that in a minute. First, let me catch everyone up on what’s happening at Stack Exchange.</p>
+<p>In 2008, <a href="http://blog.codinghorror.com/">Jeff Atwood</a> and I set out to fix a problem for programmers. At the time, getting answers to programming questions online was super annoying. The answers that we needed were hidden behind paywalls, or buried in thousands of pages of stale forums.</p>
+<p>So we built <a href="http://stackoverflow.com/">Stack Overflow</a> with a single-minded, compulsive, fanatical obsession with serving programmers with a better Q&amp;A site.</p>
+<p>Everything about how Stack Overflow works today was designed to make programmers’ jobs easier. We let members vote up answers, so we can show you the best answer first. We don’t allow opinionated questions, because they descend into flame wars that don’t help people who need an answer right now. We have scrupulously avoided any commercialization of our editorial content, because we want to have a site that programmers can trust.</p>
+<p>Heck, we don’t even allow animated ads, even though they are totally standard on every other site on the Internet, because it would be disrespectful to programmers to strain their delicate eyes with a dancing monkey, and we can’t serve them 100% if we are distracting them with a monkey. That would only be serving them 98%. And we’re OBSESSED, so 98% is like, we might as well close this all down and go drive taxis in Las Vegas.</p>
+<p>Anyway, it worked! Entirely thanks to you. An insane number of developers stepped up to pass on their knowledge and help others. Stack Overflow quickly grew into the largest, most trusted repository of programming knowledge in the world.</p>
+<p>Quickly, Jeff and I discovered that serving programmers required more than just code-related questions, so we built <a href="http://serverfault.com/">Server Fault</a> and <a href="http://superuser.com/">Super User</a>. And when that still didn’t satisfy your needs, we set up <a href="http://stackexchange.com/">Stack Exchange</a> so the community could create sites on new topics. Now when a programmer has to set up a server, or a PC, or a database, or Ubuntu, or an iPhone, they have a place to go to ask those questions that are full of the people who can actually help them do it.</p>
+<p>But you know how programmers are. They “have babies.”&nbsp; Or “take pictures of babies.” So our users started building Stack Exchange sites on unrelated topics, like <a href="http://parenting.stackexchange.com/">parenting</a> and <a href="http://photo.stackexchange.com/">photography</a>, because the programmers we were serving expected—nay, demanded!—a place as awesome as Stack Overflow to ask about baby feeding schedules and f-stops and whatnot.</p>
+<p>And we did such a good job of serving programmers that a few smart non-programmers looked at us and said, “Behold! I want that!” and we thought, hey!&nbsp; What works for developers should work for a lot of other people, too, as long as they’re willing to think like developers, which is the best way to think. So, we decided that anybody who wants to get with the program is welcome to join in our plan. And these sites serve their own communities of, you know, <a href="http://bicycles.stackexchange.com/">bicycle mechanics</a>, or what have you, and make the world safer for the Programmer Way Of Thinking and thus serve programmers by serving bicycle mechanics.</p>
+<p>In the five years since then, our users have built 133 communities. Stack Overflow is still the biggest. It reminds me of those medieval maps of the ancient world. The kind that shows a big bustling city (Jerusalem) smack dab in the middle, with a few smaller settlements around the periphery. (Please imagine Gregorian chamber music).</p>
+<p><span class="side"><a href="https://i2.wp.com/www.joelonsoftware.com/wp-content/uploads/2015/01/Jerusalem.jpg?ssl=1"><img class="sideimg" alt="" src="https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2015/01/Jerusalem-thumbnail.jpg?w=730&#038;ssl=1" data-recalc-dims="1" /></a><br /><span class="caption"><a href="http://en.wikipedia.org/wiki/History_of_Jerusalem_during_the_Middle_Ages">View of Jerusalem</a></span></span>Stack Overflow is the big city in the middle. Because the programmer-city worked so well, people wanted to ask questions about other subjects, so we let them build other Q&amp;A villages in the catchment area of the programmer-city. Some of these Q&amp;A villages became cities of their own. The <a href="http://math.stackexchange.com/">math</a> <a href="http://mathoverflow.net/">cities</a> barely even have any programmers and they speak their own weird language. They are math-Jerusalem. They makes us very proud. Even though they don’t directly serve programmers, we love them and they bring a little tear to our eyes, like the other little villages, and they’re certainly making the Internet—and the world—better, so we’re devoted to them.</p>
+<p>One of these days some of those villages will be big cities, so we’re committed to keeping them clean, and pulling the weeds, and helping them grow.</p>
+<p>But let’s go back to programmer Jerusalem, which—as you might expect—is full of devs milling about, building the ENTIRE FUTURE of the HUMAN RACE, because, after all, <a href="http://www.wsj.com/articles/SB10001424053111903480904576512250915629460">software is eating the world</a>&nbsp;and writing software is just writing a script for how the future will play out.</p>
+<p>So given the importance of software and programmers, you might think they all had wonderful, satisfying jobs that they love.</p>
+<p>But sadly, we saw that was not universal. Programmers often have crappy jobs, and their bosses often poke them with sharp sticks. They are underpaid, and they aren’t learning things, and they are sometimes overqualified, and sometimes underqualified. So we decided we could actually make all the programmers happier if we could move them into better jobs.</p>
+<p>That’s why we built <a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a>. This was the first site that was built for developers, not recruiters. We banned the scourge of contingency recruiters (even if they have big bank accounts and are just LINING UP at the Zion Gate trying to get into our city to feed on programmer meat, but, to hell with them). We are SERVING PROGRAMMERS, not spammers. Bye Felicia.</p>
+<p><strong>Which brings us to 2015.</strong></p>
+<p>The sites are still growing like crazy. By our measurements, the Stack Exchange network is already in the top 50 of all US websites, ranked by number of unique visitors, with traffic still growing at 25% annually. The company itself has passed 200 employees worldwide, with big plush offices in Denver, New York, and London, and dozens of amazing people who work from the comfort of their own homes. (By the way, if 200 people seems like a lot, keep in mind that more than half of them are working on Stack Overflow Careers).</p>
+<p>We could just slow down our insane hiring pace and get profitable right now, but it would mean foregoing some of the investments that let us help more developers. To be honest, we literally can’t keep up with the features we want to build for our users. The code is not done yet—we’re dedicating a lot of resources to the core Q&amp;A engine. This year we’ll work on improving the experience for both new users and highly experienced users.</p>
+<p>And let’s not forget Stack Overflow Careers. I believe it is, bar-none, the single best job board for developer candidates, which should&nbsp; automatically make it the best place for employers to find developer talent. There’s a LOT more to be done to serve developers here and we’re just getting warmed up.</p>
+<p><img style="MAX-WIDTH: 100%; MAX-HEIGHT: 100%" alt="" src="https://i2.wp.com/www.joelonsoftware.com/wp-content/uploads/2015/01/Scent.png?w=730&#038;ssl=1" border="0" data-recalc-dims="1" /></p>
+<p>So that’s why we took this new investment of $40m.</p>
+<p>We’re ecstatic to have Andreessen Horowitz on board. The partners there believe in our idea of programmers taking over (it was Marc Andreessen who coined the phrase “Software is eating the world”). Chris Dixon has been a personal investor in the company since the beginning and has always known we’d be the obvious winner in the Q&amp;A category, and will be joining our board of directors as an observer.</p>
+<p>This is not the first time we’ve raised money; we’re proud to have previously taken investments from Union Square Ventures, Index Ventures, Spark Capital, and Bezos Expeditions. We only take outside money when we are 100% confident that the investors share our philosophy completely and after our lawyers have done a ruthless (sorry, investors) job of maintaining control so that it is literally impossible for anyone to mess up our vision of fanatically serving the people who use our site, and continuing to make the Internet a better place to get expert answers to your questions.</p>
+<p>For those of you who have been with us since the early days of Our Incredible Journey, thank you. For those of you who are new, welcome. And if you want to learn more, check out our <a href="http://stackexchange.com/about">hott new “about” page</a>. Or <a href="http://meta.stackexchange.com/">ask</a>!</p>
+]]></content:encoded>
+		<post-id xmlns="com-wordpress:feed-additions:1">864</post-id>	</item>
+		<item>
+		<title>Trello, Inc.</title>
+		<link>https://www.joelonsoftware.com/2014/07/24/trello-inc/</link>
+		<pubDate>Thu, 24 Jul 2014 00:14:24 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Spolsky]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://www.joelonsoftware.com/?p=863</guid>
+		<description><![CDATA[Hello? is this thing on? I’m not sure if I even know how to operate this “blog” device any more. It’s been a year since my last&#8230; <span class="read-more"><a class="more-link" href="https://www.joelonsoftware.com/2014/07/24/trello-inc/" rel="bookmark">Read more <span class="screen-reader-text">"Trello, Inc."</span></a></span>]]></description>
+				<content:encoded><![CDATA[<p>Hello? is this thing on?</p>
+<p>I’m not sure if I even know how to operate this “blog” device any more. It’s been a year since my last post. I’m <a href="http://joelonsoftware.com/items/2010/03/14.html">retired</a>&nbsp;from blogging, remember?</p>
+<p>Want to hear something funny? The only way I can post blog posts is by remote-desktopping into a carefully preserved Windows 7 machine which we keep in a server closet running a bizarrely messed-up old copy of CityDesk which I somehow hacked together and which only runs on that particular machine. The shame!</p>
+<p>I do need to fill you in on some exciting<em> Trello News, </em>though. As you no doubt know, <a href="https://trello.com/">Trello</a>&nbsp;is the amazing visual project management system we developed at Fog Creek. </p>
+<p><span class="side"><a href="https://i1.wp.com/www.joelonsoftware.com/wp-content/uploads/2014/07/24-ss.png?ssl=1"><img class="sideimg" alt="" src="https://i1.wp.com/www.joelonsoftware.com/wp-content/uploads/2014/07/24-ss-thumbnail.png?w=730&#038;ssl=1" data-recalc-dims="1" /></a></span></p>
+<p>Let me catch you up. As legend has it, back in yonder days, early twenty-oh-eleven, we launched a modest little initiative at Fog Creek to try to come up with new product ideas. We peeled off eight developers. The idea was that they would break into four teams. Two people each. Each team would work for a few months building a prototype or MVP for some product idea. Hopefully, at least one of those ideas would turn into something people wanted.</p>
+<p>One of those teams started working on the concept that became Trello. The idea seemed so good that we doubled that team to four developers. The more we played around with it, the better we liked it. Within nine months, it was starting to look good enough to go public with, so we <a href="http://joelonsoftware.com/items/2011/09/15.html">launched Trello at TechCrunch Disrupt</a>&nbsp;to great acclaim and immediately got our first batch of users.</p>
+<p>Over the next three years, Trello showed some real traction. The team grew to about 18 people, almost all in engineering. We did <a href="https://itunes.apple.com/us/app/trello-organize-anything/id461504587?mt=8">iPhone, iPad</a>, <a href="https://play.google.com/store/apps/details?id=com.trello&amp;hl=en">Android</a>, and Web versions. And <a href="http://www.amazon.com/gp/mas/dl/android?p=com.trello">Kindle</a>. Oh and <a href="http://blog.trello.com/trello-on-your-wrist/">Android Wear</a>. &nbsp;The user base grew steadily to 4.6 million people.</p>
+<p><img border="0" alt="" src="https://i2.wp.com/www.joelonsoftware.com/wp-content/uploads/2014/07/24-Admin.png?resize=362%2C258&#038;ssl=1" data-recalc-dims="1" /></p>
+<p>Zowie.</p>
+<p>Here are some things that surprised me:</p>
+<ul>
+<li>We’ve successfully made a non-developer product that actually appeals to civilians. We tried to avoid the software developer niche this time, and it worked. I think that’s because Trello is <em>visual.</em> The board / card metaphor makes every board instantly understandable, which seems to attract all types of users who traditionally had never found online project management to be useful or worth doing.</li>
+<li>It spreads like crazy. It’s a gas that expands to fill all available space. Somebody finds out about Trello from their reading group and adopts it at work; pretty soon their whole company has hundreds of Trello boards for everything from <a href="https://trello.com/b/gHooNW9I/ue4-roadmap">high level road maps</a>&nbsp;to a list of snacks that need to be bought for the break room.</li>
+<li>People love it. We regularly monitor Twitter for mentions of Trello and the amount of positive sentiment out there is awe-inspiring.</li>
+</ul>
+<p>We launched something called <a href="https://trello.com/business-class">Trello Business Class</a>, which, for a small fee, provides all kinds of advanced administration features so that the larger organizations using Trello can manage it better, and Hey Presto, Trello was making money!</p>
+<p><span class="side"><a href="https://i1.wp.com/www.joelonsoftware.com/wp-content/uploads/2014/07/24Taco.jpg?ssl=1"><img class="sideimg" alt="" src="https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2014/07/24Taco-thumbnail.jpg?w=730&#038;ssl=1" data-recalc-dims="1" /></a><br /><span class="caption">Taco got big, too</span></span>In the meantime, we started getting calls from investors. “Can we invest in Trello?” they asked. They were starting to notice that whenever they looked around their portfolio companies all they saw was Trello boards everywhere.</p>
+<p>We didn’t really need the money; Fog Creek is profitable and could afford to fund Trello development to profitability. And when we told the investors that they could take a minority, non-controlling stake in Fog Creek, we had to start explaining about our culture and our developer tools and our profit sharing plans and our free lunches and private offices and whatnot, and they got confused and said, “hmm, why don’t you keep all that, we just want to invest in Trello.”</p>
+<p>Now, we didn’t&nbsp;<em>need</em> the money, but we certainly&nbsp;<em>like</em>&nbsp;money. We had a bunch of ideas for ways we could make Trello grow faster and do all kinds of astonishing new features and hire sales and marketing teams to work on Trello Business Class. We &nbsp;would have gotten around to all that <em>eventually</em>, but not as quickly as we could with a bit of folding money.</p>
+<p>Which lead to this fairly complicated plan. We spun out Trello into its own company, Trello Inc., and allowed outside investors to buy a minority stake in that. So now, Trello and Fog Creek are officially separate companies. Trello has a bunch of money in the bank to operate independently. <a href="http://www.fogcreek.com/">Fog Creek</a>&nbsp;will continue to build <a href="https://www.fogcreek.com/FogBugz/">FogBugz</a> and <a href="https://www.fogcreek.com/kiln/">Kiln</a> and continue to develop new products every once in a while. <a href="https://twitter.com/michaelpryor">Michael Pryor</a>, who co-founded Fog Creek with me in 2000, will be CEO of Trello.</p>
+<p>So, yeah. This is the point at which old-time readers of this blog point out that <a href="http://joelonsoftware.com/articles/VC.html">the interest of VCs is not always aligned with the interest of founders</a>, and VCs often screw up the companies they invest in.</p>
+<p>That’s mostly true, but not universal. There are smart, founder-friendly VCs out there. And with Trello (and Stack Overflow, for that matter), we didn’t take any outside investment until we already had traction and revenue, so we could choose the investors that we thought were the most entrepreneur-friendly, and we kept control of the company.</p>
+<p>In the case of Trello, we had so much interest from investors that we were even able to limit ourselves to investors who were already investors in Stack Exchange and still get the price and terms we wanted. The advantage of this is that we know them, they know us, and they’re aligned enough not to fret about any conflicts of interest which might arise between Stack Exchange and Trello because they have big stakes in both.</p>
+<p>Both <a href="http://indexventures.com/">Index Ventures</a> and <a href="http://sparkcapital.com/">Spark Capital</a> will co-lead the investment in Trello, with <a href="http://bijansabet.com/">Bijan Sabet</a> from Spark joining our board. Bijan was an early investor in Twitter, Tumblr, and Foursquare which says a lot about the size of our ambitions for Trello. The other two members of the board are Michael and me.</p>
+<p>Even though Fog Creek, Trello, and Stack Exchange are now three separate companies, they are all running basically the same operating system, based on the original microprocessor architecture known as “making a company where the best developers want to work,” or, in simpler terms, treating people well.</p>
+<p>T<span class="side"><a href="https://i2.wp.com/www.joelonsoftware.com/wp-content/uploads/2014/07/24cawfee.jpg?ssl=1"><img class="sideimg" alt="" src="https://i2.wp.com/www.joelonsoftware.com/wp-content/uploads/2014/07/24cawfee-thumbnail.jpg?w=730&#038;ssl=1" data-recalc-dims="1" /></a></span>his operating system applies both to the physical layer (beautiful daylit private <a href="http://www.fogcreek.com/careers/">offices</a>, allowing <a href="http://blog.stackoverflow.com/2013/02/why-we-still-believe-in-working-remotely/">remote work</a>, catered lunches, <a href="https://www.joelonsoftware.com/articles/FieldGuidetoDevelopers.html">height-adjustable desks and Aeron chairs</a>, and top-tier coffee), the application layer (health insurance where everything is paid for, liberal vacations, family-friendly policies, reasonable work hours), the presentation layer (<a href="https://www.joelonsoftware.com/articles/fog0000000043.html">clean and pragmatic programming practices</a>, <a href="http://avc.com/2012/02/the-management-team-guest-post-from-joel-spolsky/">pushing decisions down to the team</a>, <a href="http://www.amazon.com/Smart-Gets-Things-Done-Technical/dp/1590598385">hiring smart people</a>&nbsp;and letting them get things done, and a commitment to <a href="http://blog.fogcreek.com/announcing-the-fog-creek-fellowship/">inclusion</a> and <a href="https://www.joelonsoftware.com/articles/FogCreekMBA.html">professional development</a>), and mostly, the human layer, where no matter what we do, it’s guided first and foremost by obsession over being fair, humane, kind, and treating each other like family. (Did I tell you I got <a href="https://twitter.com/spolsky/status/265081187427569665">married</a>?)</p>
+<p>So, yeah, there are three companies here, with different products, but every company has a La Marzocco Linea espresso machine in every office, and every company gives you $500 when you or your partner has a baby to get food delivered, and when we’re trying to figure out how to manage people, our number one consideration is how to do so fairly and compassionately.</p>
+<p>That architecture is all the stuff I spent ten years ranting on this blog about, but y’all don’t listen, so I’m just going to have to build company after company that runs my own wacky operating system, and eventually you’ll catch on. It’s OK to put people first. You don’t have to be a psychopath or work people to death or create heaps of messy code or work in noisy open offices.</p>
+<p>Anyway, that’s the news from our neck of the woods. If the mission of Trello sounds exciting we’ll be hiring a bunch of people soon so please apply!</p>
+]]></content:encoded>
+		<post-id xmlns="com-wordpress:feed-additions:1">863</post-id>	</item>
+		<item>
+		<title>Victory Lap for Ask Patents</title>
+		<link>https://www.joelonsoftware.com/2013/07/22/victory-lap-for-ask-patents/</link>
+		<pubDate>Mon, 22 Jul 2013 00:14:23 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Spolsky]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://www.joelonsoftware.com/?p=862</guid>
+		<description><![CDATA[There are a lot of people complaining about lousy software patents these days. I say, stop complaining, and start killing them. It took me about fifteen minutes&#8230; <span class="read-more"><a class="more-link" href="https://www.joelonsoftware.com/2013/07/22/victory-lap-for-ask-patents/" rel="bookmark">Read more <span class="screen-reader-text">"Victory Lap for Ask Patents"</span></a></span>]]></description>
+				<content:encoded><![CDATA[<p>There are a lot of people complaining about lousy software patents these days. I say, stop complaining, and start killing them. It took me about fifteen minutes to stop a crappy Microsoft patent from being approved. Got fifteen minutes? You can do it too.</p>
+<p>In a minute, I’ll tell you that story. But first, a little background.</p>
+<p>Software developers don’t actually <em>invent</em> very much. The number of actually novel, non-obvious <em>inventions</em> in the software industry that <em>may</em>be, in <em>some</em> universe, deserve a government-granted monopoly is, perhaps, two. </p>
+<p>The other <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2016968">40,000-odd software patents</a> issued every year are mostly garbage that any working programmer could “invent” three times before breakfast. Most issued software patents aren’t “inventions” as most people understand that word. They’re just things that any first-year student learning Java should be able to do as a homework assignment in two hours.</p>
+<p>Nevertheless, a lot of companies large and small have figured out that patents are worth money, so they try to file as many as they possibly can. They figure they can generate a big pile of patents as an inexpensive byproduct of the R&amp;D work they’re doing anyway, just by sending some lawyers around the halls to ask programmers what they’re working on, and then attempting to patent everything. Almost everything they find is either obvious or has been done before, so it shouldn’t be patentable, but they use some sneaky tricks to get these things through the patent office. </p>
+<p>The first technique is to try to make the language of the patent as confusing and obfuscated as possible. That actually makes it harder for a patent examiner to identify prior art or evaluate if the invention is obvious. </p>
+<p>A bonus side effect of writing an incomprehensible patent is that it works better as an infringement trap. Many patent owners, especially the troll types, don’t really want you to <em>avoid</em> their patent. Often they actually want you to <em>infringe</em> their patent, and then build a big business that relies on that infringement, and <em>only then</em> do they want you to <em>find out</em> about the patent, so you are in the worst possible legal position and can be extorted successfully. The harder the patent is to read, the more likely it will be inadvertently infringed.</p>
+<p><span class="side"><a href="https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2013/07/22invent.jpg?ssl=1"><img class="sideimg" alt="" src="https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2013/07/22invent-thumbnail.jpg?w=730&#038;ssl=1" data-recalc-dims="1" /></a></span>The second technique to getting bad software patents issued is to use a thesaurus. Often, software patent applicants make up new terms to describe things with perfectly good, existing names. A lot of examiners will search for prior art using, well, search tools. They have to; no single patent examiner can possibly be aware of more than (rounding to nearest whole number) 0% of the prior art which might have invalidated the application.</p>
+<p>Since patent examiners rely so much on keyword searches, when you submit your application, if you can change some of the keywords in your patent to be different than the words used everywhere else, you might get your patent through even when there’s blatant prior art, because by using weird, made-up words for things, you’ve made that prior art harder to find.&nbsp;</p>
+<p>Now on to the third technique. Have you ever seen a patent application that appears ridiculously broad? (“Good lord, they’re trying to patent CARS!”). Here’s why. The applicant is deliberately overreaching, that is, striving to get the broadest possible patent knowing that the worst thing that can happen is that the patent examiner whittles their claims down to what they were entitled to patent anyway.</p>
+<p>Let me illustrate that as simply as I can. At the heart of a patent is a list of claims: the things you allege to have invented that you will get a monopoly on if your patent is accepted.</p>
+<p>An example might help. Imagine a simple application with these three claims:</p>
+<p>1. A method of transportation<br />2. The method of transportation in claim 1, wherein there is an engine connected to wheels<br />3. The method of transportation in claim 2, wherein the engine runs on water</p>
+<p>Notice that claim 2 mentions claim 1, and narrows it&#8230; in other words, it claims a strict subset of things from claim 1.</p>
+<p>Now, suppose you invented the water-powered car. When you submit your patent, you might submit it this way even knowing that there’s prior art for “methods of transportation” and you can’t really claim all of them as your invention. The theory is that (a) hey, you might get lucky! and (b) even if you don’t get lucky and the first claim is rejected, the narrower claims will still stand.</p>
+<p>What you’re seeing is just a long shot lottery ticket, and you have to look deep into the narrower claims to see what they really expect to get. And you never know, the patent office might be asleep at the wheel and BOOM you get to extort everyone who makes, sells, buys, or rides transportation.</p>
+<p>So anyway, a lot of crappy software patents get issued and the more that get issued, the worse it is for software developers.</p>
+<p>The patent office got a little bit of heat about this. The America Invents Act changed the law to allow the public to submit examples of prior art while a patent application is being examined. And that’s why the USPTO asked us to set up <a href="http://askpatents.com/">Ask Patents</a>, a Stack Exchange site where software developers like you can submit examples of prior art to stop crappy software patents even before they’re issued.</p>
+<p>Sounds hard, right?</p>
+<p><span class="side"><a href="https://i1.wp.com/www.joelonsoftware.com/wp-content/uploads/2013/07/22stack.jpg?ssl=1"><img class="sideimg" alt="" src="https://i1.wp.com/www.joelonsoftware.com/wp-content/uploads/2013/07/22stack-thumbnail.jpg?w=730&#038;ssl=1" data-recalc-dims="1" /></a></span>At first I honestly thought it was going to be hard. Would we even be able to find vulnerable applications? The funny thing is that when I looked at a bunch of software patent applications at random I came to realize that they were <em>all</em> bad, which makes our job much easier.</p>
+<p>Take patent application <a href="http://www.google.com/patents/us20130063492">US 20130063492 A1</a>, submitted by Microsoft. An Ask Patent user submitted <a href="http://patents.stackexchange.com/questions/3566/call-for-prior-art-microsoft-scaling-based-on-pixel-density">this call for prior art</a>&nbsp;on March 26th. </p>
+<p>I tried to find prior art for this just to see how hard it was. First I read the application. Well, to be honest, I kind of glanced at the application. In fact I skipped the abstract and the description and went straight to the claims. Dan Shapiro has great blog post called <a href="http://www.danshapiro.com/blog/2010/09/how-to-read-a-patent-in-60-second/">How to Read a Patent in 60 Seconds</a> which taught me how to do this.</p>
+<p>This patent was, typically, obfuscated, and it used terms like “pixel density” for something that every other programmer in the world would call “resolution,” either accidentally (because Microsoft’s lawyers were not programmers), or, more likely, because the obfuscation makes it that much harder to search.</p>
+<p>Without reading too deeply, I realized that this patent is basically trying to say “Sometimes you have a picture that you want to scale to different resolutions. When this happens, you might want to have multiple versions of the image available at different resolutions, so you can pick the one that’s closest and scale that.”</p>
+<p>This didn’t seem novel to me. I was pretty sure that the Win32 API already had a feature to do something like that. I remembered that it was common to provide multiple icons at different resolutions and in fact I was pretty sure that the operating system could pick one based on the resolution of the display. So I spent about a minute with Google and eventually (<em>bing!</em>) found this interesting document entitled <a href="http://www.scribd.com/doc/132533533/Writing-DPI-Aware-Applications">Writing DPI-Aware Win32 Applications [PDF]</a> written by Ryan Haveson and Ken Sykes at, what a coincidence, Microsoft. </p>
+<p>And it was written in 2008, while Microsoft’s new patent application was trying to claim that this “invention” was “invented” in 2011. Boom. Prior art found, and deployed.</p>
+<p>Total time elapsed, maybe 10 minutes. One of the participants on Ask Patents pointed out that the patent application referred to something called “scaling sets.” I wasn’t sure what that was supposed to mean but I found a specific part of the older Microsoft document that demonstrated this “invention” without using the same word, so I edited my answer a bit to point it out. <a href="http://patents.stackexchange.com/a/3569">Here’s my complete answer on AskPatents</a>.</p>
+<p>Mysteriously, whoever it was that posted the request for prior art checked the&nbsp;<em>Accepted</em> button on Stack Exchange. We thought this might be the patent examiner, but it was posted with a generic username.</p>
+<p>At that point I promptly forgot about it, until May 21 (two months later), when I got this email from Micah Siegel (Micah is our full-time patent expert):</p>
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+<p><tt>The USPTO rejected Microsoft's Resizing Imaging Patent!</tt></p>
+<p><tt>The examiner referred specifically to Prior Art cited in Joel's answer ("Haveson et al").</tt></p>
+<p><tt>Here is the actual document rejecting the patent. It is a clean sweep starting on page 4 and throughout, basically citing rejecting the application as obvious in view of Haveson.</tt></p>
+</blockquote>
+<p>Micah showed me a document from the USPTO confirming that they had rejected the patent application, and the rejection relied very heavily on the document I found. This was, in fact, the first “confirmed kill” of Ask Patents, and it was really surprisingly easy. I didn’t have to do the hard work of studying everything in the patent application and carefully proving that it was all prior art: the examiner did that for me. (It’s a pleasure to read him demolish the patent in question, all twenty claims, if that kind of schadenfreude amuses you).</p>
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+<p>(If you want to see the rejection, go to <a href="http://portal.uspto.gov/pair/PublicPair">Public Pair</a> and search for publication number <strong>US 20130063492 A1</strong>. Click on <em>Image File Wrapper</em>, and look at the non-final rejection of 4-11-2013. Microsoft is, needless to say, appealing the decision, so this crappy patent may re-surface.) <strong>Update October 2013: the patent received a FINAL REJECTION from the USPTO!</strong></p>
+</blockquote>
+<p>There is, though, an interesting lesson here. Software patent applications are of uniformly poor quality. They are remarkably easy to find prior art for. Ask Patents can be used to block them with very little work. And this kind of individual destruction of one software patent application at a time might start to make a dent in the mountain of bad patents getting granted.</p>
+<p>My dream is that when big companies hear about how friggin’ easy it is to block a patent application, they’ll use Ask Patents to start messing with their competitors. How cool would it be if Apple, Samsung, Oracle and Google got into a Mexican Standoff on Ask Patents? If each of those companies had three or four engineers dedicating a few hours every day to picking off their competitors’ applications, the number of granted patents to those companies would grind to a halt. Wouldn’t that be something!</p>
+<p>Got 15 minutes? Go to <a href="http://patents.stackexchange.com/">Ask Patents</a> right now, and see if <a href="http://patents.stackexchange.com/questions/tagged/prior-art-request?sort=active&amp;pagesize=25">one of these RFPAs</a> covers a topic you know something about, and post any examples you can find. They’re hidden in plain view; most of the prior art you need for software patents can be found on Google. Happy hunting!<!-- testing! --></p>
+]]></content:encoded>
+		<post-id xmlns="com-wordpress:feed-additions:1">862</post-id>	</item>
+		<item>
+		<title>Free as in Fortune Cookies</title>
+		<link>https://www.joelonsoftware.com/2013/04/30/free-as-in-fortune-cookies/</link>
+		<pubDate>Tue, 30 Apr 2013 00:14:22 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Spolsky]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://www.joelonsoftware.com/?p=861</guid>
+		<description><![CDATA[Trello has been out for less than two years and it’s been growing like wildfire. We recently hit 1.5 million members, of whom about 1/3 perform some&#8230; <span class="read-more"><a class="more-link" href="https://www.joelonsoftware.com/2013/04/30/free-as-in-fortune-cookies/" rel="bookmark">Read more <span class="screen-reader-text">"Free as in Fortune Cookies"</span></a></span>]]></description>
+				<content:encoded><![CDATA[<p><!-- ohai! --><a href="http://trello.com/">Trello</a> has been out for less than two years and it’s been growing like wildfire. We recently hit 1.5 million members, of whom about 1/3 perform some action every month, and our MongoDB database now contains more than 70 million cards on 3.7 million boards.</p>
+<p>So the obvious question I get all the time is, “How exactly are you supposed to make money with that?”</p>
+<p>You may have noticed that Trello is free. Not “free trial,” not “freemium,” but just plain old free. Some people have justifiably wondered if it really makes sense to pay a dozen people, nestled in fancy offices with free lunch and espresso, to develop software that we have to pay Amazon cash money to host, while not actually charging for said software. Some have commented that this business model might actually be just a few fries short of a Happy Meal.</p>
+<p><span class="side"><a href="https://i0.wp.com/www.joelonsoftware.com/wp-content/uploads/2013/04/TrelloCookie.jpg?ssl=1"><img class="sideimg" alt="" src="https://i2.wp.com/www.joelonsoftware.com/wp-content/uploads/2013/04/TrelloCookie-thumbnail.jpg?w=730&#038;ssl=1" data-recalc-dims="1" /></a></span>What we really wanted to do was make a free product that helps millions of people, and then find some way to get paid by the 1% of those people who get the most value out of it. The 1% are delighted to pay. They actually email us asking if there is some way they can pay us. A <a href="http://www.fancyfortunecookies.com/">fortune-cookie factory</a> was so pleased with Trello they sent us a crate of tasty fortune cookies. Custom, Trello-color fortune cookies, with Trello fortunes inside.  (Don’t tell the IRS, because that’s basically all we’ve made off of Trello to date, and I don’t think we declared it.)</p>
+<p>How do you identify the users who get the most value out of Trello? We thought any medium-to-large organization with lots of different Trello boards and many active Trello users must qualify. So then we tried to think of what kind of value-added stuff we could build and sell (for money) to organizations with lots of active users. Besides cookie dough.</p>
+<p>The most obvious things were features around security (permissions, backups, etc). Big organizations have people coming and going all the time, so they might benefit from tools that make it easy to add people to Trello en-masse, and tools to make sure that when people leave the organization, they&#8217;re removed from any boards they should be removed from. The kind of stuff that’s helpful when tens or thousands of people inside an organization are all using Trello every day. </p>
+<p>We also added a feature called “observers,” which lets you add people to a board who might have permission to watch, vote, and comment, but who can’t add cards or move cards around. This is meant to give professional landscapers, developers, web designers, consultants, and fortune-cookie factories a way to let their paying customers peek in on the progress of their project without messing it up. It’s a classic example of a feature that is only useful when you’re in that class of Trello users who get the most value out of it, so paying should be a no-brainer.</p>
+<p>We bundled these features up and called them <a href="http://trello.com/business-class">Trello Business Class</a>. It&#8217;s available today for $25 a month (per organization), or $200/year if you’d like to pay in advance. Of course, Trello itself is, and will remain, free, but starting today, we hope to actually make a little bit of walking-around money, too.</p>
+<p>In the future we&#8217;ll continue to add free features to Trello (there is a lot of exciting stuff in the hopper)—anything that is a common feature, useful to anyone, will be free. We’ll also continue to develop new Business Class features that help large organizations manage Trello, and we may come up with other things to sell to people who are getting a lot of value out of Trello. In the meantime, we sure appreciate the cookies!</p>
+]]></content:encoded>
+		<post-id xmlns="com-wordpress:feed-additions:1">861</post-id>	</item>
+	</channel>
+    </rss>

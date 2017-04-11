@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Learn to code - Hexlet.io</title>
+<link rel="shortcut icon" type="image/x-icon" href="/assets/icons/default/favicon-8fa102c058afb01de5016a155d7db433283dc7e08ddc3c4d1aef527c1b8502b6.ico" />
+<link rel="shortcut icon" type="image/png" href="/assets/icons/default/favicon-196x196-422632c0ef41e9b13dd7ea89f1764e860d225ca3c20502b966a00c0039409a75.png" sizes="196x196" />
+<link rel="shortcut icon" type="image/png" href="/assets/icons/default/favicon-96x96-39f08613bbf8b826ce119c3b6bc232db10c863c168d57b180f78d18cadf843c6.png" sizes="96x96" />
+<link rel="shortcut icon" type="image/png" href="/assets/icons/default/favicon-32x32-2bae33d5d827199a252cd9309926586f01044782f3c83e3ffaf783bb318707a2.png" sizes="32x32" />
+<link rel="shortcut icon" type="image/png" href="/assets/icons/default/favicon-16x16-cc9a0ab442a9dcba7e70fb733f58691955a2d1608fe439a5eed2afab400eb719.png" sizes="16x16" />
+<link rel="shortcut icon" type="image/png" href="/assets/icons/default/favicon-128-a9446dd4e081479874e0c59b63960612d181b05b10b2fbd544a7da7c5f6ead2a.png" sizes="128x128" />
+<link rel="shortcut icon" type="image/png" href="/assets/icons/default/android-icon-192x192-d4b29b393f0ec444bed29668e9b4b16aeb0a9c5312700e4f0819a96f72286cfc.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" type="image/x-icon" href="/assets/icons/default/apple-touch-icon-57x57-f52e49208ae173f740c8f115217781975b78433b1fda469ec28ce70b92fc013e.png" sizes="57x57" />
+<link rel="apple-touch-icon-precomposed" type="image/x-icon" href="/assets/icons/default/apple-touch-icon-114x114-c93f5c2681345acc94f672dc26dd79695eac733a3ac6f99ab3b0fbfa077d834e.png" sizes="114x114" />
+<link rel="apple-touch-icon-precomposed" type="image/x-icon" href="/assets/icons/default/apple-touch-icon-72x72-27e1216e0a1b806d82b8ca649081eacf5b3f59b677b44c8e40eae30e83f90294.png" sizes="72x72" />
+<link rel="apple-touch-icon-precomposed" type="image/x-icon" href="/assets/icons/default/apple-touch-icon-144x144-1f4fb8973826b06c9595101aac7f78fdb9bf26c3b769b759882ad319d58b17fd.png" sizes="144x144" />
+<link rel="apple-touch-icon-precomposed" type="image/x-icon" href="/assets/icons/default/apple-touch-icon-60x60-08818618834c9c99de70284d4bfb0cdfc926b03c88c732ba92fd9ba9e5ac900f.png" sizes="60x60" />
+<link rel="apple-touch-icon-precomposed" type="image/x-icon" href="/assets/icons/default/apple-touch-icon-120x120-3da36d0e1da4c8d1a6df85aec54c2b84946e96865005ffb4a10e99223bba2d61.png" sizes="120x120" />
+<link rel="apple-touch-icon-precomposed" type="image/x-icon" href="/assets/icons/default/apple-touch-icon-76x76-6a66b2c592947eb379280523cb009884f61f620be8375ebdee3ed7d23743314a.png" sizes="76x76" />
+<link rel="apple-touch-icon-precomposed" type="image/x-icon" href="/assets/icons/default/apple-touch-icon-152x152-93cc5e1542f2ca0d20c1f7fca7b5ac37be57f70e42d23877668d616383497540.png" sizes="152x152" />
+<meta content=' ' name='application-name'>
+<meta content='#FFFFFF' name='msapplication-TileColor'>
+<meta content='/assets/icons/default/mstile-144x144-1f4fb8973826b06c9595101aac7f78fdb9bf26c3b769b759882ad319d58b17fd.png' name='msapplication-TileImage'>
+<meta content='/assets/icons/default/mstile-70x70-a9446dd4e081479874e0c59b63960612d181b05b10b2fbd544a7da7c5f6ead2a.png' name='msapplication-square70x70logo'>
+<meta content='/assets/icons/default/mstile-150x150-58610d84ec0afe2803c6e07649701c712e3257ab5fc06c6cd338557201b2571a.png' name='msapplication-square150x150logo'>
+<meta content='/assets/icons/default/mstile-310x150-74279c38ca713e2d5526d2fc170c0c7951b85b83852fc22a59b216c73843a5ce.png' name='msapplication-wide310x150logo'>
+<meta content='/assets/icons/default/mstile-310x310-dfe850e714b2b802fb7455a582bf8d34dcbd73c6e8d100a54d4c36007079f4e2.png' name='msapplication-square310x310logo'>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="feXVKNk5TRVi/w5ihcBShrOt8yyYPWhor218LaQRh+unD00xUt/LMQBbKE1bnQP5S3rCO5iRWhAZ1PeQFMk4WA==" />
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+
+<link rel="stylesheet" media="all" href="/assets/welcome-8fc9de7c4d026b4c5782265fe8e6b67e4314a1e3dc1dc51f209243177e688860.css" />
+<script src="/assets/welcome-f82f5807b8b7a1909682df22feff81e3437d2124c82cb1117ecea1e1de44b67f.js"></script>
+<meta content='article' property='og:type'>
+<meta content='Learn to code - Hexlet.io' property='og:title'>
+<meta content='https://en.hexlet.io/' property='og:url'>
+<meta content='https://en.hexlet.io/assets/hexlet-screenshot-rus-2-ea29e656659ea95759aaf73429743d2320c4ab78bf403411993e75a659ee507a.png' property='og:image'>
+<link href='https://en.hexlet.io/images/Hexlet-screenshot-rus-2.png' rel='image_src'>
+<meta content='Learn to code and develop apps with videos and exercises' name='description'>
+<meta content='Learn to code and develop apps with videos and exercises' property='og:description'>
+</head>
+<body>
+<nav class='navbar navbar-toggleable-sm navbar-light bg-faded fixed-top' id='hexlet-landing-navbar' style='background-color: #fff;'>
+<button aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler navbar-toggler-right' data-target='#navbarSupportedContent' data-toggle='collapse' type='button'>
+<span class='navbar-toggler-icon'></span>
+</button>
+<a class='navbar-brand' href='/'>
+<img alt='Hexlet logo' class='hexlet-landing-logo d-inline-block align-top mr-2' height='40' src='/assets/hexlet-logo-28972b250dd90cea0635d616174bfa717c9ee763e25138fe9cdb410bdbc186c2.svg' width='40'>
+<span class='hexlet-landing-brand'>Hexlet</span>
+</a>
+<div class='collapse navbar-collapse' id='navbarSupportedContent'>
+<ul class='navbar-nav ml-auto'>
+<li class='nav-item mr-1 hexlet-sm-hide'>
+<a class='nav-link' href='/pricing'>Pricing</a>
+</li>
+<li class='nav-item mr-3 hexlet-xs-hide'>
+<a class='nav-link' href='https://hexlet.io/session/new'>Log in</a>
+</li>
+<a class='align-middle btn btn-success' href='/u/new'>Start learning for free</a>
+</ul>
+</div>
+</nav>
+<section class='hexlet-tour-jumbotron hexlet-jumbotron pb-5'>
+<div class='container-fluid hexlet-contrainer-landing'>
+<div class='row my-5 justify-content-center'>
+<div class='col-12 col-md-10 text-center'>
+<h1>Understand computers. Learn to code.</h1>
+</div>
+</div>
+<div class='row mb-3'>
+<div class='col-12 col-lg-6 text-center'>
+<img alt='Computer programming is hard' class='img-fluid mb-2' src='/assets/tour_1_2-56b86b5c50dddc7f339701c1e81dfaba6f0e61656578b9de19b34f38d7f40ec9.jpg'>
+<h2 class='px-4'>
+Computer programming
+<br>
+is pretty difficult
+</h2>
+</div>
+<div class='col-12 col-lg-6 text-center'>
+<img alt='Hexlet courses' class='img-fluid mb-2' src='/assets/tour_2_2-d9aebc55d4d88ed082eb31571aa533361d420d25c4107aee05085b341bb122d9.jpg'>
+<h2 class='px-4'>
+Hexlet offers a
+<br>
+different approach
+</h2>
+</div>
+</div>
+<div class='row mt-3 pt-3'>
+<div class='col-12 text-center'>
+<a href='#features'>
+<img alt='' height='24' src='/assets/landing_down_arrow_black-5c6498bf8ed7aec7f942c9ef023c9bae4ffe7d86360346e36db1652ec1bccbe3.png' width='24'>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class='hexlet-tour-features py-3 mt-4'>
+<div class='container'>
+<div class='row'>
+<div class='col-12 text-center'>
+<h2 class='h1'>How does it work?</h2>
+<p class='h5'>visual, practical, unconventional path</p>
+</div>
+</div>
+<div class='row mt-3'>
+<div class='col-12 col-lg-6 text-center text-lg-right pt-5'>
+<h3>1. Study program</h3>
+<p>We developed a new study program by combining academic and industrial education processes. This isn't a college. This isn't a bootcamp.</p>
+</div>
+<div class='col-12 col-lg-6'>
+<img alt='Computer programming study program' class='img-fluid' height='100' src='/assets/screenshots/stack_2-d5ed794bfaa5a22e2f0363e327a2847641b449eac8ac8823ea68355f6674854f.png'>
+</div>
+</div>
+<hr class='my-3'>
+<div class='row mt-3'>
+<div class='col-12 col-lg-6'>
+<img alt='Video lessons computer programming' class='img-fluid' height='100' src='/assets/screenshots/video_2-8fbeecca9bd714a56b6408257c352dcfe4b48eb5954e141521cb023e428ef74c.png'>
+</div>
+<div class='col-12 col-lg-6 text-center text-lg-left pt-5'>
+<h3>2. Videos</h3>
+<p>We value visual approach, use of metaphors and humor. Short videos cover theory and prepare for the exercises.</p>
+</div>
+</div>
+<hr class='my-3'>
+<div class='row mt-3'>
+<div class='col-12 col-lg-6 text-center text-lg-right pt-5'>
+<h3>3. Exercises</h3>
+<p>
+This is the most important thing: practice your new skills from day one. Not in an emulator, but in the
+<strong>real thing</strong>.
+</p>
+</div>
+<div class='col-12 col-lg-6'>
+<img alt='Computer programming exercises' class='img-fluid' height='100' src='/assets/screenshots/exercise_2-3a0dc930f8c03ed14f3eee4098583c7e2167c6e6e3ed11f0307c7f4d0813692b.gif'>
+</div>
+</div>
+<hr class='my-3'>
+<div class='row mt-3'>
+<div class='col-12 col-lg-6'>
+<img alt='' class='img-fluid' height='100' src='/assets/screenshots/quiz_2-002fa4233d86a47433a8748abe2dae062c88b4cbb6b0dca0ab33bf6f09388bce.png'>
+</div>
+<div class='col-12 col-lg-6 text-center text-lg-left pt-5'>
+<h3>4. Quizzes</h3>
+<p>We don't test your memory, rather, we make sure you can think about new concepts from different points of view.</p>
+</div>
+</div>
+<hr class='my-3'>
+<div class='row mt-3'>
+<div class='col-12 col-lg-6 text-center text-lg-right pt-5'>
+<h3>5. Personal help</h3>
+<p>Our teachers and mentors answer all your questions and help solve problems while guiding towards the best possible solution.</p>
+</div>
+<div class='col-12 col-lg-6'>
+<img alt='Questions and answers in computer programming' class='img-fluid' height='100' src='/assets/screenshots/qa_2-8fcb62de661ac87dae237d916d751f8881064ea5970ac9b121a650876bf9dac9.png'>
+</div>
+</div>
+<hr class='my-3'>
+<div class='row mt-3'>
+<div class='col-12 col-lg-6'>
+<img alt='Points and your profile' class='img-fluid' height='100' src='/assets/screenshots/game_2-1e05123574fe3e9473f8ae168fb7a52423e4afba5c624de4ee683fb656c8d815.png'>
+</div>
+<div class='col-12 col-lg-6 text-center text-lg-left pt-5'>
+<h3>6. Earn points and compete</h3>
+<p>Earn points by learning programming and solving problems. And feel free to show your acomplishments to everybody!</p>
+</div>
+</div>
+<div class='row my-5'>
+<div class='col-12 text-center'>
+<a class='btn btn-lg btn-outline-primary' href='/u/new?from=https%3A%2F%2Fen.hexlet.io%2F'>Sign up and start learning for free</a>
+</div>
+</div>
+</div>
+</section>
+<section class='hexlet-landing-testimonials pt-5 pb-4'>
+<div class='container'>
+<div class='row mt-4'>
+<div class='col-12 col-lg-6 text-center mb-3 m-auto'>
+<p>
+<img alt='' class='img-fluid rounded-circle' height='100' src='/assets/faces/starcev-fb5b6aa89b80ecd47ced41acaf44a782b40135da5e5a8a86e6927347157c3db7.jpg'>
+</p>
+<p class='lead px-3'>"The more I study, the more confidence I gain about getting into any topic, learn and conquer it without problems."</p>
+<p class='h5'>
+<a href='https://github.com/dstarcev'>Dmitriy Startsev</a>
+</p>
+</div>
+<div class='col-12 col-lg-6 text-center mb-3'>
+<p>
+<img alt='' class='img-fluid rounded-circle' height='100' src='/assets/faces/zhavruk-efc8b94b9497acaf60018ee348a7ecf5ec95121dc0682d802db49976c2118c3b.jpg'>
+</p>
+<p class='lead px-3'>"The most important thing is that Hexlet answers 'why' you need to learn something, and where does it all lead to."</p>
+<p class='h5'>
+<a href='https://github.com/fdully'>Aleksandr Zhavruk</a>
+</p>
+</div>
+</div>
+<hr class='mb-3 mt-1'>
+<div class='row mt-3'>
+<div class='col-12 col-lg-6 text-center mb-3 m-auto'>
+<p>
+<img alt='' class='img-fluid rounded-circle' height='100' src='/assets/faces/shakun-caf7ceaecb9b29d6fefed887f1212ac3e449376c1c0504ac31cb24dc8da340ae.jpg'>
+</p>
+<p class='lead px-3'>"This is definitely something different. Changes the way your brain operates!"</p>
+<p class='h5'>
+<a href='https://github.com/sashashakun'>Alexander Shakun</a>
+</p>
+</div>
+<div class='col-12 col-lg-6 text-center mb-3'>
+<p>
+<img alt='' class='img-fluid rounded-circle' height='100' src='/assets/faces/malikin-649d2ca41eb13523eb8c34fc2e7b78a1535ef216684e1213aa6c0beaf6fcad94.jpg'>
+</p>
+<p class='lead px-3'>"Loved it! These are the best programming courses I've tried so far."</p>
+<p class='h5'>
+<a href='https://github.com/SoraTM'>Timur Malikin</a>
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='hexlet-landing-purchase py-5'>
+<div class='container'>
+<div class='row justify-content-center'>
+<div class='col-12 col-md-8 col-lg-5 text-center mt-3 p-5 hexlet-landing-plan'>
+<h3>
+Monthly plan
+</h3>
+<div class='h1 mb-3 mt-1'>
+<span class='text-muted dollar'>$</span>
+24
+<span class='period'>/ mo.</span>
+</div>
+<p class='mt-4'>
+<span class='text-success'>&#10003;</span>
+lessons with exercises
+</p>
+<p>
+<span class='text-success'>&#10003;</span>
+full access to all courses
+</p>
+<p>
+<span class='text-success'>&#10003;</span>
+bonus challenge exercises
+</p>
+<p>
+<span class='text-success'>&#10003;</span>
+questions answered by teachers
+</p>
+<p>
+<span class='text-success'>&#10003;</span>
+lecture notes and additional materials
+</p>
+</div>
+<div class='col-12 col-md-8 col-lg-5 text-center mt-3 p-5 hexlet-landing-plan'>
+<h3>
+Yearly plan
+</h3>
+<div class='h1 mb-3 mt-1'>
+<span class='text-muted dollar'>$</span>
+240
+<span class='period'>/ year</span>
+</div>
+<p class='mt-4'>
+<span class='text-success'>&#10003;</span>
+lessons with exercises
+</p>
+<p>
+<span class='text-success'>&#10003;</span>
+full access to all courses
+</p>
+<p>
+<span class='text-success'>&#10003;</span>
+bonus challenge exercises
+</p>
+<p>
+<span class='text-success'>&#10003;</span>
+questions answered by teachers
+</p>
+<p>
+<span class='text-success'>&#10003;</span>
+lecture notes and additional materials
+</p>
+</div>
+</div>
+<div class='row text-center mt-3'>
+<div class='col-12 m-auto'>
+<a class="btn btn-lg btn-outline-success mt-3" href="/u/new?from=https%3A%2F%2Fen.hexlet.io%2F">Start learning for free</a>
+<p class='mt-3 text-muted'>
+Pay later when you're ready
+</p>
+</div>
+</div>
+</div>
+</section>
+<hr class='mt-0 mb-0'>
+
+<footer class='pt-5 pb-5 mt-0 text-muted'>
+<div class='container'>
+<div class='row mt-4'>
+<div class='col-12 col-md-8'>
+<p class='lead'>
+<b>130 000</b>
+learners at Hexlet.
+</p>
+Steady path from the first line of code to the first job.
+<p class='mt-4'>
+<span class='mr-1'><a href="/pages/faq">FAQ</a></span>
+<span class='mr-1'><a href="/pages/about">About</a></span>
+</p>
+</div>
+<div class='col-12 col-md-4 hexlet-sm-hide'>
+<strong>Keep in touch</strong>
+<nav>
+<ul>
+<li><a href="/blog"> Blog</a></li>
+<li><a href="https://www.youtube.com/channel/UCBmKU1FHwhAoljWDORWgcRA"> YouTube</a></li>
+<li><a href="https://www.facebook.com/Hexlet.io"> Facebook</a></li>
+<li><a href="http://twitter.com/Hexlet_IO"> Twitter</a></li>
+<li><a href="http://www.reddit.com/r/hexlet/"> Reddit</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<div class='row mt-4'>
+<div class='col-12'>
+<p class='mt-4'>
+©
+2017
+Hexlet Ltd. Puolikkotie 8, 02230 Espoo, Finland
+<br>
+VAT ID: 2664160-7
+</p>
+</div>
+</div>
+</div>
+</footer>
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/assets/application-7aa9bfbe368d2c3070baeec920885ae6e0f7070839034eafb8f70575af0990d3.js" async="async" crossorigin="anonymous" onload="onApplicationJsLoaded(this)" onerror="onScriptLoadError(this)"></script>
+
+</body>
+</html>
