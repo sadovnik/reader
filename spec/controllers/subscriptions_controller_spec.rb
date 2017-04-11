@@ -1,8 +1,18 @@
 require 'rails_helper'
 require 'user_helper'
+require 'fakeweb_helper'
+require 'fixture'
+
+fixture = Fixture.new(File.expand_path(__FILE__))
 
 describe SubscriptionsController do
   describe 'POST /subscriptions' do
+    before(:all) do
+      Feedjira.logger = Rails.logger
+      FakeWeb.allow_net_connect = false
+    end
+    after(:all) { FakeWeb.allow_net_connect = true }
+
     context 'not authorized user' do
       it 'redirects to the root' do
         post :create, params: { subscription_form: { url: feed_path } }
@@ -13,19 +23,8 @@ describe SubscriptionsController do
 
     context 'authorized user' do
       let(:user) { User.create!({ email: 'fergus.miller@example.com' }) }
-      let(:feed_path) { 'http://daringfireball.net/feeds/main' }
-      let(:params) { { subscription_form: { url: feed_path } } }
 
       before { login(user) }
-
-      before do
-        Feedjira.logger = Rails.logger
-
-        feed_xml_path = File.expand_path('./fixtures/rss-feed.xml', __dir__)
-        feed_xml = File.read(feed_xml_path)
-
-        FakeWeb.register_uri(:get, feed_path, content_type: 'text/xml;charset=UTF-8', body: feed_xml)
-      end
 
       context 'unvalid params' do
         it 'renders new action' do
@@ -36,6 +35,13 @@ describe SubscriptionsController do
       end
 
       context 'direct link to feed' do
+        let(:link) { 'http://daringfireball.net/feeds/main' }
+        let(:params) { { subscription_form: { url: link } } }
+
+        before do
+          fake link, with: fixture.get('daringfireball.net.main-feed.xml'), as: 'text/xml; charset=UTF8'
+        end
+
         context 'valid params' do
           it 'subscribes user to the source' do
             post :create, params: params
@@ -57,7 +63,7 @@ describe SubscriptionsController do
         end
 
         context 'known source' do
-          before { Source.create!(title: 'Daring Fireball', url: feed_path) }
+          before { Source.create!(title: 'Daring Fireball', url: link) }
 
           it 'takes the source from database' do
             expect { post :create, params: params }.not_to change { Source.count }
