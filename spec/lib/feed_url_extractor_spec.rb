@@ -9,7 +9,8 @@ end
 describe FeedUrlExtractor do
   describe '#extract_first' do
     regular_cases = { 'jvns.ca' => '/atom.xml',
-                      'ilyabirman.ru' => 'http://ilyabirman.ru/meanwhile/rss/' }
+                      'ilyabirman.ru' => 'http://ilyabirman.ru/meanwhile/rss/',
+                      'vc.ru' => 'https://vc.ru/feed' }
 
     regular_cases.each do |page, expected|
       it "extracts first occured feed url (expample #{page})" do
