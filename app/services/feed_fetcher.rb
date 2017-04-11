@@ -25,10 +25,10 @@ class FeedFetcher
 
       raw_feed = @client.get(found_url).body
 
-      return { feed: Feedjira::Feed.parse(raw_feed), url: found_url }
+      return [ Feedjira::Feed.parse(raw_feed), found_url ]
     end
 
-    { feed: Feedjira::Feed.parse(response.body), url: url }
+    [ Feedjira::Feed.parse(response.body), url ]
   end
 
   private
