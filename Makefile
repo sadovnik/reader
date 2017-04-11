@@ -15,3 +15,6 @@ install:
 
 test:
 	bundle exec rake spec
+
+favicon:
+	bundle exec rails generate favicon
