@@ -12,4 +12,4 @@ This is list of what I'm going to discover:
 - [ ] i18n
 - [ ] View caching
 
-[![Build Status](https://travis-ci.org/sadovnik/reader.svg?branch=master)](https://travis-ci.org/sadovnik/reader) 👀
+# [![Build Status](https://travis-ci.org/sadovnik/reader.svg?branch=master)](https://travis-ci.org/sadovnik/reader) 👀
