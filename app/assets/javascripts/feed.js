@@ -1,39 +1,39 @@
-$(function() {
-  const $feed = $('#feed');
-  const $entryLinks = $('.entries__entry_unread .entry__link');
+function findEntryById(id) {
+  $entry = $('#entry-' + id);
 
-  function findEntryById(id) {
-    $entry = $('#entry-' + id);
-
-    if ($entry.length === 0) {
-      throw 'Unable to find entry'
-    }
-
-    return $entry;
+  if ($entry.length === 0) {
+    throw 'Unable to find entry'
   }
 
-  function fetchReadLink($element) {
-    const $readLink = $element.parent().find('.entry__read-link');
+  return $entry;
+}
 
-    if ($readLink.length === 0) {
-      throw 'Unable to find read-link'
-    }
+function fetchReadLink($element) {
+  const $readLink = $element.parent().find('.entry__read-link');
 
-    return $readLink[0];
+  if ($readLink.length === 0) {
+    throw 'Unable to find read-link'
   }
 
-  function setupClickHandler($elements) {
-    $elements.click(function(event) {
-      const $originalLink = $(event.target);
-      const $readLink = fetchReadLink($originalLink);
-      $readLink.click();
-    });
-  }
+  return $readLink[0];
+}
 
-  setupClickHandler($entryLinks);
-
-  $feed.on('entry-unread', function(event, entryId) {
-    $entry = findEntryById(entryId);
-    setupClickHandler($entry);
+function setupClickHandler($elements) {
+  $elements.click(function(event) {
+    const $originalLink = $(event.target);
+    const $readLink = fetchReadLink($originalLink);
+    $readLink.click();
   });
+}
+
+$(document).on('turbolinks:load', function() {
+  const $entryLinks = $('.entries__entry_unread .entry__link');
+  setupClickHandler($entryLinks);
+});
+
+const $feed = $('#feed');
+
+$feed.on('entry-unread', function(event, entryId) {
+  $entry = findEntryById(entryId);
+  setupClickHandler($entry);
 });
