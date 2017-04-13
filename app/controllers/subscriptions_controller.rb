@@ -33,11 +33,29 @@ class SubscriptionsController < ApplicationController
     current_user.subscribe(source)
 
     respond_to do |format|
-      format.html { redirect_to subscriptions_path, flash: { notice: 'Successfully subscribed!' } }
+      format.html { redirect_to subscriptions_path, flash: { notice: 'Successfully subscribed' } }
+    end
+  end
+
+  # DELETE /subscriptions/:id
+  def destroy
+    @subscription = Subscription.find(id_param)
+
+    return head :forbidden if @subscription.user != current_user
+
+    current_user.unsubscribe(@subscription.source)
+
+    respond_to do |format|
+      format.js
+      format.html { redirect_to subscriptions_path, flash: { notice: 'Successfully deleted' } }
     end
   end
 
   private
+
+  def id_param
+    params.require(:id)
+  end
 
   def form_params
     params.require(:subscription_form).permit(:url)

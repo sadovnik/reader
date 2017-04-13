@@ -6,6 +6,8 @@ require 'fixture'
 fixture = Fixture.new(File.expand_path(__FILE__))
 
 describe SubscriptionsController do
+  let(:user) { User.create!({ email: 'fergus.miller@example.com' }) }
+
   describe 'POST /subscriptions' do
     before(:all) do
       Feedjira.logger = Rails.logger
@@ -22,7 +24,6 @@ describe SubscriptionsController do
     end
 
     context 'authorized user' do
-      let(:user) { User.create!({ email: 'fergus.miller@example.com' }) }
       let(:params) { { subscription_form: { url: link } } }
 
       before { login(user) }
@@ -124,6 +125,36 @@ describe SubscriptionsController do
           expect { post :create, params: params }.not_to \
             change { user.subscriptions.count }
         end
+      end
+    end
+  end
+
+  describe 'DELETE /subscriptions/:id' do
+    let(:source) { Source.create!(title: 'daring fireball') }
+    let(:another_user) { User.create!({ email: 'mac.demarco@example.com' }) }
+    let(:another_user_subscription) { another_user.subscribe(source) }
+
+    let!(:subscription) { user.subscribe(source) }
+
+    before { login(user) }
+
+    it 'unsubscribes user' do
+      expect { delete :destroy, params: { id: subscription.id } }.to \
+        change { user.subscriptions.count }.from(1).to(0)
+    end
+
+    context 'subscription does not exist' do
+      it 'responds with 404' do
+        expect { delete :destroy, params: { id: 123 } }.to \
+          raise_error(ActiveRecord::RecordNotFound)
+      end
+    end
+
+    context 'subscription of another user' do
+      it 'responds with 403' do
+        delete :destroy, params: { id: another_user_subscription.id }
+
+        expect(response).to have_http_status(:forbidden)
       end
     end
   end

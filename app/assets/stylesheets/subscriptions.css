@@ -17,3 +17,14 @@
 .subscription__description {
     font-size: 12px;
 }
+
+.subscription__unsubscribe-button {
+    display: none;
+    float: right;
+    margin-top: -4px;
+    margin-right: -3px;
+}
+
+.subscriptions__subscription:hover .subscription__unsubscribe-button {
+    display: inline;
+}

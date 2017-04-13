@@ -16,4 +16,5 @@ Rails.application.routes.draw do
   get 'subscriptions', to: 'subscriptions#index'
   get 'subscriptions/new', to: 'subscriptions#new'
   post 'subscriptions', to: 'subscriptions#create'
+  delete 'subscriptions/:id', to: 'subscriptions#destroy', as: 'unsubscribe'
 end

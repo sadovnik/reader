@@ -1,5 +1,5 @@
 <%= form_for subscription_form, url: { action: 'create' }, remote: true, format: :json do |form| %>
-    <%= form.text_field :url, autofocus: true, style: 'width: 280px', class: 'big-input' %>
+    <%= form.text_field :url, autofocus: true, style: 'width: 380px', class: 'big-input' %>
     <%= form.submit 'Subscribe', class: 'orange-button' %>
 
     <% if subscription_form.errors.any? %>

@@ -15,8 +15,21 @@ class User < ApplicationRecord
     subscription
   end
 
+  def unsubscribe(source)
+    raise 'Not subscribed' unless subscribed?(source)
+
+    transaction do
+      subscription_for(source).destroy_all
+      entries.joins(:post).where('posts.source_id = ?', source.id).delete_all
+    end
+  end
+
   def subscribed?(source)
-    subscriptions.where(source_id: source.id).exists?
+    subscription_for(source).exists?
+  end
+
+  def subscription_for(source)
+    subscriptions.where(source_id: source.id)
   end
 
   def entries

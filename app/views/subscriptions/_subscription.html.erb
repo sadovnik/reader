@@ -1,7 +1,12 @@
-<div class="subscriptions__subscription">
+<div
+    id="subscription-<%= subscription.id %>"
+    class="subscriptions__subscription"
+>
     <% subscription.source.tap do |source| %>
         <h4 class="subscription__title">
             <%= link_to source.title, source.site_url, class: 'nice-link' %>
+            <%= link_to 'Unsubscribe', unsubscribe_path(subscription.id),
+                remote: true, method: :delete, class: 'subscription__unsubscribe-button nice-button nice-button_chill' %>
         </h4>
         <% unless source.description.nil? or source.description.empty? %>
             <p class="subscription__description">
