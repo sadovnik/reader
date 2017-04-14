@@ -20,6 +20,9 @@ gem 'state_machines-activerecord'
 gem 'feedjira'
 gem 'nokogiri', '~> 1'
 
+# helpers
+gem 'annotate', group: :development
+
 group :development, :test do
   gem 'fakeweb'
   gem 'byebug', platform: :mri

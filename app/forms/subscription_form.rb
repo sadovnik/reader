@@ -15,8 +15,8 @@ class SubscriptionForm < Reader::Form
   validate do |form|
     source = Source.where('url = ? OR site_url = ?', @url, @url).first
 
-    if source && form.user.subscribed?(source)
-      self.errors[:url] << 'You already subscribed to this feed.'
+    if source && @user.subscribed?(source)
+      errors[:url] << 'You already subscribed to this feed.'
     end
   end
 end

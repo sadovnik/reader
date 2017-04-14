@@ -1,13 +1,11 @@
-<h2>Feed</h2>
-
-<%= link_to 'Subscriptions', subscriptions_path, class: 'nice-link' %>
-
-<%= link_to 'Add new', subscriptions_new_path, class: 'nice-button' %> <br>
-
-<br>
+<h2>
+    Feed
+    ·
+    <%= link_to 'Subscriptions', subscriptions_path, class: 'nice-link' %>
+</h2>
 
 <% if @entries.any? %>
-    <%= link_to 'mark all as read', mark_all_read_path, class: 'nice-button nice-button_chill', method: :put %> <br>
+    <%= link_to 'Mark all as read', mark_all_read_path, class: 'nice-button nice-button_chill', method: :put %> <br>
 
     <br>
 <% end %>

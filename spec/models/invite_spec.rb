@@ -1,3 +1,15 @@
+# == Schema Information
+#
+# Table name: invites
+#
+#  id         :integer          not null, primary key
+#  email      :string
+#  key        :string
+#  state      :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
 require 'rails_helper'
 
 describe Invite do

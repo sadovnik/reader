@@ -2,8 +2,7 @@
 }
 
 .subscriptions__subscription {
-    background-color: rgba(41, 129, 186, 0.04);
-    padding: 10px;
+    padding: 11px 90px 11px 10px;
     margin-bottom: 16px;
     border-radius: 3px;
     width: 472px;
@@ -19,12 +18,14 @@
 }
 
 .subscription__unsubscribe-button {
-    display: none;
     float: right;
     margin-top: -4px;
-    margin-right: -3px;
+    margin-right: -80px;
+    opacity: 0;
+    transition: opacity 150ms;
 }
 
 .subscriptions__subscription:hover .subscription__unsubscribe-button {
+    opacity: 1;
     display: inline;
 }

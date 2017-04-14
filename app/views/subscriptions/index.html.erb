@@ -1,11 +1,18 @@
-<%= link_to '← feed', feed_path, class: 'nice-link' %> <br>
-
-<br>
-
-<h2>Subscriptions <%= link_to 'add new', subscriptions_new_path, class: 'nice-button' %></h2>
+<h2>
+    <%= link_to 'Feed', feed_path, class: 'nice-link' %>
+    ·
+    Subscriptions
+</h2>
 
 <% if @subscriptions.empty? %>
-    <p><%= link_to 'Nothing yet!', 'https://surfcurse.bandcamp.com/album/nothing-yet', class: 'nice-link' %></p>
+    <p>
+        No subscriptions yet.
+        Go and <%= link_to 'add one', subscriptions_new_path, class: 'nice-link' %>.
+    </p>
+<% else %>
+    <%= link_to 'Add new', subscriptions_new_path, class: 'nice-link' %>
+    <br>
+    <br>
 <% end %>
 
 <div class="subscriptions">
