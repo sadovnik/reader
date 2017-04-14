@@ -1,3 +1,5 @@
+[![screenshot](https://www.dropbox.com/s/4lst2ujtu4457i3/reader-app.png?dl=1)](https://reader-app.herokuapp.com)
+
 # Reader
 Reader is a simple feed reader app.
 
@@ -10,6 +12,6 @@ This is list of what I'm going to discover:
 - [ ] [Trailblazer](http://trailblazer.to/)
 - [ ] Delayed jobs
 - [ ] i18n
-- [ ] View caching
+- [ ] View caching  
 
 # [![Build Status](https://travis-ci.org/sadovnik/reader.svg?branch=master)](https://travis-ci.org/sadovnik/reader) 👀
