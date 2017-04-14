@@ -1,12 +1,9 @@
-<h1>📰 Reader</h1>
+<img src="/logo.png" height="35px"/>
 <p>A simple feed reader.</p>
 
 <br>
 
 <div class="invite-box">
     <p>Get invite to login or signup:</p>
-    <%= form_for @invite, remote: true do |form| %>
-        <%= form.text_field :email, autofocus: true, class: 'big-input' %>
-        <%= form.submit 'Get invite', class: 'orange-button' %>
-    <% end %>
+    <%= render partial: 'form', locals: { invite: @invite } %>
 </div>
