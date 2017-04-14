@@ -18,7 +18,7 @@ class Fixture
   private
 
   def fixture_path(fixture)
-    File.expand_path("./fixtures/#{spec_name}/#{fixture}", directory_name)
+    File.expand_path("./fixtures/#{spec_name}/#{fixture}.fixture", directory_name)
   end
 
   def spec_name
