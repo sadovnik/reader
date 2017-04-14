@@ -1,7 +1,6 @@
 language: ruby
 rvm:
-  - 2.2.6 # heroku
-  - 2.3.1 # local
+  - 2.3.1
 
 services:
   - postgresql
