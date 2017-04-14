@@ -14,6 +14,7 @@ class FeedValidator < ActiveModel::EachValidator
 
     FeedFetcher.new(record.client).fetch(value)
   rescue Feedjira::NoParserAvailable
+  rescue FeedFetcher::NoContentTypeError
     record.errors[attribute] << Errors::NOT_A_FEED
   rescue Faraday::ConnectionFailed, Feedjira::FetchFailure
     record.errors[attribute] << Errors::NOT_AVAILABLE

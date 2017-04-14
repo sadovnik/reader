@@ -13,6 +13,8 @@ class SubscriptionForm < Reader::Form
                   feed: true
 
   validate do |form|
+    next unless errors.empty?
+
     source = Source.where('url = ? OR site_url = ?', @url, @url).first
 
     if source && @user.subscribed?(source)

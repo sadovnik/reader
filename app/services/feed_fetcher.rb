@@ -14,11 +14,9 @@ class FeedFetcher
   def fetch(url)
     response = @client.get(url)
 
-    raise NoContentTypeError if response.headers.has_key?('content_type')
+    raise NoContentTypeError unless response.headers.has_key?('content-type')
 
-    response_content_type = response.headers[:content_type]
-
-    if response_content_type.include?('text/html')
+    if response.headers['content-type'].include?('text/html')
       raw_found_url = FeedUrlExtractor.extract_first(response.body)
 
       found_url = normalize_link(url, raw_found_url)
