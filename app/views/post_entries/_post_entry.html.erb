@@ -4,6 +4,7 @@
 >
     <% post_entry.post.tap do |post| %>
         <span class="entry__title">
+            <%= image_tag(favicon_url(post.source), class: 'entry__favicon') %>
             <%= link_to(post.title, post.url,
                         class: 'nice-link entry__link',
                         target: '_blank') %>

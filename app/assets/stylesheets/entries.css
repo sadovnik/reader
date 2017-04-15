@@ -18,6 +18,11 @@
     color: gray;
 }
 
+.entry__favicon {
+    height: 12px;
+    width: 12px;
+}
+
 .entry__title {
     display: inline-block;
     margin-bottom: 5px;
