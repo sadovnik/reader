@@ -10,7 +10,12 @@ task :worker => :environment do
   loop do
     logger.info 'Working...'
 
-    new_posts_count = UpdateSourcesWorker.perform
+    begin
+      new_posts_count = UpdateSourcesWorker.perform
+    rescue StandardError => e
+      logger.error 'Got error!'
+      logger.error e
+    end
 
     logger.info "Done! Posts added: #{new_posts_count}"
 
