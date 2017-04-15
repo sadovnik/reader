@@ -45,4 +45,11 @@ class User < ApplicationRecord
   def entries
     post_entries
   end
+
+  def unread_entries
+    entries
+      .includes(:post)
+      .where(status: :unread)
+      .order('Posts.published_at DESC')
+  end
 end

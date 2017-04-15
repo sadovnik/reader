@@ -1,7 +1,9 @@
 (function () {
     const $entry = $('#entry-<%= @entry.id %>');
+    const $count = $('.entries__count');
 
     $entry.html("<%= j render @entry %>");
+    $count.html("<%= j render partial: 'entries_count', locals: { entries: current_user.unread_entries } %>");
 
     <% if @entry.unread? %>
         const $feed = $('#feed');

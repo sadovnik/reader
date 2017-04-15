@@ -11,7 +11,7 @@
 <% end %>
 
 <div class="entries__count">
-    <%= pluralize(@entries.count, 'post', 'posts') %>
+    <%= render partial: 'entries_count', locals: { entries: @entries } %>
 </div>
 
 <div id="feed" class="entries">
