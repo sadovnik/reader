@@ -4,8 +4,8 @@ class UrlValidator < ActiveModel::EachValidator
 
   DEFAULT_MESSAGE = 'This link is weird.'
   TOO_STUPID_MESSAGE = <<-MSG
-    Sorry, I'm too stupid to figure out how to manage links without
-    «http» part. Could you please append it?
+    Sorry, I'm too stupid to figure out how to manage links without an
+    «http» part. Could you put it in please?
   MSG
 
   def validate_each(record, attribute, value)
