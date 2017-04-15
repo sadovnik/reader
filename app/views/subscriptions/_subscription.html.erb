@@ -4,6 +4,7 @@
 >
     <% subscription.source.tap do |source| %>
         <h4 class="subscription__title">
+            <%= image_tag(favicon_url(source), class: 'entry__favicon') %>
             <%= link_to source.title, source.site_url, class: 'nice-link' %>
             <%= link_to 'Unsubscribe', unsubscribe_path(subscription.id),
                 remote: true, method: :delete, class: 'subscription__unsubscribe-button nice-button nice-button_chill' %>

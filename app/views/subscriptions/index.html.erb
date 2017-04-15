@@ -10,7 +10,8 @@
         Go and <%= link_to 'add one', subscriptions_new_path, class: 'nice-link' %>.
     </p>
 <% else %>
-    <%= link_to 'Add new', subscriptions_new_path, class: 'nice-link' %>
+    <%= link_to('Add new', subscriptions_new_path, class: 'nice-link') %>
+
     <br>
     <br>
 <% end %>
