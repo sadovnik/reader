@@ -1,0 +1,17 @@
+<h2>
+    Feed
+    ·
+    <%= link_to 'Subscriptions', subscriptions_path, class: 'nice-link' %>
+</h2>
+
+<%= link_to '← all entries', feed_path, class: 'nice-link' %>
+
+<br><br>
+
+<div class="entries__favorite-count">
+    <%= render partial: 'entry_count', locals: { entry_count: @entries.count } %>
+</div>
+
+<div id="feed" class="entries">
+    <%= render @entries, locals: { favorite: true } %>
+</div>

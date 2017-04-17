@@ -1,12 +1,4 @@
 (function () {
-    const $entry = $('#entry-<%= @entry.id %>');
-    const $count = $('.entries__count');
-
-    $entry.html("<%= j render @entry %>");
-    $count.html("<%= j render partial: 'entries_count', locals: { entries: current_user.unread_entries } %>");
-
-    <% if @entry.unread? %>
-        const $feed = $('#feed');
-        $feed.trigger('entry-unread', <%= @entry.id %>);
-    <% end %>
+    <%= render partial: 'update_entry', locals: { entry: @entry } %>
+    <%= render partial: 'update_count', locals: { entry_count: current_user.unread_entries.count } %>
 })();

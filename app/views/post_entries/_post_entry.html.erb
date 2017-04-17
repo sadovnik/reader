@@ -1,13 +1,16 @@
+<%# Whether this partial is used from the /favorites page context or /feed %>
+<% is_favorite_page = local_assigns.has_key?(:favorite) %>
 <div
     class="entries__entry entries__entry_<%= post_entry.status %>"
     id="entry-<%= post_entry.id %>"
 >
     <% post_entry.post.tap do |post| %>
         <span class="entry__title">
-            <%= image_tag(favicon_url(post.source), class: 'entry__favicon') %>
-            <%= link_to(post.title, post.url,
-                        class: 'nice-link entry__link',
-                        target: '_blank') %>
+            <%= image_tag favicon_url(post.source), class: 'entry__favicon' %>
+            <%= link_to post.title, post.url,
+                    class: %w{ nice-link entry__link },
+                    target: '_blank',
+                    data: { toggle_read: !is_favorite_page } %>
 
             <%= link_to('', update_status_path(id: post_entry, status: 'read'),
                         class: 'entry__read-link',
@@ -20,12 +23,17 @@
                 <%= post.source.title %>
             </span>
 
-            <% if post_entry.read? %>
-                <%= link_to('Mark unread', update_status_path(id: post_entry, status: 'unread'),
+            <% if post_entry.read? && !is_favorite_page %>
+                <%= link_to 'Mark unread', update_status_path(id: post_entry.id, status: 'unread'),
                         method: 'put',
-                        class: 'entry__unread-link nice-button nice-button_chill',
-                        remote: true) %>
+                        remote: true,
+                        class: %w{ entry__unread-link nice-button nice-button_chill } %>
             <% end %>
+
+            <%= link_to('★', update_favorite_status_path(id: post_entry.id, favorite_status: post_entry.favorite? ? :not_favorite : :favorite),
+                        method: 'put',
+                        remote: true,
+                        class: ['entry__title-star', ('entry__title-star_favorite' if post_entry.favorite?)]) %>
         </span>
 
         <div class="entry__summary">

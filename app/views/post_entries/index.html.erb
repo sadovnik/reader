@@ -5,17 +5,22 @@
 </h2>
 
 <% if @entries.any? %>
-    <%= link_to 'Mark all as read', mark_all_read_path, class: 'nice-button nice-button_chill', method: :put %> <br>
+    <%= link_to 'Mark all as read', mark_all_read_path, class: 'nice-button nice-button_chill', method: :put %>
 
-    <br>
+    <br><br>
+<% end %>
+
+<% if current_user.favorite_entries.count > 0 %>
+    <span style="color: #ffcc00;">★</span>
+    <%= link_to 'Favorites', favorites_path, class: 'nice-link' %>
+
+    <br><br>
 <% end %>
 
 <div class="entries__count">
-    <%= render partial: 'entries_count', locals: { entries: @entries } %>
+    <%= render partial: 'entry_count', locals: { entry_count: @entries.count } %>
 </div>
 
 <div id="feed" class="entries">
-    <% @entries.each do |entry| %>
-        <%= render entry %>
-    <% end %>
+    <%= render @entries %>
 </div>

@@ -52,4 +52,8 @@ class User < ApplicationRecord
       .where(status: :unread)
       .order('Posts.published_at DESC')
   end
+
+  def favorite_entries
+    entries.where(favorite_status: :favorite)
+  end
 end

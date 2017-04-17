@@ -1,0 +1,8 @@
+const $entry = $('#entry-<%= entry.id %>');
+
+$entry.html("<%= j render entry %>");
+
+<% if entry.unread? %>
+    const $feed = $('#feed');
+    $feed.trigger('entry-unread', <%= entry.id %>);
+<% end %>

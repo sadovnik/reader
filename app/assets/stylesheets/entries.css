@@ -1,7 +1,8 @@
 .entries {
 }
 
-.entries__count {
+.entries__count,
+.entries__favorite-count {
     margin-bottom: 10px;
 }
 
@@ -26,6 +27,25 @@
 .entry__title {
     display: inline-block;
     margin-bottom: 5px;
+}
+
+.entry__title-star {
+    text-decoration: none;
+    color: #dadada;
+
+    opacity: 0;
+
+    transition: opacity 300ms ease-in;
+}
+
+.entries__entry:hover .entry__title-star {
+    opacity: 1;
+}
+
+.entry__title-star_favorite {
+    color: #ffcc00;
+
+    opacity: 1;
 }
 
 .entry__link:focus {

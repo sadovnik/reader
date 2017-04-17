@@ -1,0 +1,7 @@
+(function () {
+    <%= render partial: 'update_entry', locals: { entry: @entry } %>
+    <%= render partial: 'update_count', locals: {
+        entry_count: current_user.favorite_entries.count,
+        selector: '.entries__favorite-count'
+    } %>
+})();

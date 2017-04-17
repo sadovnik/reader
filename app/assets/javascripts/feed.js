@@ -27,7 +27,7 @@ function setupClickHandler($elements) {
 }
 
 $(document).on('turbolinks:load', function() {
-  const $entryLinks = $('.entries__entry_unread .entry__link');
+  const $entryLinks = $('.entry__link[data-toggle-read=true]');
   setupClickHandler($entryLinks);
 });
 

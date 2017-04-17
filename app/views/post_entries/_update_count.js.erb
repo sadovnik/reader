@@ -1,0 +1,5 @@
+const $count = $("<%= local_assigns.has_key?(:selector) ? selector : '.entries__count' %>");
+
+$count.html("<%= j render \
+    partial: 'entry_count',
+    locals: { entry_count: entry_count } %>");
