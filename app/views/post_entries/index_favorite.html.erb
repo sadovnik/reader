@@ -13,5 +13,8 @@
 </div>
 
 <div id="feed" class="entries">
-    <%= render @entries, locals: { favorite: true } %>
+    <%= render partial: 'post_entry', collection: @entries, locals: { favorite: true } %>
+
+    <%# This kind of `render` wont pass locals: %>
+    <%# <%= render @entries, locals: { favorite: true } %1> %>
 </div>
