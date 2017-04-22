@@ -90,6 +90,7 @@ body {
     vertical-align: top;
     border-bottom: 2px solid #986641;
     margin-top: -1px;
+    display: inline-block;
 
     transition: opacity 300ms;
 }
@@ -136,6 +137,7 @@ body {
     padding: 3px 6px 2px 5px;
     font-size: 16px;
     font-weight: normal;
+    display: inline-block;
 
     /* font-size: 12px; */
     /* font-family: BlinkMacSystemFont; */
