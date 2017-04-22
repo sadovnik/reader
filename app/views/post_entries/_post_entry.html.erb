@@ -7,10 +7,11 @@
     <% post_entry.post.tap do |post| %>
         <span class="entry__title">
             <%= image_tag favicon_url(post.source), class: 'entry__favicon' %>
-            <%= link_to post.title, post.url,
+            <%= link_to (truncate post.title, length: 50), post.url,
                     class: %w{ nice-link entry__link },
                     target: '_blank',
-                    data: { toggle_read: !is_favorite_page } %>
+                    data: { toggle_read: !is_favorite_page },
+                    title: post.title %>
 
             <%= link_to('', update_status_path(id: post_entry, status: 'read'),
                         class: 'entry__read-link',
@@ -19,8 +20,8 @@
                         remote: true) %>
 
             <span class="entry__title-delimiter">·</span>
-            <span class="entry__title-author">
-                <%= post.source.title %>
+            <span class="entry__title-author" title="<%= post.source.title %>">
+                <%= truncate post.source.title, length: 35 %>
             </span>
 
             <% if post_entry.read? && !is_favorite_page %>
