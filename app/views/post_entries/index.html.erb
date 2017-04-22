@@ -10,17 +10,24 @@
     <br><br>
 <% end %>
 
-<% if current_user.favorite_entries.count > 0 %>
-    <span style="color: #ffcc00;">★</span>
-    <%= link_to 'Favorites', favorites_path, class: 'nice-link' %>
-
-    <br><br>
+<span style="color: #ffcc00;">★</span>
+<%= link_to 'Favorites', favorites_path, class: 'nice-link' %>
+<% if current_user.favorite_entries.any? %>
+    <sup><%= current_user.favorite_entries.count %></sup>
 <% end %>
 
-<div class="entries__count">
-    <%= render partial: 'entry_count', locals: { entry_count: @entries.count } %>
-</div>
+<br><br>
 
-<div id="feed" class="entries">
-    <%= render @entries %>
-</div>
+<% if @entries.any? %>
+    <div class="entries__count">
+        <%= render partial: 'entry_count', locals: { entry_count: @entries.count } %>
+    </div>
+
+    <div id="feed" class="entries">
+        <%= render @entries %>
+    </div>
+<% else %>
+    <div class="entries__no-entries-notice">
+        No entries to show.
+    </div>
+<% end %>

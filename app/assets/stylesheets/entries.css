@@ -6,6 +6,11 @@
     margin-bottom: 10px;
 }
 
+.entries__no-entries-notice {
+    color: #bdbdbd;
+    font-style: italic;
+}
+
 .entries__entry {
     margin-bottom: 15px;
 }
