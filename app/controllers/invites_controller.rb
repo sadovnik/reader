@@ -18,7 +18,7 @@ class InvitesController < ApplicationController
     end
 
     if @invite.save
-      InviteMailer.invite(@invite).deliver
+      InviteMailer.invite(@invite).deliver_later
       return redirect_to action: :done
     end
 

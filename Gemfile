@@ -8,6 +8,7 @@ gem 'rails', '~> 5.0.2'
 gem 'puma', '~> 3.0'
 gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
+gem 'sidekiq', group: :production
 
 # frontend
 gem 'jquery-rails'
