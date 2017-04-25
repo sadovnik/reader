@@ -1,7 +1,8 @@
 task :worker => :environment do
   # https://github.com/ddollar/foreman/issues/159
   $stdout.sync = true
-  sleep_interval = ENV['WORKER_SLEEP_INTERVAL'].to_i || 30
+
+  sleep_interval = ENV['WORKER_SLEEP_INTERVAL'] ? ENV['WORKER_SLEEP_INTERVAL'].to_i : 30
 
   logger = Logger.new(STDOUT)
 
