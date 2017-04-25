@@ -1,3 +1,3 @@
 web: bundle exec rails server -p $PORT
 worker: rake worker
-sidekiq: bundle exec sidekiq -v -c 3
+sidekiq: bundle exec sidekiq -v -c 3 -q default -q mailers
