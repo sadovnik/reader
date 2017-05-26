@@ -14,7 +14,7 @@
 #
 
 class Post < ApplicationRecord
-  belongs_to :source, dependent: :destroy
+  belongs_to :source
   has_many :post_entries, dependent: :destroy
 
   def populize_entry(user)
