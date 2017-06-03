@@ -94,7 +94,7 @@ GEM
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     pg (0.20.0)
-    puma (3.9.0)
+    puma (3.9.1)
     rack (2.0.3)
     rack-protection (1.5.3)
       rack
