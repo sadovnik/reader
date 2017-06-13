@@ -26,7 +26,7 @@ function setupClickHandler($elements) {
   });
 }
 
-$(document).on('turbolinks:load', function() {
+onLoad(function() {
   const $entryLinks = $('.entry__link[data-toggle-read=true]');
   setupClickHandler($entryLinks);
 });
