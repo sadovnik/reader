@@ -1,4 +1,4 @@
 <%= form_for invite, remote: true do |form| %>
-    <%= form.text_field :email, autofocus: true, class: 'big-input' %>
+    <%= form.text_field :email, autofocus: true, class: 'big-input', data: { memorize: true } %>
     <%= form.submit 'Get invite', class: 'orange-button' %>
 <% end %>
