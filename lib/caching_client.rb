@@ -1,15 +1,16 @@
-# Caches every `get` request
+# Caches every `get` request into memory
 class CachingClient
-  def initialize
-    @cache = {}
+  def initialize(cache: nil, client: nil)
+    @cache = cache || ActiveSupport::Cache::MemoryStore.new
+    @client = client || Faraday.new
   end
 
   def get(url)
-    return @cache[url] if @cache.has_key?(url)
+    return @cache.read(url) if @cache.exist?(url)
 
-    response = Faraday.get(url)
+    response = @client.get(url)
 
-    @cache[url] = response
+    @cache.write(url, response)
 
     response
   end
