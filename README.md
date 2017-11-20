@@ -1,5 +1,3 @@
-[![screenshot](https://www.dropbox.com/s/qys9dc01wiwzfzf/Screen%20Shot%202017-04-25%20at%2016.19.21.png?dl=1)](https://reader-app.herokuapp.com)
-
 # Reader
 Reader is a simple feed reader app.
 
