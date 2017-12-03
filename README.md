@@ -1,4 +1,6 @@
-# Reader
+![screenshot](github/screenshot.png)
+
+# Reader 
 Reader is a simple feed reader app.
 
 ## Background
