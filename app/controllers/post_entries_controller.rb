@@ -47,12 +47,22 @@ class PostEntriesController < ApplicationController
 
   # PUT /feed/entries/status
   def mark_all_read
-    current_user.post_entries.update_all(status: :read)
+    entries_to_mark_all_read.mark_read!
 
     redirect_to feed_path, flash: { notice: 'All entries marked as read.' }
   end
 
   private
+
+  def entries_to_mark_all_read
+    entries = current_user.post_entries
+
+    if params[:except_favorites]
+      entries.not_favorite
+    else
+      entries
+    end
+  end
 
   def entry_params
     params.permit(:id, :status, :favorite_status)

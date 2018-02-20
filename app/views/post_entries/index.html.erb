@@ -5,7 +5,8 @@
 </h2>
 
 <% if @entries.any? %>
-    <%= link_to 'Mark all as read', mark_all_read_path, class: 'nice-button nice-button_chill', method: :put %>
+    <%= link_to 'Read all', mark_all_read_path, class: 'nice-button nice-button_chill', method: :put %>
+    <%= link_to 'except starred', mark_all_read_path(except_favorites: true), class: 'nice-button nice-button_chill', method: :put %>
 
     <br><br>
 <% end %>

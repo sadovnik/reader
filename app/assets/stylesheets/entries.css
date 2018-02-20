@@ -66,3 +66,15 @@
     font-size: 12px;
     margin-bottom: 2px;
 }
+
+.entry__unread-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+    margin: 0px 3px;
+}
+
+.entry__unread-link:hover {
+    color: rgba(0, 0, 0, 0.6);
+    border-bottom-color: rgba(0, 0, 0, 0.7);
+}

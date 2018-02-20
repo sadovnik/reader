@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'invites#new'
 
+  # TODO: arrange as resource
   post 'invites/new', to: 'invites#new'
   post 'invites', to: 'invites#create'
   get 'invites/done', to: 'invites#done'
