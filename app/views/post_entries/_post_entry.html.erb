@@ -28,7 +28,7 @@
                 <%= link_to 'Mark unread', update_status_path(id: post_entry.id, status: 'unread'),
                         method: 'put',
                         remote: true,
-                        class: %w{ entry__unread-link nice-button nice-button_chill } %>
+                        class: %w{ entry__unread-link } %>
             <% end %>
 
             <%= link_to('★', update_favorite_status_path(id: post_entry.id, favorite_status: post_entry.favorite? ? :not_favorite : :favorite),

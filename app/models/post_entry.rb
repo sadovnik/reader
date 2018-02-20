@@ -17,4 +17,8 @@ class PostEntry < ApplicationRecord
 
   enum status: [ :unread, :read ]
   enum favorite_status: [ :not_favorite, :favorite ]
+
+  def self.mark_read!
+    update_all(status: :read)
+  end
 end
