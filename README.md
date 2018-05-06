@@ -1,4 +1,4 @@
-![screenshot](github/screenshot.png)
+[![Reader screenshot](github/screenshot.png)](https://reader-app.herokuapp.com/)
 
 # Reader 
 Reader is a simple feed reader app.
