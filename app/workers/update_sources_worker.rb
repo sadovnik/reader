@@ -1,9 +1,16 @@
 # Finds and saves new posts
 class UpdateSourcesWorker
+  delegate :logger, to: Rails
+
   # returns count of new entries
   def perform
     Source.all.reduce(0) do |count, source|
-      raw_feed = Feedjira::Feed.fetch_and_parse(source.url)
+      begin
+        raw_feed = Feedjira::Feed.fetch_and_parse(source.url)
+      rescue Feedjira::FetchFailure
+        logger.info("Unable to fetch #{source.url}")
+        next
+      end
 
       refresh_source(source, raw_feed)
 
