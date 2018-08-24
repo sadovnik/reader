@@ -9,7 +9,7 @@ class UpdateSourcesWorker
         raw_feed = Feedjira::Feed.fetch_and_parse(source.url)
       rescue Feedjira::FetchFailure
         logger.info("Unable to fetch #{source.url}")
-        next
+        next count
       end
 
       refresh_source(source, raw_feed)
