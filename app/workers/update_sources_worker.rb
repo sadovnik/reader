@@ -7,8 +7,8 @@ class UpdateSourcesWorker
     Source.all.reduce(0) do |count, source|
       begin
         raw_feed = Feedjira::Feed.fetch_and_parse(source.url)
-      rescue Feedjira::FetchFailure
-        logger.info("Unable to fetch #{source.url}")
+      rescue Feedjira::FetchFailure, Faraday::ConnectionFailed => e
+        logger.info("Unable to fetch #{source.url}: #{e.message}")
         next count
       end
 
