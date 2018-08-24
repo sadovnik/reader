@@ -10,6 +10,9 @@ class UpdateSourcesWorker
       rescue Feedjira::FetchFailure, Faraday::ConnectionFailed => e
         logger.info("Unable to fetch #{source.url}: #{e.message}")
         next count
+      rescue Feedjira::NoParserAvailable => e
+        logger.info("No parser available for source #{source.url}: #{e.message}")
+        next count
       end
 
       refresh_source(source, raw_feed)
