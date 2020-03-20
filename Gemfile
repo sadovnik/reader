@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.3.5'
 
-gem 'rails', '~> 5.1.6'
+gem 'rails', '~> 6.0.2'
 
 # infrastructure
 gem 'puma', '~> 3.0'
