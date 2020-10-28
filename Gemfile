@@ -5,7 +5,7 @@ ruby '2.3.5'
 gem 'rails', '~> 5.1.6'
 
 # infrastructure
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 5.0'
 gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
 gem 'sidekiq', group: :production
